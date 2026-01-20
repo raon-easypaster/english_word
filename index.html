@@ -323,35 +323,35 @@
     }
 
     // Pronunciation Function
-    // Pronunciation Function
-    function speakWord(text) {
-      // Retry loading voices if empty (common mobile issue)
-      if (voices.length === 0) loadVoices();
+    window.currentUtterance = null; // Prevent GC bug
 
-      // Basic support check
+    function speakWord(text) {
       if (!window.speechSynthesis) return;
+
+      // Always allow one last try to populate voices
+      if (voices.length === 0) loadVoices();
+      let localVoices = voices.length > 0 ? voices : window.speechSynthesis.getVoices();
 
       window.speechSynthesis.cancel();
 
       const utter = new SpeechSynthesisUtterance(text);
-      utter.lang = "en-US";
+      window.currentUtterance = utter; // Anchor to global scope
 
-      // Reset Pitch/Rate for clarity (Natural voice is best)
+      utter.lang = "en-US";
       utter.pitch = 1.0;
       utter.rate = 1.0;
 
-      // Strict Priority: Google US English > Samantha > Microsoft Zira
-      const preferred = voices.find(v => v.name === "Google US English") // Chrome/Android (Best)
-        || voices.find(v => v.name === "Samantha")          // macOS/iOS (Best)
-        || voices.find(v => v.name === "Microsoft Zira")    // Windows
-        || voices.find(v => v.lang === "en-US" && v.name.includes("Female"));
+      const preferred = localVoices.find(v => v.name === "Google US English") ||
+        localVoices.find(v => v.name === "Samantha") ||
+        localVoices.find(v => v.name === "Microsoft Zira") ||
+        localVoices.find(v => v.lang === "en-US" && v.name.includes("Female"));
 
       if (preferred) {
         utter.voice = preferred;
-        console.log("Selected Voice:", preferred.name);
-      } else {
-        console.log("No specific female voice found, using default.");
+        console.log("Selected:", preferred.name);
       }
+
+      utter.onend = function () { window.currentUtterance = null; };
 
       window.speechSynthesis.speak(utter);
     }
