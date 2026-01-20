@@ -325,9 +325,6 @@
     // Pronunciation Function
     window.currentUtterance = null; // Prevent GC bug
 
-    // Pronunciation Function
-    window.currentUtterance = null; // Prevent GC bug
-
     function speakWord(text) {
       if (!window.speechSynthesis) {
         alert("음성 합성 미지원 브라우저");
@@ -357,13 +354,12 @@
         console.log("Selected:", preferred.name);
       }
 
-      utter.onerror = (e) => {
-        alert("재생 오류: " + e.error);
-      };
-
       utter.onend = function () { window.currentUtterance = null; };
 
-      window.speechSynthesis.speak(utter);
+      // Android Fix: Small delay to ensure cancel() finishes
+      setTimeout(() => {
+        window.speechSynthesis.speak(utter);
+      }, 50);
     }
 
     function nextWord() { wordIndex = (wordIndex + 1) % session.length; showWord(); }
