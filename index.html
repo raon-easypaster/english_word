@@ -1,360 +1,457 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>영어 단어 학습 시스템</title>
 
-<style>
-body { font-family: Arial, sans-serif; background:#f5f5f5; padding:24px; }
-h1 { text-align:center; margin-bottom:12px; }
-select, button {
-  padding:10px 12px; margin:4px;
-  border-radius:8px; border:1px solid #ccc;
-}
-button.primary { background:#111; color:#fff; }
-button.danger { background:#b00020; color:#fff; }
-.card {
-  max-width:760px; margin:16px auto; background:#fff;
-  padding:18px; border-radius:12px;
-  box-shadow:0 4px 10px rgba(0,0,0,.08);
-}
-.word { font-size:34px; text-align:center; font-weight:700; }
-.sub { text-align:center; color:#666; margin-top:6px; }
-.example { margin-top:10px; text-align:center; }
-.example em { font-weight:700; }
-.hidden { display:none; }
-.tabs { display:flex; justify-content:center; gap:8px; margin:12px 0; }
-.tab { padding:8px 12px; border:1px solid #ccc; border-radius:999px; cursor:pointer; }
-.tab.active { background:#111; color:#fff; }
-.choices { display:grid; gap:10px; margin-top:12px; }
-.choice { padding:10px; border:1px solid #ccc; border-radius:8px; cursor:pointer; }
-.choice.correct { background:#e8f5e9; border-color:#1b5e20; }
-.choice.wrong { background:#ffebee; border-color:#b00020; }
-.stats { display:flex; gap:8px; justify-content:center; font-size:14px; color:#666; flex-wrap:wrap; }
-.badge { border:1px solid #ccc; border-radius:999px; padding:6px 10px; }
-#weakBadge { color:#b00020; font-weight:700; text-align:center; }
-canvas { background:#fafafa; border-radius:8px; }
-</style>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>영어 단어 학습 시스템</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      padding: 24px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 12px;
+    }
+
+    select,
+    button {
+      padding: 10px 12px;
+      margin: 4px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+
+    button.primary {
+      background: #111;
+      color: #fff;
+    }
+
+    button.danger {
+      background: #b00020;
+      color: #fff;
+    }
+
+    .card {
+      max-width: 760px;
+      margin: 16px auto;
+      background: #fff;
+      padding: 18px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, .08);
+    }
+
+    .word {
+      font-size: 34px;
+      text-align: center;
+      font-weight: 700;
+    }
+
+    .sub {
+      text-align: center;
+      color: #666;
+      margin-top: 6px;
+    }
+
+    .example {
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .example em {
+      font-weight: 700;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .tabs {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin: 12px 0;
+    }
+
+    .tab {
+      padding: 8px 12px;
+      border: 1px solid #ccc;
+      border-radius: 999px;
+      cursor: pointer;
+    }
+
+    .tab.active {
+      background: #111;
+      color: #fff;
+    }
+
+    .choices {
+      display: grid;
+      gap: 10px;
+      margin-top: 12px;
+    }
+
+    .choice {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .choice.correct {
+      background: #e8f5e9;
+      border-color: #1b5e20;
+    }
+
+    .choice.wrong {
+      background: #ffebee;
+      border-color: #b00020;
+    }
+
+    .stats {
+      display: flex;
+      gap: 8px;
+      justify-content: center;
+      font-size: 14px;
+      color: #666;
+      flex-wrap: wrap;
+    }
+
+    .badge {
+      border: 1px solid #ccc;
+      border-radius: 999px;
+      padding: 6px 10px;
+    }
+
+    #weakBadge {
+      color: #b00020;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    canvas {
+      background: #fafafa;
+      border-radius: 8px;
+    }
+  </style>
 </head>
 
 <body>
 
-<h1>영어 단어 학습 시스템</h1>
+  <h1>영어 단어 학습 시스템</h1>
 
-<div style="text-align:center;">
-  <select id="gradeSelect">
-    <option value="">학년 선택</option>
-    <option value="elem_low">초등 저학년</option>
-    <option value="elem_high">초등 고학년</option>
-    <option value="middle_1">중1</option>
-    <option value="middle_2">중2</option>
-    <option value="middle_3">중3</option>
-    <option value="high_1">고1</option>
-    <option value="high_2">고2</option>
-    <option value="high_3">고3</option>
-    <option value="csat_core">수능 필수</option>
-  </select>
+  <div style="text-align:center;">
+    <select id="gradeSelect">
+      <option value="">학년 선택</option>
+      <option value="elem_low">초등 저학년</option>
+      <option value="elem_high">초등 고학년</option>
+      <option value="middle_1">중1</option>
+      <option value="middle_2">중2</option>
+      <option value="middle_3">중3</option>
+      <option value="high_1">고1</option>
+      <option value="high_2">고2</option>
+      <option value="high_3">고3</option>
+      <option value="csat_core">수능 필수</option>
+    </select>
 
-  <select id="difficultySelect">
-    <option value="">난이도</option>
-    <option value="B1">B1</option>
-    <option value="B2">B2</option>
-    <option value="C1">C1</option>
-  </select>
-
-  <button class="primary" onclick="startStudy()">시작</button>
-  <button class="danger" onclick="clearProgress()">초기화</button>
-</div>
-
-<div class="tabs hidden" id="tabs">
-  <div class="tab active" onclick="setStep(1)">Step1 단어</div>
-  <div class="tab" onclick="setStep(2)">Step2 예문</div>
-  <div class="tab" onclick="setStep(3)">Step3 퀴즈</div>
-  <div class="tab" onclick="setStep(4)">Step4 오답</div>
-</div>
-
-<div class="card hidden" id="card">
-
-  <div class="stats">
-    <div class="badge" id="statSession"></div>
-    <div class="badge" id="statWord"></div>
-    <div class="badge" id="statWrong"></div>
+    <button class="primary" onclick="startStudy()">시작</button>
+    <button class="danger" onclick="clearProgress()">초기화</button>
   </div>
 
-  <!-- Step1/2 -->
-  <div id="studyBox">
-    <div class="word" id="word"></div>
-    <div id="weakBadge"></div>
-    <div class="sub" id="meaning"></div>
-    <div class="example" id="example"></div>
-
-    <div style="text-align:center; margin-top:12px;">
-      <button onclick="prevWord()">이전</button>
-      <button class="primary" onclick="nextWord()">다음</button>
-    </div>
+  <div class="tabs hidden" id="tabs">
+    <div class="tab active" onclick="setStep(1)">Step1 단어</div>
+    <div class="tab" onclick="setStep(2)">Step2 예문</div>
+    <div class="tab" onclick="setStep(3)">Step3 퀴즈</div>
+    <div class="tab" onclick="setStep(4)">Step4 오답</div>
   </div>
 
-  <!-- Step3 -->
-  <div id="quizBox" class="hidden">
-    <div class="word" id="quizQ"></div>
-    <div class="choices" id="choices"></div>
-    <div style="text-align:center; margin-top:12px;">
-      <button onclick="nextQuiz()">다음 문제</button>
+  <div class="card hidden" id="card">
+
+    <div class="stats">
+      <div class="badge" id="statSession"></div>
+      <div class="badge" id="statWord"></div>
+      <div class="badge" id="statWrong"></div>
     </div>
+
+    <!-- Step1/2 -->
+    <div id="studyBox">
+      <div class="word" id="word"></div>
+      <div id="weakBadge"></div>
+      <div class="sub" id="meaning"></div>
+      <div class="example" id="example"></div>
+
+      <div style="text-align:center; margin-top:12px;">
+        <button onclick="prevWord()">이전</button>
+        <button class="primary" onclick="nextWord()">다음</button>
+      </div>
+    </div>
+
+    <!-- Step3 -->
+    <div id="quizBox" class="hidden">
+      <div class="word" id="quizQ"></div>
+      <div class="choices" id="choices"></div>
+      <div style="text-align:center; margin-top:12px;">
+        <button onclick="nextQuiz()">다음 문제</button>
+      </div>
+    </div>
+
+    <!-- Step4 -->
+    <div id="wrongBox" class="hidden">
+      <div class="word">오답노트</div>
+      <div class="sub" id="wrongList"></div>
+
+      <div style="text-align:center; margin-top:12px;">
+        <button onclick="startWrongQuiz()">오답만 퀴즈</button>
+        <button class="primary" onclick="startDailyWeakStudy()">오늘의 취약 단어</button>
+      </div>
+
+      <div style="margin-top:20px;">
+        <div class="sub">최근 7일 취약 단어 변화</div>
+        <canvas id="weakChart" width="700" height="260"></canvas>
+      </div>
+    </div>
+
   </div>
 
-  <!-- Step4 -->
-  <div id="wrongBox" class="hidden">
-    <div class="word">오답노트</div>
-    <div class="sub" id="wrongList"></div>
+  <script>
+    /* ================== 설정 ================== */
+    const SESSION_SIZE = 30;
+    const STORAGE_KEY = "english_vocab_progress";
+    const WEAK_DAILY_KEY = "english_vocab_weak_daily";
+    const WEAK_HISTORY_KEY = "english_vocab_weak_history";
 
-    <div style="text-align:center; margin-top:12px;">
-      <button onclick="startWrongQuiz()">오답만 퀴즈</button>
-      <button class="primary" onclick="startDailyWeakStudy()">오늘의 취약 단어</button>
-    </div>
+    /* ================== 상태 ================== */
+    let all = [], filtered = [], session = [];
+    let sessionIndex = 0, wordIndex = 0, step = 1;
+    let wrong = new Map();
+    let quizSource = "session";
 
-    <div style="margin-top:20px;">
-      <div class="sub">최근 7일 취약 단어 변화</div>
-      <canvas id="weakChart" width="700" height="260"></canvas>
-    </div>
-  </div>
+    /* ================== 시작 ================== */
+    async function startStudy(resume = false) {
+      try {
+        const saved = loadProgress();
+        const grade = resume && saved ? saved.grade : gradeSelect.value;
 
-</div>
+        if (!grade) return alert("학년 선택");
 
-<script>
-/* ================== 설정 ================== */
-const SESSION_SIZE = 30;
-const STORAGE_KEY = "english_vocab_progress";
-const WEAK_DAILY_KEY = "english_vocab_weak_daily";
-const WEAK_HISTORY_KEY = "english_vocab_weak_history";
+        gradeSelect.value = grade;
 
-/* ================== 상태 ================== */
-let all=[], filtered=[], session=[];
-let sessionIndex=0, wordIndex=0, step=1;
-let wrong=new Map();
-let quizSource="session";
+        const res = await fetch(`data/${grade}.json`);
+        if (!res.ok) throw new Error("데이터 파일을 찾을 수 없습니다.");
 
-/* ================== 시작 ================== */
-async function startStudy(resume=false){
-  try {
-    const saved = loadProgress();
-    const grade = resume && saved ? saved.grade : gradeSelect.value;
-    const diff  = resume && saved ? saved.difficulty : difficultySelect.value;
-    if(!grade||!diff) return alert("학년/난이도 선택");
+        all = await res.json();
 
-    gradeSelect.value=grade; difficultySelect.value=diff;
+        // Random & Shuffle
+        filtered = shuffle([...all]);
 
-    const res = await fetch(`data/${grade}.json`);
-    if (!res.ok) throw new Error("데이터 파일을 찾을 수 없습니다.");
-    
-    all = await res.json();
-    filtered = all.filter(x=>x.difficulty===diff);
+        if (filtered.length === 0) {
+          alert("단어 데이터가 없습니다.");
+          return;
+        }
 
-    if (filtered.length === 0) {
-      alert("해당 난이도의 단어가 없습니다.");
-      return;
+        sessionIndex = resume && saved ? saved.sessionIndex : 0;
+        wordIndex = resume && saved ? saved.wordIndex : 0;
+
+        loadSession();
+        tabs.classList.remove("hidden");
+        card.classList.remove("hidden");
+      } catch (e) {
+        console.error(e);
+        alert("오류 발생: " + e.message);
+      }
     }
 
-    sessionIndex = resume && saved ? saved.sessionIndex : 0;
-    wordIndex    = resume && saved ? saved.wordIndex : 0;
-
-    loadSession();
-    tabs.classList.remove("hidden");
-    card.classList.remove("hidden");
-  } catch (e) {
-    console.error(e);
-    alert("오류 발생: " + e.message);
-  }
-}
-
-function loadSession(){
-  session = filtered.slice(
-    sessionIndex*SESSION_SIZE,
-    sessionIndex*SESSION_SIZE+SESSION_SIZE
-  );
-  showWord();
-  updateStats();
-}
-
-/* ================== 카드 ================== */
-function showWord(){
-  const w=session[wordIndex];
-  word.innerText=w.word;
-  meaning.innerText=w.meaning;
-  example.innerHTML = step===2
-    ? (w.example||"").replace(new RegExp(w.word,"ig"),`<em>${w.word}</em>`)
-    : "";
-
-  weakBadge.innerText =
-    wrong.has(w.word)&&wrong.get(w.word).wrongCount>=2
-    ? "⚠ 취약 단어"
-    : "";
-
-  saveProgress();
-}
-
-function nextWord(){ wordIndex=(wordIndex+1)%session.length; showWord(); }
-function prevWord(){ wordIndex=(wordIndex-1+session.length)%session.length; showWord(); }
-
-/* ================== Step ================== */
-function setStep(n){
-  step=n;
-  document.querySelectorAll(".tab").forEach(t=>t.classList.remove("active"));
-  document.querySelectorAll(".tab")[n-1].classList.add("active");
-
-  studyBox.style.display = n<=2?"block":"none";
-  quizBox.classList.toggle("hidden", n!==3);
-  wrongBox.classList.toggle("hidden", n!==4);
-
-  if(n===3) buildQuiz();
-  if(n===4){ renderWrong(); drawWeakChart(); }
-}
-
-/* ================== 퀴즈 ================== */
-function buildQuiz(){
-  const t=session[wordIndex];
-  quizQ.innerText=`뜻: ${t.meaning}`;
-  const opts=shuffle([t,...filtered.filter(x=>x.word!==t.word).slice(0,3)]);
-  choices.innerHTML="";
-  opts.forEach(o=>{
-    const d=document.createElement("div");
-    d.className="choice";
-    d.innerText=o.word;
-    d.onclick=()=>{
-      if(o.word===t.word){
-        d.classList.add("correct");
-      }else{
-        d.classList.add("wrong");
-        if(!wrong.has(t.word)){
-          wrong.set(t.word,{...t,wrongCount:1});
-        }else{
-          wrong.get(t.word).wrongCount++;
-        }
-      }
+    function loadSession() {
+      session = filtered.slice(
+        sessionIndex * SESSION_SIZE,
+        sessionIndex * SESSION_SIZE + SESSION_SIZE
+      );
+      showWord();
       updateStats();
+    }
+
+    /* ================== 카드 ================== */
+    function showWord() {
+      const w = session[wordIndex];
+      word.innerText = w.word;
+      meaning.innerText = w.meaning;
+      example.innerHTML = step === 2
+        ? (w.example || "").replace(new RegExp(w.word, "ig"), `<em>${w.word}</em>`)
+        : "";
+
+      weakBadge.innerText =
+        wrong.has(w.word) && wrong.get(w.word).wrongCount >= 2
+          ? "⚠ 취약 단어"
+          : "";
+
+      saveProgress();
+    }
+
+    function nextWord() { wordIndex = (wordIndex + 1) % session.length; showWord(); }
+    function prevWord() { wordIndex = (wordIndex - 1 + session.length) % session.length; showWord(); }
+
+    /* ================== Step ================== */
+    function setStep(n) {
+      step = n;
+      document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+      document.querySelectorAll(".tab")[n - 1].classList.add("active");
+
+      studyBox.style.display = n <= 2 ? "block" : "none";
+      quizBox.classList.toggle("hidden", n !== 3);
+      wrongBox.classList.toggle("hidden", n !== 4);
+
+      if (n === 3) buildQuiz();
+      if (n === 4) { renderWrong(); drawWeakChart(); }
+    }
+
+    /* ================== 퀴즈 ================== */
+    function buildQuiz() {
+      const t = session[wordIndex];
+      quizQ.innerText = `뜻: ${t.meaning}`;
+      const opts = shuffle([t, ...filtered.filter(x => x.word !== t.word).slice(0, 3)]);
+      choices.innerHTML = "";
+      opts.forEach(o => {
+        const d = document.createElement("div");
+        d.className = "choice";
+        d.innerText = o.word;
+        d.onclick = () => {
+          if (o.word === t.word) {
+            d.classList.add("correct");
+          } else {
+            d.classList.add("wrong");
+            if (!wrong.has(t.word)) {
+              wrong.set(t.word, { ...t, wrongCount: 1 });
+            } else {
+              wrong.get(t.word).wrongCount++;
+            }
+          }
+          updateStats();
+        };
+        choices.appendChild(d);
+      });
+    }
+
+    function nextQuiz() {
+      wordIndex = (wordIndex + 1) % session.length;
+      buildQuiz();
+    }
+
+    /* ================== 오답 ================== */
+    function renderWrong() {
+      wrongList.innerHTML = wrong.size
+        ? [...wrong.values()].map(w =>
+          w.wrongCount >= 2
+            ? `<strong style="color:#b00020">${w.word}</strong>`
+            : w.word
+        ).join(", ")
+        : "오답 없음";
+    }
+
+    function startWrongQuiz() {
+      if (!wrong.size) return alert("오답 없음");
+      session = [...wrong.values()].sort((a, b) => b.wrongCount - a.wrongCount);
+      wordIndex = 0;
+      quizSource = "wrong";
+      setStep(3);
+    }
+
+    /* ================== 오늘의 취약 ================== */
+    function getTodayKey() {
+      const d = new Date();
+      return `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()}`;
+    }
+
+    function buildDailyWeakSession() {
+      const today = getTodayKey();
+      const saved = JSON.parse(localStorage.getItem(WEAK_DAILY_KEY) || "{}");
+      if (saved.date === today) return saved.words || [];
+
+      const weak = [...wrong.values()]
+        .filter(w => w.wrongCount >= 2)
+        .sort((a, b) => b.wrongCount - a.wrongCount)
+        .slice(0, 30);
+
+      localStorage.setItem(WEAK_DAILY_KEY, JSON.stringify({ date: today, words: weak }));
+      recordWeakHistory(weak.length);
+      return weak;
+    }
+
+    function startDailyWeakStudy() {
+      const daily = buildDailyWeakSession();
+      if (!daily.length) return alert("오늘 취약 단어 없음");
+      session = daily; wordIndex = 0;
+      setStep(1);
+    }
+
+    /* ================== 그래프 ================== */
+    function recordWeakHistory(count) {
+      const today = getTodayKey();
+      const h = JSON.parse(localStorage.getItem(WEAK_HISTORY_KEY) || "{}");
+      h[today] = count;
+      const keys = Object.keys(h).sort();
+      if (keys.length > 7) keys.slice(0, keys.length - 7).forEach(k => delete h[k]);
+      localStorage.setItem(WEAK_HISTORY_KEY, JSON.stringify(h));
+    }
+
+    function drawWeakChart() {
+      const c = document.getElementById("weakChart");
+      if (!c) return;
+      const ctx = c.getContext("2d");
+      ctx.clearRect(0, 0, c.width, c.height);
+
+      const h = JSON.parse(localStorage.getItem(WEAK_HISTORY_KEY) || "{}");
+      const dates = Object.keys(h).sort();
+      if (!dates.length) return;
+
+      const max = Math.max(...dates.map(d => h[d]), 5);
+      const pad = 40, w = (c.width - pad * 2) / dates.length - 10;
+
+      dates.forEach((d, i) => {
+        const val = h[d];
+        const bh = (val / max) * (c.height - pad * 2);
+        const x = pad + i * (w + 10), y = c.height - pad - bh;
+        ctx.fillStyle = "#b00020";
+        ctx.fillRect(x, y, w, bh);
+        ctx.fillStyle = "#111";
+        ctx.fillText(val, x + w / 3, y - 5);
+        ctx.fillStyle = "#666";
+        ctx.fillText(d.slice(5), x, c.height - pad + 14);
+      });
+    }
+
+    /* ================== 유틸 ================== */
+    function shuffle(a) { return a.sort(() => Math.random() - 0.5); }
+    function updateStats() {
+      statSession.innerText = `회차 ${sessionIndex + 1}`;
+      statWord.innerText = `단어 ${wordIndex + 1}/${session.length}`;
+      statWrong.innerText = `취약 ${[...wrong.values()].filter(w => w.wrongCount >= 2).length}`;
+    }
+
+    function saveProgress() {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify({
+        grade: gradeSelect.value,
+        sessionIndex, wordIndex
+      }));
+    }
+    function loadProgress() {
+      return JSON.parse(localStorage.getItem(STORAGE_KEY));
+    }
+    function clearProgress() {
+      localStorage.clear();
+      location.reload();
+    }
+
+    window.onload = () => {
+      if (localStorage.getItem(STORAGE_KEY)) {
+        if (confirm("이어서 학습할까요?")) startStudy(true);
+      }
     };
-    choices.appendChild(d);
-  });
-}
-
-function nextQuiz(){
-  wordIndex=(wordIndex+1)%session.length;
-  buildQuiz();
-}
-
-/* ================== 오답 ================== */
-function renderWrong(){
-  wrongList.innerHTML = wrong.size
-    ? [...wrong.values()].map(w =>
-        w.wrongCount>=2
-          ? `<strong style="color:#b00020">${w.word}</strong>`
-          : w.word
-      ).join(", ")
-    : "오답 없음";
-}
-
-function startWrongQuiz(){
-  if(!wrong.size) return alert("오답 없음");
-  session=[...wrong.values()].sort((a,b)=>b.wrongCount-a.wrongCount);
-  wordIndex=0;
-  quizSource="wrong";
-  setStep(3);
-}
-
-/* ================== 오늘의 취약 ================== */
-function getTodayKey(){
-  const d=new Date();
-  return `${d.getFullYear()}-${d.getMonth()+1}-${d.getDate()}`;
-}
-
-function buildDailyWeakSession(){
-  const today=getTodayKey();
-  const saved=JSON.parse(localStorage.getItem(WEAK_DAILY_KEY)||"{}");
-  if(saved.date===today) return saved.words||[];
-
-  const weak=[...wrong.values()]
-    .filter(w=>w.wrongCount>=2)
-    .sort((a,b)=>b.wrongCount-a.wrongCount)
-    .slice(0,30);
-
-  localStorage.setItem(WEAK_DAILY_KEY,JSON.stringify({date:today,words:weak}));
-  recordWeakHistory(weak.length);
-  return weak;
-}
-
-function startDailyWeakStudy(){
-  const daily=buildDailyWeakSession();
-  if(!daily.length) return alert("오늘 취약 단어 없음");
-  session=daily; wordIndex=0;
-  setStep(1);
-}
-
-/* ================== 그래프 ================== */
-function recordWeakHistory(count){
-  const today=getTodayKey();
-  const h=JSON.parse(localStorage.getItem(WEAK_HISTORY_KEY)||"{}");
-  h[today]=count;
-  const keys=Object.keys(h).sort();
-  if(keys.length>7) keys.slice(0,keys.length-7).forEach(k=>delete h[k]);
-  localStorage.setItem(WEAK_HISTORY_KEY,JSON.stringify(h));
-}
-
-function drawWeakChart(){
-  const c=document.getElementById("weakChart");
-  if(!c) return;
-  const ctx=c.getContext("2d");
-  ctx.clearRect(0,0,c.width,c.height);
-
-  const h=JSON.parse(localStorage.getItem(WEAK_HISTORY_KEY)||"{}");
-  const dates=Object.keys(h).sort();
-  if(!dates.length) return;
-
-  const max=Math.max(...dates.map(d=>h[d]),5);
-  const pad=40, w=(c.width-pad*2)/dates.length-10;
-
-  dates.forEach((d,i)=>{
-    const val=h[d];
-    const bh=(val/max)*(c.height-pad*2);
-    const x=pad+i*(w+10), y=c.height-pad-bh;
-    ctx.fillStyle="#b00020";
-    ctx.fillRect(x,y,w,bh);
-    ctx.fillStyle="#111";
-    ctx.fillText(val,x+w/3,y-5);
-    ctx.fillStyle="#666";
-    ctx.fillText(d.slice(5),x,c.height-pad+14);
-  });
-}
-
-/* ================== 유틸 ================== */
-function shuffle(a){ return a.sort(()=>Math.random()-0.5); }
-function updateStats(){
-  statSession.innerText=`회차 ${sessionIndex+1}`;
-  statWord.innerText=`단어 ${wordIndex+1}/${session.length}`;
-  statWrong.innerText=`취약 ${[...wrong.values()].filter(w=>w.wrongCount>=2).length}`;
-}
-
-function saveProgress(){
-  localStorage.setItem(STORAGE_KEY,JSON.stringify({
-    grade:gradeSelect.value,
-    difficulty:difficultySelect.value,
-    sessionIndex, wordIndex
-  }));
-}
-function loadProgress(){
-  return JSON.parse(localStorage.getItem(STORAGE_KEY));
-}
-function clearProgress(){
-  localStorage.clear();
-  location.reload();
-}
-
-window.onload=()=>{
-  if(localStorage.getItem(STORAGE_KEY)){
-    if(confirm("이어서 학습할까요?")) startStudy(true);
-  }
-};
-</script>
+  </script>
 
 </body>
+
 </html>
