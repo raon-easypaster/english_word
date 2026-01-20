@@ -209,7 +209,7 @@
     "example": "Some people prefer stability, whereas others value change.",
     "level": "csat_core"
   }
-,
+  ,
 {
   "word": "accommodate",
   "pos": "verb",
@@ -721,904 +721,342 @@
   "level": "csat_core",
   "difficulty": "B1"
 }
-{
-  "word": "accumulate",
-  "meaning": "축적하다",
-  "example": "Small habits accumulate over time.",
-  "difficulty": "B2"
-},
-{
-  "word": "adaptation",
-  "meaning": "적응",
-  "example": "Cultural adaptation takes time.",
-  "difficulty": "B2"
-},
+,
 {
   "word": "advocate",
+  "pos": "verb",
   "meaning": "옹호하다",
-  "example": "She advocates equal education.",
+  "example": "Many experts advocate stricter environmental regulations.",
+  "level": "csat_core",
   "difficulty": "B2"
-},
-{
-  "word": "allocate",
-  "meaning": "할당하다",
-  "example": "The budget was allocated fairly.",
-  "difficulty": "B2"
-},
-{
-  "word": "ambiguous",
-  "meaning": "모호한",
-  "example": "His answer was ambiguous.",
-  "difficulty": "C1"
-},
-{
-  "word": "anticipate",
-  "meaning": "예상하다",
-  "example": "We anticipate rapid changes.",
-  "difficulty": "B2"
-},
-{
-  "word": "approximate",
-  "meaning": "대략적인",
-  "example": "The approximate cost is high.",
-  "difficulty": "B2"
-},
-{
-  "word": "assimilate",
-  "meaning": "동화하다",
-  "example": "Immigrants assimilate into society.",
-  "difficulty": "C1"
-},
-{
-  "word": "attribute",
-  "meaning": "원인으로 여기다",
-  "example": "She attributes success to effort.",
-  "difficulty": "B2"
-},
-{
-  "word": "coherent",
-  "meaning": "일관성 있는",
-  "example": "He presented a coherent argument.",
-  "difficulty": "C1"
-},
-{
-  "word": "compensate",
-  "meaning": "보상하다",
-  "example": "They compensated for the loss.",
-  "difficulty": "B2"
-},
-{
-  "word": "compile",
-  "meaning": "편집하다",
-  "example": "The data was compiled carefully.",
-  "difficulty": "B2"
-},
-{
-  "word": "concurrent",
-  "meaning": "동시에 일어나는",
-  "example": "Concurrent events occurred.",
-  "difficulty": "C1"
-},
-{
-  "word": "constraint",
-  "meaning": "제약",
-  "example": "Time is a major constraint.",
-  "difficulty": "B2"
-},
-{
-  "word": "contemplate",
-  "meaning": "숙고하다",
-  "example": "She contemplated quitting.",
-  "difficulty": "C1"
-},
-{
-  "word": "controversial",
-  "meaning": "논쟁의 여지가 있는",
-  "example": "It is a controversial issue.",
-  "difficulty": "B2"
-},
-{
-  "word": "correlate",
-  "meaning": "상관관계가 있다",
-  "example": "Income correlates with education.",
-  "difficulty": "C1"
-},
-{
-  "word": "cumulative",
-  "meaning": "누적되는",
-  "example": "The effect is cumulative.",
-  "difficulty": "C1"
-},
-{
-  "word": "deduce",
-  "meaning": "추론하다",
-  "example": "We deduce the result logically.",
-  "difficulty": "C1"
-},
-{
-  "word": "deviation",
-  "meaning": "일탈, 편차",
-  "example": "There was a deviation from the plan.",
-  "difficulty": "C1"
-},
-{
-  "word": "diminish",
-  "meaning": "감소하다",
-  "example": "Confidence may diminish.",
-  "difficulty": "B2"
-},
-{
-  "word": "distort",
-  "meaning": "왜곡하다",
-  "example": "The truth was distorted.",
-  "difficulty": "C1"
-},
-{
-  "word": "elaborate",
-  "meaning": "정교한",
-  "example": "She gave an elaborate explanation.",
-  "difficulty": "B2"
-},
-{
-  "word": "empirical",
-  "meaning": "경험적인",
-  "example": "The theory lacks empirical evidence.",
-  "difficulty": "C1"
-},
-{
-  "word": "enhance",
-  "meaning": "강화하다",
-  "example": "Technology enhances productivity.",
-  "difficulty": "B2"
-},
-{
-  "word": "equivalent",
-  "meaning": "동등한",
-  "example": "The two methods are equivalent.",
-  "difficulty": "B2"
-},
-{
-  "word": "exaggerate",
-  "meaning": "과장하다",
-  "example": "He exaggerated the problem.",
-  "difficulty": "B2"
-},
-{
-  "word": "explicit",
-  "meaning": "명확한",
-  "example": "The rules are explicit.",
-  "difficulty": "B2"
-},
-{
-  "word": "fluctuate",
-  "meaning": "변동하다",
-  "example": "Prices fluctuate daily.",
-  "difficulty": "B2"
-},
-{
-  "word": "formulate",
-  "meaning": "공식화하다",
-  "example": "They formulated a strategy.",
-  "difficulty": "C1"
-},
-{
-  "word": "fundamental",
-  "meaning": "근본적인",
-  "example": "Trust is fundamental.",
-  "difficulty": "B2"
-},
-{
-  "word": "hierarchy",
-  "meaning": "계층 구조",
-  "example": "Social hierarchy exists.",
-  "difficulty": "C1"
-},
-{
-  "word": "implicit",
-  "meaning": "암시적인",
-  "example": "There is an implicit agreement.",
-  "difficulty": "C1"
-},
-{
-  "word": "inevitable",
-  "meaning": "불가피한",
-  "example": "Change is inevitable.",
-  "difficulty": "B2"
-},
-{
-  "word": "inhibit",
-  "meaning": "억제하다",
-  "example": "Fear can inhibit learning.",
-  "difficulty": "C1"
-},
-{
-  "word": "integrate",
-  "meaning": "통합하다",
-  "example": "They integrated the systems.",
-  "difficulty": "B2"
-},
-{
-  "word": "intervene",
-  "meaning": "개입하다",
-  "example": "The government intervened.",
-  "difficulty": "B2"
-},
-{
-  "word": "manifest",
-  "meaning": "분명히 드러내다",
-  "example": "Symptoms manifest early.",
-  "difficulty": "C1"
-},
-{
-  "word": "notwithstanding",
-  "meaning": "~에도 불구하고",
-  "example": "Notwithstanding objections, it passed.",
-  "difficulty": "C1"
-},
-{
-  "word": "paradigm",
-  "meaning": "전형, 패러다임",
-  "example": "A new paradigm emerged.",
-  "difficulty": "C1"
-},
-{
-  "word": "perceive",
-  "meaning": "인식하다",
-  "example": "People perceive risk differently.",
-  "difficulty": "B2"
-},
-{
-  "word": "predominant",
-  "meaning": "지배적인",
-  "example": "The predominant view changed.",
-  "difficulty": "C1"
-},
-{
-  "word": "reinforce",
-  "meaning": "강화하다",
-  "example": "Praise reinforces behavior.",
-  "difficulty": "B2"
-},
-{
-  "word": "substitute",
-  "meaning": "대체하다",
-  "example": "Sugar substitutes are common.",
-  "difficulty": "B2"
-},
-{
-  "word": "sustain",
-  "meaning": "유지하다",
-  "example": "We must sustain growth.",
-  "difficulty": "B2"
-},
-{
-  "word": "tentative",
-  "meaning": "잠정적인",
-  "example": "A tentative plan was made.",
-  "difficulty": "C1"
-},
-{
-  "word": "utilize",
-  "meaning": "활용하다",
-  "example": "We utilized available resources.",
-  "difficulty": "B2"
-}
-{
-  "word": "accommodate",
-  "meaning": "수용하다, 편의를 제공하다",
-  "example": "The school can accommodate more students.",
-  "difficulty": "B2"
-},
-{
-  "word": "acquisition",
-  "meaning": "획득",
-  "example": "Language acquisition takes time.",
-  "difficulty": "B2"
-},
-{
-  "word": "adjacent",
-  "meaning": "인접한",
-  "example": "The library is adjacent to the park.",
-  "difficulty": "B2"
-},
-{
-  "word": "affluent",
-  "meaning": "부유한",
-  "example": "They live in an affluent neighborhood.",
-  "difficulty": "C1"
 },
 {
   "word": "aggregate",
-  "meaning": "총합의",
-  "example": "The aggregate score increased.",
-  "difficulty": "C1"
+  "pos": "verb",
+  "meaning": "합산하다",
+  "example": "The results were aggregated for analysis.",
+  "level": "csat_core",
+  "difficulty": "B2"
 },
 {
   "word": "allocate",
+  "pos": "verb",
   "meaning": "할당하다",
-  "example": "Funds were allocated equally.",
-  "difficulty": "B2"
+  "example": "Funds were allocated to education and healthcare.",
+  "level": "csat_core",
+  "difficulty": "B1"
 },
 {
-  "word": "alter",
-  "meaning": "변경하다",
-  "example": "We altered the schedule.",
-  "difficulty": "B2"
-},
-{
-  "word": "analogy",
-  "meaning": "유사, 비유",
-  "example": "He explained it using an analogy.",
+  "word": "ambivalent",
+  "pos": "adjective",
+  "meaning": "상반된 감정을 가진",
+  "example": "She felt ambivalent about the proposal.",
+  "level": "csat_core",
   "difficulty": "C1"
 },
 {
-  "word": "anomaly",
-  "meaning": "이례적인 것",
-  "example": "The data shows an anomaly.",
-  "difficulty": "C1"
-},
-{
-  "word": "apparatus",
-  "meaning": "기구, 장치",
-  "example": "Laboratory apparatus is required.",
-  "difficulty": "C1"
-},
-{
-  "word": "arbitrary",
-  "meaning": "임의의",
-  "example": "The decision was arbitrary.",
+  "word": "analogous",
+  "pos": "adjective",
+  "meaning": "유사한",
+  "example": "The process is analogous to natural selection.",
+  "level": "csat_core",
   "difficulty": "C1"
 },
 {
   "word": "assert",
+  "pos": "verb",
   "meaning": "주장하다",
-  "example": "She asserted her rights.",
+  "example": "The author asserts that the policy is ineffective.",
+  "level": "csat_core",
   "difficulty": "B2"
 },
 {
-  "word": "attain",
-  "meaning": "달성하다",
-  "example": "He attained his goal.",
-  "difficulty": "B2"
-},
-{
-  "word": "augment",
-  "meaning": "증대시키다",
-  "example": "The system was augmented.",
+  "word": "autonomous",
+  "pos": "adjective",
+  "meaning": "자율적인",
+  "example": "Autonomous systems can operate without human control.",
+  "level": "csat_core",
   "difficulty": "C1"
 },
 {
-  "word": "bias",
-  "meaning": "편견",
-  "example": "Media bias affects opinions.",
-  "difficulty": "B2"
-},
-{
   "word": "coincide",
+  "pos": "verb",
   "meaning": "일치하다",
-  "example": "The dates coincide.",
+  "example": "The two events coincided by chance.",
+  "level": "csat_core",
   "difficulty": "B2"
 },
 {
   "word": "collapse",
+  "pos": "verb",
   "meaning": "붕괴하다",
-  "example": "The structure collapsed.",
+  "example": "The system collapsed under pressure.",
+  "level": "csat_core",
+  "difficulty": "B1"
+},
+{
+  "word": "compensate",
+  "pos": "verb",
+  "meaning": "보상하다",
+  "example": "Extra training can compensate for lack of experience.",
+  "level": "csat_core",
   "difficulty": "B2"
 },
 {
-  "word": "commence",
-  "meaning": "시작하다",
-  "example": "The ceremony commenced.",
+  "word": "conform",
+  "pos": "verb",
+  "meaning": "따르다, 순응하다",
+  "example": "Participants must conform to the rules.",
+  "level": "csat_core",
+  "difficulty": "B1"
+},
+{
+  "word": "contemplate",
+  "pos": "verb",
+  "meaning": "숙고하다",
+  "example": "She contemplated the consequences of her decision.",
+  "level": "csat_core",
   "difficulty": "B2"
 },
 {
-  "word": "commodity",
-  "meaning": "상품",
-  "example": "Oil is a valuable commodity.",
-  "difficulty": "B2"
-},
-{
-  "word": "compatible",
-  "meaning": "양립할 수 있는",
-  "example": "The devices are compatible.",
-  "difficulty": "B2"
-},
-{
-  "word": "comply",
-  "meaning": "준수하다",
-  "example": "We must comply with regulations.",
-  "difficulty": "B2"
-},
-{
-  "word": "comprehensive",
-  "meaning": "종합적인",
-  "example": "A comprehensive plan was proposed.",
-  "difficulty": "B2"
-},
-{
-  "word": "conceive",
-  "meaning": "상상하다, 생각해내다",
-  "example": "She conceived a new idea.",
+  "word": "correlate",
+  "pos": "verb",
+  "meaning": "상관관계가 있다",
+  "example": "Income levels correlate with access to education.",
+  "level": "csat_core",
   "difficulty": "C1"
 },
 {
-  "word": "confer",
-  "meaning": "부여하다, 협의하다",
-  "example": "The degree was conferred.",
-  "difficulty": "C1"
-},
-{
-  "word": "confine",
-  "meaning": "제한하다",
-  "example": "He was confined to bed.",
+  "word": "cumulative",
+  "pos": "adjective",
+  "meaning": "누적되는",
+  "example": "The cumulative effect became significant over time.",
+  "level": "csat_core",
   "difficulty": "B2"
 },
 {
-  "word": "consensus",
-  "meaning": "합의",
-  "example": "A consensus was reached.",
+  "word": "diminish",
+  "pos": "verb",
+  "meaning": "감소하다",
+  "example": "The influence of the policy diminished gradually.",
+  "level": "csat_core",
+  "difficulty": "B1"
+},
+{
+  "word": "diverge",
+  "pos": "verb",
+  "meaning": "갈라지다",
+  "example": "Their opinions began to diverge.",
+  "level": "csat_core",
   "difficulty": "B2"
 },
 {
-  "word": "constitute",
-  "meaning": "구성하다",
-  "example": "Women constitute half the population.",
+  "word": "empirical",
+  "pos": "adjective",
+  "meaning": "경험에 근거한",
+  "example": "The theory lacks empirical evidence.",
+  "level": "csat_core",
   "difficulty": "C1"
 },
 {
-  "word": "constrain",
-  "meaning": "제약하다",
-  "example": "Resources constrain development.",
-  "difficulty": "C1"
+  "word": "enhance",
+  "pos": "verb",
+  "meaning": "향상시키다",
+  "example": "Technology can enhance productivity.",
+  "level": "csat_core",
+  "difficulty": "B1"
 },
 {
-  "word": "consumption",
-  "meaning": "소비",
-  "example": "Energy consumption increased.",
-  "difficulty": "B2"
-},
-{
-  "word": "contemporary",
-  "meaning": "현대의",
-  "example": "Contemporary art is popular.",
-  "difficulty": "B2"
-},
-{
-  "word": "contradict",
-  "meaning": "모순되다",
-  "example": "The statement contradicts facts.",
-  "difficulty": "B2"
-},
-{
-  "word": "converge",
-  "meaning": "집중되다",
-  "example": "Opinions converge over time.",
-  "difficulty": "C1"
-},
-{
-  "word": "criterion",
-  "meaning": "기준",
-  "example": "Cost is the main criterion.",
-  "difficulty": "C1"
-},
-{
-  "word": "crucial",
-  "meaning": "결정적인",
-  "example": "Timing is crucial.",
-  "difficulty": "B2"
-},
-{
-  "word": "culminate",
-  "meaning": "절정에 이르다",
-  "example": "Efforts culminated in success.",
-  "difficulty": "C1"
-},
-{
-  "word": "derive",
-  "meaning": "끌어내다",
-  "example": "Happiness is derived from relationships.",
-  "difficulty": "B2"
-},
-{
-  "word": "detain",
-  "meaning": "구금하다",
-  "example": "The suspect was detained.",
-  "difficulty": "C1"
-},
-{
-  "word": "detrimental",
-  "meaning": "해로운",
-  "example": "Smoking is detrimental to health.",
-  "difficulty": "C1"
-},
-{
-  "word": "discrete",
-  "meaning": "별개의",
-  "example": "The data consists of discrete units.",
-  "difficulty": "C1"
-},
-{
-  "word": "disseminate",
-  "meaning": "퍼뜨리다",
-  "example": "Information was disseminated widely.",
-  "difficulty": "C1"
-},
-{
-  "word": "dominant",
-  "meaning": "지배적인",
-  "example": "English is the dominant language.",
-  "difficulty": "B2"
-},
-{
-  "word": "eliminate",
-  "meaning": "제거하다",
-  "example": "We eliminated errors.",
-  "difficulty": "B2"
-},
-{
-  "word": "emerge",
-  "meaning": "나타나다",
-  "example": "New problems emerged.",
-  "difficulty": "B2"
-},
-{
-  "word": "emphasis",
-  "meaning": "강조",
-  "example": "The emphasis is on quality.",
-  "difficulty": "B2"
-},
-{
-  "word": "endeavor",
-  "meaning": "노력",
-  "example": "Scientific endeavor is ongoing.",
-  "difficulty": "C1"
-},
-{
-  "word": "entity",
-  "meaning": "실체, 존재",
-  "example": "The company is a legal entity.",
-  "difficulty": "C1"
-},
-{
-  "word": "equilibrium",
-  "meaning": "균형",
-  "example": "The system reached equilibrium.",
-  "difficulty": "C1"
-},
-{
-  "word": "erosion",
-  "meaning": "침식",
-  "example": "Soil erosion is serious.",
-  "difficulty": "B2"
-},
-{
-  "word": "evaluate",
-  "meaning": "평가하다",
-  "example": "Teachers evaluate students.",
-  "difficulty": "B2"
+  "word": "equivalent",
+  "pos": "adjective",
+  "meaning": "동등한",
+  "example": "The two methods are roughly equivalent.",
+  "level": "csat_core",
+  "difficulty": "B1"
 },
 {
   "word": "exceed",
+  "pos": "verb",
   "meaning": "초과하다",
-  "example": "Costs exceed expectations.",
-  "difficulty": "B2"
-},
-{
-  "word": "exhibit",
-  "meaning": "보이다",
-  "example": "Children exhibit curiosity.",
-  "difficulty": "B2"
-},
-{
-  "word": "facilitate",
-  "meaning": "촉진하다",
-  "example": "Technology facilitates learning.",
-  "difficulty": "B2"
-},
-{
-  "word": "feasible",
-  "meaning": "실행 가능한",
-  "example": "The plan is feasible.",
-  "difficulty": "B2"
-},
-{
-  "word": "finite",
-  "meaning": "한정된",
-  "example": "Resources are finite.",
-  "difficulty": "C1"
-},
-{
-  "word": "framework",
-  "meaning": "틀, 체계",
-  "example": "A theoretical framework was used.",
-  "difficulty": "B2"
-},
-{
-  "word": "generate",
-  "meaning": "발생시키다",
-  "example": "The project generated interest.",
-  "difficulty": "B2"
-},
-{
-  "word": "hence",
-  "meaning": "그러므로",
-  "example": "It rained; hence the delay.",
-  "difficulty": "B2"
-},
-{
-  "word": "hypothesis",
-  "meaning": "가설",
-  "example": "The hypothesis was tested.",
-  "difficulty": "C1"
-},
-{
-  "word": "implement",
-  "meaning": "시행하다",
-  "example": "The policy was implemented.",
-  "difficulty": "B2"
-},
-{
-  "word": "incorporate",
-  "meaning": "포함하다",
-  "example": "We incorporated feedback.",
-  "difficulty": "B2"
-},
-{
-  "word": "induce",
-  "meaning": "유도하다",
-  "example": "The drug induces sleep.",
-  "difficulty": "C1"
-},
-{
-  "word": "inequality",
-  "meaning": "불평등",
-  "example": "Economic inequality persists.",
-  "difficulty": "B2"
-},
-{
-  "word": "infrastructure",
-  "meaning": "기반 시설",
-  "example": "Infrastructure investment is needed.",
-  "difficulty": "B2"
-},
-{
-  "word": "innovation",
-  "meaning": "혁신",
-  "example": "Innovation drives growth.",
-  "difficulty": "B2"
-},
-{
-  "word": "insight",
-  "meaning": "통찰",
-  "example": "The study provides insight.",
-  "difficulty": "B2"
-},
-{
-  "word": "interact",
-  "meaning": "상호작용하다",
-  "example": "Humans interact socially.",
-  "difficulty": "B2"
-},
-{
-  "word": "intermediate",
-  "meaning": "중간의",
-  "example": "This is an intermediate step.",
-  "difficulty": "B2"
-},
-{
-  "word": "interval",
-  "meaning": "간격",
-  "example": "There was a short interval.",
-  "difficulty": "B2"
-},
-{
-  "word": "intrinsic",
-  "meaning": "본질적인",
-  "example": "Motivation can be intrinsic.",
-  "difficulty": "C1"
-},
-{
-  "word": "invoke",
-  "meaning": "불러일으키다",
-  "example": "The speech invoked emotion.",
-  "difficulty": "C1"
-},
-{
-  "word": "isolate",
-  "meaning": "고립시키다",
-  "example": "The variable was isolated.",
-  "difficulty": "B2"
-},
-{
-  "word": "justify",
-  "meaning": "정당화하다",
-  "example": "He justified his decision.",
-  "difficulty": "B2"
-},
-{
-  "word": "legitimate",
-  "meaning": "정당한",
-  "example": "The concern is legitimate.",
-  "difficulty": "C1"
-},
-{
-  "word": "likewise",
-  "meaning": "마찬가지로",
-  "example": "Likewise, we must adapt.",
-  "difficulty": "B2"
-},
-{
-  "word": "magnitude",
-  "meaning": "규모",
-  "example": "The magnitude of change is large.",
-  "difficulty": "C1"
-},
-{
-  "word": "mechanism",
-  "meaning": "기제, 작동 방식",
-  "example": "The mechanism is complex.",
-  "difficulty": "B2"
-},
-{
-  "word": "mutual",
-  "meaning": "상호적인",
-  "example": "Mutual respect is essential.",
-  "difficulty": "B2"
-},
-{
-  "word": "notion",
-  "meaning": "개념",
-  "example": "The notion is outdated.",
-  "difficulty": "B2"
-},
-{
-  "word": "objective",
-  "meaning": "목표",
-  "example": "The main objective is safety.",
-  "difficulty": "B2"
-},
-{
-  "word": "offset",
-  "meaning": "상쇄하다",
-  "example": "Costs were offset by profits.",
-  "difficulty": "C1"
-},
-{
-  "word": "ongoing",
-  "meaning": "진행 중인",
-  "example": "The project is ongoing.",
-  "difficulty": "B2"
-},
-{
-  "word": "paradox",
-  "meaning": "역설",
-  "example": "Freedom is a paradox.",
-  "difficulty": "C1"
-},
-{
-  "word": "persistent",
-  "meaning": "지속적인",
-  "example": "Persistent effort matters.",
-  "difficulty": "B2"
-},
-{
-  "word": "precede",
-  "meaning": "선행하다",
-  "example": "Discussion precedes action.",
-  "difficulty": "C1"
-},
-{
-  "word": "preliminary",
-  "meaning": "예비의",
-  "example": "Preliminary results were released.",
-  "difficulty": "C1"
-},
-{
-  "word": "prioritize",
-  "meaning": "우선시하다",
-  "example": "We must prioritize safety.",
-  "difficulty": "B2"
-},
-{
-  "word": "prospect",
-  "meaning": "전망",
-  "example": "The job prospects are good.",
-  "difficulty": "B2"
-},
-{
-  "word": "rational",
-  "meaning": "이성적인",
-  "example": "He made a rational choice.",
-  "difficulty": "B2"
-},
-{
-  "word": "reconcile",
-  "meaning": "조화시키다",
-  "example": "It is hard to reconcile views.",
-  "difficulty": "C1"
-},
-{
-  "word": "refine",
-  "meaning": "개선하다",
-  "example": "We refined the method.",
-  "difficulty": "B2"
-},
-{
-  "word": "regulate",
-  "meaning": "규제하다",
-  "example": "The government regulates banks.",
-  "difficulty": "B2"
-},
-{
-  "word": "reinforce",
-  "meaning": "강화하다",
-  "example": "Training reinforces skills.",
-  "difficulty": "B2"
-},
-{
-  "word": "reluctant",
-  "meaning": "내키지 않는",
-  "example": "She was reluctant to speak.",
-  "difficulty": "B2"
-},
-{
-  "word": "resilient",
-  "meaning": "회복력 있는",
-  "example": "Children are resilient.",
-  "difficulty": "C1"
-},
-{
-  "word": "retain",
-  "meaning": "유지하다",
-  "example": "The company retained staff.",
-  "difficulty": "B2"
-},
-{
-  "word": "reveal",
-  "meaning": "드러내다",
-  "example": "The data revealed patterns.",
-  "difficulty": "B2"
-},
-{
-  "word": "subsequent",
-  "meaning": "이후의",
-  "example": "Subsequent events followed.",
-  "difficulty": "C1"
-},
-{
-  "word": "sufficient",
-  "meaning": "충분한",
-  "example": "The evidence is sufficient.",
-  "difficulty": "B2"
-},
-{
-  "word": "supplement",
-  "meaning": "보충하다",
-  "example": "Vitamins supplement diet.",
-  "difficulty": "B2"
-},
-{
-  "word": "trigger",
-  "meaning": "촉발하다",
-  "example": "Stress can trigger illness.",
-  "difficulty": "B2"
-},
-{
-  "word": "undergo",
-  "meaning": "겪다",
-  "example": "The system underwent changes.",
-  "difficulty": "B2"
-},
-{
-  "word": "viable",
-  "meaning": "실행 가능한",
-  "example": "A viable solution was found.",
-  "difficulty": "C1"
-},
-{
-  "word": "widespread",
-  "meaning": "널리 퍼진",
-  "example": "The practice is widespread.",
-  "difficulty": "B2"
+  "example": "Demand exceeded expectations.",
+  "level": "csat_core",
+  "difficulty": "B1"
 }
-]
+,
+  {"word":"analyze","meaning":"분석하다","example":"Researchers analyze the data carefully.","difficulty":"B2"},
+  {"word":"assumption","meaning":"가정","example":"The theory is based on an assumption.","difficulty":"B2"},
+  {"word":"consequence","meaning":"결과, 영향","example":"Every decision has consequences.","difficulty":"B2"},
+  {"word":"context","meaning":"맥락","example":"Meaning changes depending on context.","difficulty":"B1"},
+  {"word":"contrast","meaning":"대조하다","example":"The author contrasts two viewpoints.","difficulty":"B1"},
+  {"word":"contribute","meaning":"기여하다","example":"Several factors contribute to success.","difficulty":"B1"},
+  {"word":"decline","meaning":"감소하다","example":"The population declined rapidly.","difficulty":"B1"},
+  {"word":"demonstrate","meaning":"보여주다, 입증하다","example":"The experiment demonstrates effectiveness.","difficulty":"B2"},
+  {"word":"derive","meaning":"얻다, 유래하다","example":"Many words are derived from Latin.","difficulty":"B2"},
+  {"word":"distinguish","meaning":"구별하다","example":"Distinguish fact from opinion.","difficulty":"B2"},
+
+  {"word":"emerge","meaning":"나타나다","example":"New issues emerged.","difficulty":"B1"},
+  {"word":"emphasis","meaning":"강조","example":"The emphasis is on safety.","difficulty":"B1"},
+  {"word":"estimate","meaning":"추정하다","example":"Experts estimate costs.","difficulty":"B1"},
+  {"word":"evaluate","meaning":"평가하다","example":"Teachers evaluate students.","difficulty":"B1"},
+  {"word":"factor","meaning":"요인","example":"Cost is an important factor.","difficulty":"B1"},
+  {"word":"fundamental","meaning":"근본적인","example":"Trust is fundamental.","difficulty":"B2"},
+  {"word":"hypothesis","meaning":"가설","example":"The hypothesis was tested.","difficulty":"C1"},
+  {"word":"imply","meaning":"암시하다","example":"His tone implied disagreement.","difficulty":"B2"},
+  {"word":"interpret","meaning":"해석하다","example":"Readers interpret texts differently.","difficulty":"B2"},
+  {"word":"justify","meaning":"정당화하다","example":"He justified his decision.","difficulty":"B2"},
+
+  {"word":"maintain","meaning":"유지하다, 주장하다","example":"She maintains her position.","difficulty":"B1"},
+  {"word":"notion","meaning":"개념","example":"The notion is outdated.","difficulty":"B1"},
+  {"word":"perspective","meaning":"관점","example":"Consider another perspective.","difficulty":"B2"},
+  {"word":"potential","meaning":"잠재적인","example":"The plan has potential benefits.","difficulty":"B1"},
+  {"word":"significant","meaning":"중요한, 상당한","example":"There was a significant change.","difficulty":"B1"},
+  {"word":"subsequent","meaning":"이후의","example":"Subsequent events followed.","difficulty":"C1"},
+  {"word":"theory","meaning":"이론","example":"The theory explains behavior.","difficulty":"B1"},
+  {"word":"valid","meaning":"타당한","example":"The argument is valid.","difficulty":"B1"},
+  {"word":"variable","meaning":"변인","example":"Several variables affect results.","difficulty":"B2"},
+  {"word":"whereas","meaning":"~인 반면에","example":"Some prefer stability, whereas others seek change.","difficulty":"B2"},
+
+  {"word":"accommodate","meaning":"수용하다","example":"The system can accommodate users.","difficulty":"B2"},
+  {"word":"acknowledge","meaning":"인정하다","example":"She acknowledged the issue.","difficulty":"B2"},
+  {"word":"allocate","meaning":"할당하다","example":"Funds were allocated fairly.","difficulty":"B1"},
+  {"word":"alter","meaning":"변경하다","example":"The plan was altered.","difficulty":"B1"},
+  {"word":"alternative","meaning":"대안","example":"An alternative solution emerged.","difficulty":"B1"},
+  {"word":"ambiguous","meaning":"모호한","example":"His answer was ambiguous.","difficulty":"C1"},
+  {"word":"anticipate","meaning":"예상하다","example":"We anticipate changes.","difficulty":"B2"},
+  {"word":"apparent","meaning":"명백한","example":"It became apparent.","difficulty":"B1"},
+  {"word":"approach","meaning":"접근법","example":"This approach is effective.","difficulty":"B1"},
+  {"word":"appropriate","meaning":"적절한","example":"The method is appropriate.","difficulty":"B1"},
+
+  {"word":"approximate","meaning":"대략적인","example":"The cost is approximate.","difficulty":"B2"},
+  {"word":"assess","meaning":"평가하다","example":"Assess the impact.","difficulty":"B1"},
+  {"word":"attribute","meaning":"~의 결과로 보다","example":"Success is attributed to effort.","difficulty":"B2"},
+  {"word":"benefit","meaning":"이점","example":"The benefits are clear.","difficulty":"B1"},
+  {"word":"bias","meaning":"편향","example":"Bias affects judgment.","difficulty":"B2"},
+  {"word":"capacity","meaning":"능력, 수용력","example":"The system has capacity.","difficulty":"B1"},
+  {"word":"circumstance","meaning":"상황","example":"Under these circumstances.","difficulty":"B1"},
+  {"word":"coherent","meaning":"일관성 있는","example":"A coherent argument.","difficulty":"C1"},
+  {"word":"compile","meaning":"편집하다","example":"Data were compiled.","difficulty":"B2"},
+  {"word":"component","meaning":"구성 요소","example":"Each component matters.","difficulty":"B1"},
+
+  {"word":"comprehensive","meaning":"포괄적인","example":"A comprehensive review.","difficulty":"B2"},
+  {"word":"constrain","meaning":"제한하다","example":"Limits constrain growth.","difficulty":"C1"},
+  {"word":"controversial","meaning":"논란이 되는","example":"A controversial topic.","difficulty":"B2"},
+  {"word":"criterion","meaning":"기준","example":"Efficiency is the criterion.","difficulty":"C1"},
+  {"word":"crucial","meaning":"결정적인","example":"Timing is crucial.","difficulty":"B1"},
+  {"word":"deduce","meaning":"추론하다","example":"We deduced the cause.","difficulty":"C1"},
+  {"word":"deficiency","meaning":"결핍","example":"A nutrient deficiency.","difficulty":"C1"},
+  {"word":"dimension","meaning":"차원, 측면","example":"Social dimensions exist.","difficulty":"B2"},
+  {"word":"discrepancy","meaning":"불일치","example":"A discrepancy appeared.","difficulty":"C1"},
+  {"word":"eliminate","meaning":"제거하다","example":"Errors were eliminated.","difficulty":"B1"},
+
+  {"word":"ensure","meaning":"보장하다","example":"Rules ensure fairness.","difficulty":"B1"},
+  {"word":"entity","meaning":"실체","example":"A legal entity.","difficulty":"C1"},
+  {"word":"explicit","meaning":"명확한","example":"Explicit instructions.","difficulty":"B1"},
+  {"word":"facilitate","meaning":"촉진하다","example":"Technology facilitates learning.","difficulty":"B2"},
+  {"word":"framework","meaning":"틀, 체계","example":"A theoretical framework.","difficulty":"B2"},
+  {"word":"hierarchy","meaning":"계층 구조","example":"A clear hierarchy.","difficulty":"C1"},
+  {"word":"incentive","meaning":"동기","example":"Financial incentives work.","difficulty":"B1"},
+  {"word":"inevitable","meaning":"피할 수 없는","example":"Change is inevitable.","difficulty":"B1"},
+  {"word":"inhibit","meaning":"억제하다","example":"Stress inhibits learning.","difficulty":"C1"},
+  {"word":"integrate","meaning":"통합하다","example":"Systems are integrated.","difficulty":"B2"},
+
+  {"word":"mediate","meaning":"중재하다","example":"A mediator intervened.","difficulty":"B2"},
+  {"word":"objective","meaning":"목표","example":"The objective is safety.","difficulty":"B1"},
+  {"word":"offset","meaning":"상쇄하다","example":"Gains offset losses.","difficulty":"C1"},
+  {"word":"predominant","meaning":"지배적인","example":"The predominant view.","difficulty":"C1"},
+  {"word":"priority","meaning":"우선순위","example":"Safety is a priority.","difficulty":"B1"},
+  {"word":"relevant","meaning":"관련된","example":"Relevant data only.","difficulty":"B1"},
+  {"word":"retain","meaning":"유지하다","example":"They retained staff.","difficulty":"B1"},
+  {"word":"sustain","meaning":"지속하다","example":"Sustain growth.","difficulty":"B2"},
+  {"word":"terminate","meaning":"종결하다","example":"The contract was terminated.","difficulty":"B2"},
+  {"word":"utilize","meaning":"활용하다","example":"Utilize resources wisely.","difficulty":"B1"}
+,
+  
+  {"word":"accumulate","meaning":"축적하다","example":"Small changes accumulate over time.","difficulty":"B2"},
+  {"word":"adapt","meaning":"적응하다","example":"Species adapt to their environment.","difficulty":"B1"},
+  {"word":"adjacent","meaning":"인접한","example":"The office is adjacent to the station.","difficulty":"B1"},
+  {"word":"advocate","meaning":"옹호하다","example":"Experts advocate policy reform.","difficulty":"B2"},
+  {"word":"affect","meaning":"영향을 미치다","example":"Weather affects crops.","difficulty":"B1"},
+  {"word":"aggregate","meaning":"합산하다","example":"Data were aggregated for analysis.","difficulty":"B2"},
+  {"word":"align","meaning":"정렬하다, 일치시키다","example":"Goals should align with values.","difficulty":"B2"},
+  {"word":"allocate","meaning":"할당하다","example":"Time was allocated efficiently.","difficulty":"B1"},
+  {"word":"ambivalent","meaning":"양면적인 감정을 가진","example":"She felt ambivalent about the plan.","difficulty":"C1"},
+  {"word":"analogous","meaning":"유사한","example":"The process is analogous to evolution.","difficulty":"C1"},
+
+  {"word":"anomaly","meaning":"이례적인 것","example":"The data revealed an anomaly.","difficulty":"C1"},
+  {"word":"apparatus","meaning":"기구, 장치","example":"Laboratory apparatus was prepared.","difficulty":"C1"},
+  {"word":"arbitrary","meaning":"임의의","example":"The decision seemed arbitrary.","difficulty":"C1"},
+  {"word":"assert","meaning":"주장하다","example":"He asserted his opinion firmly.","difficulty":"B2"},
+  {"word":"attain","meaning":"달성하다","example":"She attained her objective.","difficulty":"B1"},
+  {"word":"augment","meaning":"증대시키다","example":"The budget was augmented.","difficulty":"C1"},
+  {"word":"bias","meaning":"편향","example":"Bias can distort judgment.","difficulty":"B2"},
+  {"word":"coincide","meaning":"일치하다","example":"The events coincided.","difficulty":"B1"},
+  {"word":"collapse","meaning":"붕괴하다","example":"The structure collapsed suddenly.","difficulty":"B1"},
+  {"word":"commence","meaning":"시작하다","example":"The meeting commenced at noon.","difficulty":"B1"},
+
+  {"word":"commodity","meaning":"상품","example":"Oil is a global commodity.","difficulty":"B1"},
+  {"word":"compatible","meaning":"양립할 수 있는","example":"The devices are compatible.","difficulty":"B1"},
+  {"word":"comply","meaning":"준수하다","example":"Companies must comply with laws.","difficulty":"B2"},
+  {"word":"conceive","meaning":"상상하다, 고안하다","example":"She conceived a new strategy.","difficulty":"C1"},
+  {"word":"confer","meaning":"부여하다, 협의하다","example":"The degree was conferred.","difficulty":"C1"},
+  {"word":"confine","meaning":"제한하다","example":"The patient was confined to bed.","difficulty":"B2"},
+  {"word":"consensus","meaning":"합의","example":"A consensus was reached.","difficulty":"B1"},
+  {"word":"constitute","meaning":"구성하다","example":"Women constitute half the population.","difficulty":"C1"},
+  {"word":"consumption","meaning":"소비","example":"Energy consumption increased.","difficulty":"B1"},
+  {"word":"contemporary","meaning":"현대의","example":"Contemporary art is popular.","difficulty":"B1"},
+
+  {"word":"contradict","meaning":"모순되다","example":"His words contradict the facts.","difficulty":"B2"},
+  {"word":"converge","meaning":"집중되다","example":"Opinions converged gradually.","difficulty":"C1"},
+  {"word":"culminate","meaning":"절정에 이르다","example":"Efforts culminated in success.","difficulty":"C1"},
+  {"word":"detain","meaning":"구금하다","example":"The suspect was detained.","difficulty":"C1"},
+  {"word":"detrimental","meaning":"해로운","example":"Smoking is detrimental to health.","difficulty":"C1"},
+  {"word":"discrete","meaning":"별개의","example":"The data consists of discrete units.","difficulty":"C1"},
+  {"word":"disseminate","meaning":"퍼뜨리다","example":"Information was disseminated widely.","difficulty":"C1"},
+  {"word":"dominant","meaning":"지배적인","example":"English is the dominant language.","difficulty":"B1"},
+  {"word":"endeavor","meaning":"노력","example":"Scientific endeavor continues.","difficulty":"C1"},
+  {"word":"equilibrium","meaning":"균형","example":"The system reached equilibrium.","difficulty":"C1"},
+
+  {"word":"erosion","meaning":"침식","example":"Soil erosion is severe.","difficulty":"B1"},
+  {"word":"exhibit","meaning":"보이다","example":"Children exhibit curiosity.","difficulty":"B1"},
+  {"word":"feasible","meaning":"실행 가능한","example":"The plan is feasible.","difficulty":"B1"},
+  {"word":"finite","meaning":"한정된","example":"Resources are finite.","difficulty":"C1"},
+  {"word":"generate","meaning":"발생시키다","example":"The event generated interest.","difficulty":"B1"},
+  {"word":"hence","meaning":"그러므로","example":"It rained; hence the delay.","difficulty":"B1"},
+  {"word":"implement","meaning":"시행하다","example":"The policy was implemented.","difficulty":"B1"},
+  {"word":"incorporate","meaning":"포함하다","example":"Feedback was incorporated.","difficulty":"B1"},
+  {"word":"induce","meaning":"유도하다","example":"The drug induces sleep.","difficulty":"C1"},
+  {"word":"inequality","meaning":"불평등","example":"Economic inequality persists.","difficulty":"B2"},
+
+  {"word":"infrastructure","meaning":"기반 시설","example":"Infrastructure investment is vital.","difficulty":"B1"},
+  {"word":"innovation","meaning":"혁신","example":"Innovation drives growth.","difficulty":"B1"},
+  {"word":"insight","meaning":"통찰","example":"The research offers insight.","difficulty":"B1"},
+  {"word":"interact","meaning":"상호작용하다","example":"Humans interact socially.","difficulty":"B1"},
+  {"word":"intermediate","meaning":"중간의","example":"This is an intermediate stage.","difficulty":"B1"},
+  {"word":"interval","meaning":"간격","example":"There was a brief interval.","difficulty":"B1"},
+  {"word":"intrinsic","meaning":"본질적인","example":"Intrinsic motivation matters.","difficulty":"C1"},
+  {"word":"invoke","meaning":"불러일으키다","example":"The speech invoked emotion.","difficulty":"C1"},
+  {"word":"isolate","meaning":"고립시키다","example":"Variables were isolated.","difficulty":"B2"},
+  {"word":"legitimate","meaning":"정당한","example":"The concern is legitimate.","difficulty":"C1"},
+
+  {"word":"likewise","meaning":"마찬가지로","example":"Likewise, we must respond.","difficulty":"B1"},
+  {"word":"magnitude","meaning":"규모","example":"The magnitude of change was large.","difficulty":"C1"},
+  {"word":"mechanism","meaning":"기제, 작동 방식","example":"The mechanism is complex.","difficulty":"B2"},
+  {"word":"mutual","meaning":"상호적인","example":"Mutual respect is essential.","difficulty":"B1"},
+  {"word":"ongoing","meaning":"진행 중인","example":"The project is ongoing.","difficulty":"B1"},
+  {"word":"paradox","meaning":"역설","example":"Freedom is a paradox.","difficulty":"C1"},
+  {"word":"persistent","meaning":"지속적인","example":"Persistent effort pays off.","difficulty":"B1"},
+  {"word":"precede","meaning":"선행하다","example":"Discussion precedes action.","difficulty":"C1"},
+  {"word":"preliminary","meaning":"예비의","example":"Preliminary results emerged.","difficulty":"C1"},
+  {"word":"prospect","meaning":"전망","example":"Job prospects improved.","difficulty":"B1"},
+
+  {"word":"rational","meaning":"이성적인","example":"He made a rational decision.","difficulty":"B1"},
+  {"word":"reconcile","meaning":"조화시키다","example":"It is hard to reconcile views.","difficulty":"C1"},
+  {"word":"refine","meaning":"개선하다","example":"The method was refined.","difficulty":"B1"},
+  {"word":"regulate","meaning":"규제하다","example":"The state regulates markets.","difficulty":"B1"},
+  {"word":"reluctant","meaning":"내키지 않는","example":"She was reluctant to agree.","difficulty":"B1"},
+  {"word":"resilient","meaning":"회복력 있는","example":"Children are resilient.","difficulty":"C1"},
+  {"word":"reveal","meaning":"드러내다","example":"The data revealed patterns.","difficulty":"B1"},
+  {"word":"sufficient","meaning":"충분한","example":"The evidence is sufficient.","difficulty":"B1"},
+  {"word":"supplement","meaning":"보충하다","example":"Vitamins supplement diets.","difficulty":"B1"},
+  {"word":"trigger","meaning":"촉발하다","example":"Stress can trigger illness.","difficulty":"B1"}
+  ]
