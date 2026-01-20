@@ -49,6 +49,10 @@
       font-size: 34px;
       text-align: center;
       font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
     }
 
     .sub {
@@ -60,6 +64,17 @@
     .example {
       margin-top: 10px;
       text-align: center;
+    }
+
+    .speaker {
+      font-size: 24px;
+      cursor: pointer;
+      color: #666;
+      transition: color 0.2s;
+    }
+
+    .speaker:hover {
+      color: #111;
     }
 
     .example em {
@@ -277,7 +292,12 @@
     /* ================== 카드 ================== */
     function showWord() {
       const w = session[wordIndex];
-      word.innerText = w.word;
+      // Word + Speaker Icon
+      word.innerHTML = `
+        ${w.word}
+        <span class="speaker" onclick="speakWord('${w.word}')" title="듣기 (US)">🔊</span>
+      `;
+
       meaning.innerText = w.meaning;
       example.innerHTML = step === 2
         ? (w.example || "").replace(new RegExp(w.word, "ig"), `<em>${w.word}</em>`)
@@ -289,6 +309,17 @@
           : "";
 
       saveProgress();
+    }
+
+    // Pronunciation Function
+    function speakWord(text) {
+      if (!window.speechSynthesis) return alert("브라우저가 음성 합성을 지원하지 않습니다.");
+      window.speechSynthesis.cancel();
+
+      const utter = new SpeechSynthesisUtterance(text);
+      utter.lang = "en-US"; // US English
+      utter.rate = 1.0;
+      window.speechSynthesis.speak(utter);
     }
 
     function nextWord() { wordIndex = (wordIndex + 1) % session.length; showWord(); }
