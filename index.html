@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>학년별 필수 영어 단어 학습 (단계별 퀴즈)</title>
+  <style>
+    :root { --bg:#f5f5f5; --card:#fff; --text:#111; --muted:#666; --border:#ddd; }
+    body { font-family: Arial, sans-serif; background: var(--bg); padding: 24px; color: var(--text); }
+    h1 { text-align: center; margin: 0 0 16px; }
+    .controls { text-align:center; margin: 8px 0 18px; }
+    select, button {
+      padding: 10px 12px; font-size: 15px; margin: 4px;
+      border: 1px solid var(--border); border-radius: 8px; background: #fff;
+      cursor: pointer;
+    }
+    button.primary { background:#111; color:#fff; border-color:#111; }
+    button.danger { background:#b00020; color:#fff; border-color:#b00020; }
+    button:disabled { opacity: .5; cursor: not-allowed; }
+    .tabs { display:flex; justify-content:center; gap:8px; flex-wrap:wrap; margin-bottom: 12px; }
+    .tab { padding: 8px 10px; border:1px solid var(--border); border-radius: 999px; background:#fff; cursor:pointer; }
+    .tab.active { background:#111; color:#fff; border-color:#111; }
+    .card {
+      background: var(--card);
+      max-width: 720px;
+      margin: 0 auto 14px;
+      padding: 18px 18px 16px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+    .row { display:flex; gap:10px; justify-content:center; flex-wrap:wrap; }
+    .word { font-size: 34px; font-weight: 700; text-align:center; margin: 4px 0 10px; }
+    .sub { text-align:center; color: var(--muted); margin: 0 0 10px; }
+    .info { margin-top: 10px; display:none; text-align:center; }
+    .info .line { margin: 6px 0; }
+    .example { color: #333; margin-top: 10px; }
+    .example em { font-style: normal; font-weight: 700; }
+    .hr { border-top:1px solid var(--border); margin: 12px 0; }
+
+    .quizBox { display:none; }
+    .quizQ { font-size: 18px; font-weight: 700; margin: 6px 0 10px; text-align:center; }
+    .choices { display:grid; gap:10px; max-width: 520px; margin: 0 auto; }
+    .choice {
+      border:1px solid var(--border);
+      border-radius:10px;
+      padding: 10px 12px;
+      background:#fff;
+      text-align:left;
+      cursor:pointer;
+    }
+    .choice.correct { border-color: #1b5e20; background: #e8f5e9; }
+    .choice.wrong { border-color:#b00020; background:#ffebee; }
+    .feedback { text-align:center; margin: 10px 0 0; font-weight: 700; }
+    .feedback.ok { color:#1b5e20; }
+    .feedback.no { color:#b00020; }
+    .mini { font-size: 13px; color: var(--muted); text-align:center; margin-top: 6px; }
+    .stats { display:flex; justify-content:center; gap:12px; flex-wrap:wrap; color: var(--muted); font-size: 14px; }
+    .badge { border:1px solid var(--border); border-radius:999px; padding:6px 10px; background:#fff; }
+    .hidden { display:none !important; }
+  </style>
+</head>
+<body>
+
+<h1>학년별 필수 영어 단어 학습 (단계별 퀴즈)</h1>
+
+<div class="controls">
+  <select id="gradeSelect">
+    <option value="">학년 선택</option>
+    <option value="elem_low">초등 저학년</option>
+    <option value="elem_high">초등 고학년</option>
+    <option value="middle">중학생</option>
+    <option value="high">고등학생</option>
+  </select>
+
+  <button class="primary" onclick="startStudy()">시작</button>
+  <button onclick="shuffleList()">섞기</button>
+  <button class="danger" onclick="resetProgress()">초기화</button>
+</div>
+
+<div class="tabs hidden" id="stepTabs">
+  <div class="tab active" data-step="1" onclick="setStep(1)">Step 1 단어카드</div>
+  <div class="tab" data-step="2" onclick="setStep(2)">Step 2 예문학습</div>
+  <div class="tab" data-step="3" onclick="setStep(3)">Step 3 퀴즈</div>
+  <div class="tab" data-step="4" onclick="setStep(4)">Step 4 오답노트</div>
+</div>
+
+<div class="card hidden" id="mainCard">
+  <div class="stats">
+    <div class="badge" id="statGrade">학년: -</div>
+    <div class="badge" id="statIndex">진행: -</div>
+    <div class="badge" id="statScore">정답/오답: -</div>
+    <div class="badge" id="statWrong">오답노트: -</div>
+  </div>
+
+  <div class="hr"></div>
+
+  <!-- Step 1 / Step 2 공용 카드 -->
+  <div id="studyBox">
+    <div class="word" id="word"></div>
+    <div class="sub" id="subLine"></div>
+
+    <div class="info" id="info">
+      <div class="line" id="meaning"></div>
+      <div class="line" id="pos"></div>
+      <div class="example" id="example"></div>
+    </div>
+
+    <div class="row" style="margin-top:12px;">
+      <button id="btnToggle" onclick="toggleInfo()">뜻/예문 보기</button>
+      <button onclick="prevWord()">이전</button>
+      <button class="primary" onclick="nextWord()">다음</button>
+    </div>
+  </div>
+
+  <!-- Step 3 퀴즈 -->
+  <div class="quizBox" id="quizBox">
+    <div class="quizQ" id="quizQ"></div>
+    <div class="choices" id="choices"></div>
+    <div class="feedback" id="feedback"></div>
+    <div class="mini" id="quizMini"></div>
+
+    <div class="row" style="margin-top:12px;">
+      <button onclick="nextQuiz()">다음 문제</button>
+      <button class="primary" onclick="revealAnswer()">정답/해설 보기</button>
+    </div>
+  </div>
+
+  <!-- Step 4 오답노트 -->
+  <div class="hidden" id="wrongBox">
+    <div class="quizQ">오답노트</div>
+    <div class="sub" style="text-align:center;">
+      틀린 단어만 모아 다시 학습하고, 재퀴즈를 볼 수 있습니다.
+    </div>
+
+    <div class="row" style="margin-top:10px;">
+      <button onclick="startWrongReview()">오답 단어 카드로 보기</button>
+      <button class="primary" onclick="startWrongQuiz()">오답만 퀴즈 보기</button>
+      <button class="danger" onclick="clearWrongs()">오답노트 비우기</button>
+    </div>
+
+    <div class="mini" id="wrongMini"></div>
+  </div>
+</div>
+
+<script>
+/* =========================
+   0) 단어 데이터 (확장형)
+   - 이 배열에 단어를 "계속 추가"하면 자동으로 학습/퀴즈에 반영됩니다.
+   ========================= */
+const vocabData = {
+  elem_low: [
+    {word:"apple", meaning:"사과", pos:"명사", example:"I eat an apple."},
+    {word:"book", meaning:"책", pos:"명사", example:"This is my book."},
+    {word:"run", meaning:"달리다", pos:"동사", example:"I run fast."},
+    {word:"happy", meaning:"행복한", pos:"형용사", example:"I am happy."},
+    {word:"water", meaning:"물", pos:"명사", example:"Drink water."},
+    {word:"school", meaning:"학교", pos:"명사", example:"I go to school."},
+    {word:"friend", meaning:"친구", pos:"명사", example:"He is my friend."},
+    {word:"small", meaning:"작은", pos:"형용사", example:"It is small."},
+    {word:"big", meaning:"큰", pos:"형용사", example:"It is big."},
+    {word:"eat", meaning:"먹다", pos:"동사", example:"I eat bread."}
+  ],
+  elem_high: [
+    {word:"because", meaning:"왜냐하면", pos:"접속사", example:"I stayed home because it rained."},
+    {word:"important", meaning:"중요한", pos:"형용사", example:"This is important."},
+    {word:"country", meaning:"나라", pos:"명사", example:"I love my country."},
+    {word:"decide", meaning:"결정하다", pos:"동사", example:"I decide to study."},
+    {word:"problem", meaning:"문제", pos:"명사", example:"Solve the problem."},
+    {word:"different", meaning:"다른", pos:"형용사", example:"We are different."},
+    {word:"history", meaning:"역사", pos:"명사", example:"I like history."},
+    {word:"future", meaning:"미래", pos:"명사", example:"Think about the future."},
+    {word:"perhaps", meaning:"아마도", pos:"부사", example:"Perhaps it will snow."},
+    {word:"instead", meaning:"대신에", pos:"부사", example:"I drank tea instead."}
+  ],
+  middle: [
+    {word:"suggest", meaning:"제안하다", pos:"동사", example:"I suggest a plan."},
+    {word:"experience", meaning:"경험", pos:"명사", example:"It was a great experience."},
+    {word:"culture", meaning:"문화", pos:"명사", example:"We learned about culture."},
+    {word:"increase", meaning:"증가하다", pos:"동사", example:"Prices increase every year."},
+    {word:"result", meaning:"결과", pos:"명사", example:"This is the result."},
+    {word:"continue", meaning:"계속하다", pos:"동사", example:"Please continue."},
+    {word:"improve", meaning:"개선하다", pos:"동사", example:"I want to improve my English."},
+    {word:"support", meaning:"지원하다/지지", pos:"동사/명사", example:"We support the team."},
+    {word:"relationship", meaning:"관계", pos:"명사", example:"A good relationship matters."},
+    {word:"opinion", meaning:"의견", pos:"명사", example:"What is your opinion?"}
+  ],
+  high: [
+    {word:"significant", meaning:"중요한/의미 있는", pos:"형용사", example:"A significant change occurred."},
+    {word:"analyze", meaning:"분석하다", pos:"동사", example:"Analyze the data carefully."},
+    {word:"phenomenon", meaning:"현상", pos:"명사", example:"A social phenomenon."},
+    {word:"consequence", meaning:"결과/영향", pos:"명사", example:"A serious consequence followed."},
+    {word:"perspective", meaning:"관점", pos:"명사", example:"Consider different perspectives."},
+    {word:"assumption", meaning:"가정", pos:"명사", example:"That assumption is incorrect."},
+    {word:"nevertheless", meaning:"그럼에도 불구하고", pos:"부사", example:"Nevertheless, we tried."},
+    {word:"subsequent", meaning:"이후의", pos:"형용사", example:"In subsequent years..."},
+    {word:"allocate", meaning:"할당하다", pos:"동사", example:"We allocate resources."},
+    {word:"interpret", meaning:"해석하다", pos:"동사", example:"Interpret the text."}
+  ]
+};
+
+/* =========================
+   1) 전역 상태
+   ========================= */
+let currentGradeKey = "";
+let currentList = [];
+let index = 0;
+
+let step = 1; // 1~4
+let correctCount = 0;
+let wrongCount = 0;
+
+// 오답 저장: key = word, value = item + meta
+let wrongMap = new Map();
+
+// 퀴즈 상태
+let currentQuiz = null;
+let quizLocked = false;
+let quizMode = "meaning"; // meaning | word | blank
+let quizPool = []; // Step3에서 문제로 쓸 목록
+let quizIndex = 0;
+
+/* =========================
+   2) 유틸
+   ========================= */
+function pickRandom(arr, n, excludeSet = new Set()) {
+  const pool = arr.filter(x => !excludeSet.has(x));
+  const result = [];
+  while (result.length < n && pool.length > 0) {
+    const i = Math.floor(Math.random() * pool.length);
+    result.push(pool.splice(i, 1)[0]);
+  }
+  return result;
+}
+
+function escapeHtml(s) {
+  return String(s).replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;")
+    .replaceAll('"',"&quot;").replaceAll("'","&#039;");
+}
+
+function updateStats() {
+  const gradeName = {
+    elem_low:"초등 저학년", elem_high:"초등 고학년", middle:"중학생", high:"고등학생"
+  }[currentGradeKey] || "-";
+
+  document.getElementById("statGrade").innerText = "학년: " + gradeName;
+  document.getElementById("statIndex").innerText = `진행: ${currentList.length ? (index+1) : 0}/${currentList.length}`;
+  document.getElementById("statScore").innerText = `정답/오답: ${correctCount}/${wrongCount}`;
+  document.getElementById("statWrong").innerText = `오답노트: ${wrongMap.size}개`;
+}
+
+/* =========================
+   3) 시작/초기화
+   ========================= */
+function startStudy() {
+  const grade = document.getElementById("gradeSelect").value;
+  if (!grade) return alert("학년을 선택하세요.");
+
+  currentGradeKey = grade;
+  currentList = [...vocabData[grade]];
+  index = 0;
+
+  step = 1;
+  correctCount = 0;
+  wrongCount = 0;
+  wrongMap = new Map();
+
+  quizPool = [...currentList];
+  quizIndex = 0;
+
+  document.getElementById("mainCard").classList.remove("hidden");
+  document.getElementById("stepTabs").classList.remove("hidden");
+
+  setStep(1);
+  showWord();
+  updateStats();
+}
+
+function resetProgress() {
+  if (!currentGradeKey) return alert("먼저 학년을 선택하고 시작하세요.");
+  startStudy();
+}
+
+function shuffleList() {
+  if (!currentList.length) return alert("먼저 시작하세요.");
+  for (let i = currentList.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [currentList[i], currentList[j]] = [currentList[j], currentList[i]];
+  }
+  index = 0;
+  quizPool = [...currentList];
+  quizIndex = 0;
+  showWord();
+  if (step === 3) buildQuiz(); // 퀴즈 중이면 즉시 반영
+  updateStats();
+}
+
+/* =========================
+   4) Step 전환
+   ========================= */
+function setStep(newStep) {
+  step = newStep;
+
+  // 탭 UI
+  document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+  const active = document.querySelector(`.tab[data-step="${newStep}"]`);
+  if (active) active.classList.add("active");
+
+  // 박스 표시
+  const studyBox = document.getElementById("studyBox");
+  const quizBoxEl = document.getElementById("quizBox");
+  const wrongBox = document.getElementById("wrongBox");
+
+  if (newStep === 1) {
+    studyBox.style.display = "block";
+    quizBoxEl.style.display = "none";
+    wrongBox.classList.add("hidden");
+    document.getElementById("subLine").innerText = "단어카드 학습: 뜻/예문을 확인하며 반복하세요.";
+    document.getElementById("btnToggle").disabled = false;
+    showWord();
+  }
+
+  if (newStep === 2) {
+    studyBox.style.display = "block";
+    quizBoxEl.style.display = "none";
+    wrongBox.classList.add("hidden");
+    document.getElementById("subLine").innerText = "예문 학습: 예문 속에서 단어가 어떻게 쓰이는지 확인하세요.";
+    document.getElementById("btnToggle").disabled = false;
+    showWord(true);
+  }
+
+  if (newStep === 3) {
+    studyBox.style.display = "none";
+    quizBoxEl.style.display = "block";
+    wrongBox.classList.add("hidden");
+    quizIndex = 0;
+    quizMode = "meaning"; // 기본 모드
+    buildQuiz();
+  }
+
+  if (newStep === 4) {
+    studyBox.style.display = "none";
+    quizBoxEl.style.display = "none";
+    wrongBox.classList.remove("hidden");
+    renderWrongBox();
+  }
+
+  updateStats();
+}
+
+/* =========================
+   5) 카드 학습 (Step1, Step2)
+   ========================= */
+function showWord(forceShowExample = false) {
+  if (!currentList.length) return;
+  const item = currentList[index];
+
+  document.getElementById("word").innerText = item.word;
+  document.getElementById("meaning").innerText = "뜻: " + item.meaning;
+  document.getElementById("pos").innerText = "품사: " + item.pos;
+
+  // Step2에서는 예문에서 단어를 강조 표시
+  const ex = item.example || "";
+  const highlighted = ex.replace(new RegExp("\\b" + item.word + "\\b", "ig"), (m) => `<em>${m}</em>`);
+  document.getElementById("example").innerHTML = "예문: " + highlighted;
+
+  const info = document.getElementById("info");
+  info.style.display = forceShowExample ? "block" : "none";
+
+  updateStats();
+}
+
+function toggleInfo() {
+  const info = document.getElementById("info");
+  info.style.display = info.style.display === "none" ? "block" : "none";
+}
+
+function nextWord() {
+  if (!currentList.length) return;
+  index = (index + 1) % currentList.length;
+  showWord(step === 2);
+}
+
+function prevWord() {
+  if (!currentList.length) return;
+  index = (index - 1 + currentList.length) % currentList.length;
+  showWord(step === 2);
+}
+
+/* =========================
+   6) Step3: 퀴즈 생성/풀이
+   - 3종 퀴즈(랜덤):
+     A) meaning: 단어 -> 뜻(객관식)
+     B) word: 뜻 -> 단어(객관식)
+     C) blank: 예문 빈칸 -> 단어(객관식)
+   ========================= */
+function buildQuiz() {
+  if (!quizPool.length) return;
+
+  // 문제 대상
+  const target = quizPool[quizIndex % quizPool.length];
+
+  // 퀴즈 유형: 순환 + 약간 랜덤
+  const modes = ["meaning", "word", "blank"];
+  quizMode = modes[Math.floor(Math.random() * modes.length)];
+
+  // 오답/정답 UI 초기화
+  quizLocked = false;
+  document.getElementById("feedback").innerText = "";
+  document.getElementById("feedback").className = "feedback";
+
+  // 보기 만들기 (정답 포함 4지선다)
+  const distractors = pickRandom(
+    quizPool.map(x => x.word),
+    3,
+    new Set([target.word])
+  );
+
+  // 단어가 너무 적으면(예: 3개 이하) 보기 수 줄이기
+  const choicesWords = [target.word, ...distractors].slice(0, Math.min(4, quizPool.length));
+  // 셔플
+  for (let i = choicesWords.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [choicesWords[i], choicesWords[j]] = [choicesWords[j], choicesWords[i]];
+  }
+
+  // 질문 텍스트 구성
+  let question = "";
+  if (quizMode === "meaning") {
+    question = `다음 단어의 뜻은 무엇입니까?  :  ${target.word}`;
+  } else if (quizMode === "word") {
+    question = `다음 뜻에 해당하는 단어는 무엇입니까?  :  ${target.meaning}`;
+  } else {
+    // blank
+    const ex = target.example || "";
+    const blanked = ex
+      ? ex.replace(new RegExp("\\b" + target.word + "\\b", "ig"), "_____")
+      : `_____ (예문 없음)`;
+    question = `빈칸에 들어갈 단어는 무엇입니까?\n${blanked}`;
+  }
+
+  currentQuiz = { target, choicesWords, mode: quizMode };
+
+  document.getElementById("quizQ").innerText = question;
+  document.getElementById("quizMini").innerText =
+    `문제 ${ (quizIndex % quizPool.length) + 1 } / ${ quizPool.length } (유형: ${quizModeLabel(quizMode)})`;
+
+  // 보기 렌더링
+  const choicesEl = document.getElementById("choices");
+  choicesEl.innerHTML = "";
+
+  choicesWords.forEach(w => {
+    const item = quizPool.find(x => x.word === w) || target;
+    let label = "";
+    if (quizMode === "meaning") {
+      label = `${item.meaning}`;
+    } else {
+      // word 또는 blank: 보기에는 단어를 보여줌
+      label = `${item.word}`;
+    }
+
+    const btn = document.createElement("div");
+    btn.className = "choice";
+    btn.innerText = label;
+    btn.onclick = () => chooseAnswer(w, btn);
+    choicesEl.appendChild(btn);
+  });
+}
+
+function quizModeLabel(m) {
+  if (m === "meaning") return "뜻 맞추기";
+  if (m === "word") return "단어 맞추기";
+  return "빈칸 채우기";
+}
+
+function chooseAnswer(chosenWord, el) {
+  if (!currentQuiz || quizLocked) return;
+  quizLocked = true;
+
+  const isCorrect = chosenWord === currentQuiz.target.word;
+
+  // 정답 표시
+  document.querySelectorAll(".choice").forEach(choiceEl => {
+    // meaning 모드에서는 choiceEl의 텍스트가 meaning이라 word 매칭 불가 → chosenWord로 판정만
+    // 따라서 정답/오답은 클릭한 것, 그리고 정답에 해당하는 항목을 찾아 표시
+    choiceEl.classList.remove("correct", "wrong");
+  });
+
+  // 클릭한 항목 표시
+  if (isCorrect) {
+    el.classList.add("correct");
+    correctCount += 1;
+    setFeedback(true);
+  } else {
+    el.classList.add("wrong");
+    wrongCount += 1;
+    setFeedback(false);
+
+    // 오답노트에 저장
+    if (!wrongMap.has(currentQuiz.target.word)) {
+      wrongMap.set(currentQuiz.target.word, {
+        ...currentQuiz.target,
+        wrongAt: new Date().toISOString()
+      });
+    }
+    // 정답도 강조 표시
+    highlightCorrectChoice();
+  }
+
+  updateStats();
+}
+
+function highlightCorrectChoice() {
+  const correctWord = currentQuiz.target.word;
+  const mode = currentQuiz.mode;
+
+  document.querySelectorAll(".choice").forEach(choiceEl => {
+    const txt = choiceEl.innerText.trim();
+
+    // meaning 모드: 보기 텍스트는 meaning
+    if (mode === "meaning") {
+      if (txt === (currentQuiz.target.meaning || "").trim()) {
+        choiceEl.classList.add("correct");
+      }
+    } else {
+      // word/blank 모드: 보기 텍스트는 word
+      if (txt.toLowerCase() === correctWord.toLowerCase()) {
+        choiceEl.classList.add("correct");
+      }
+    }
+  });
+}
+
+function setFeedback(ok) {
+  const fb = document.getElementById("feedback");
+  if (ok) {
+    fb.className = "feedback ok";
+    fb.innerText = "정답입니다.";
+  } else {
+    fb.className = "feedback no";
+    fb.innerText = "오답입니다.";
+  }
+}
+
+function revealAnswer() {
+  if (!currentQuiz) return;
+  const t = currentQuiz.target;
+  const msg =
+    `정답: ${t.word}\n뜻: ${t.meaning}\n품사: ${t.pos}\n예문: ${t.example}`;
+  alert(msg);
+}
+
+function nextQuiz() {
+  if (!quizPool.length) return;
+  quizIndex = (quizIndex + 1) % quizPool.length;
+  buildQuiz();
+}
+
+/* =========================
+   7) Step4: 오답노트
+   ========================= */
+function renderWrongBox() {
+  const wrongMini = document.getElementById("wrongMini");
+  if (wrongMap.size === 0) {
+    wrongMini.innerText = "현재 오답노트가 비어 있습니다. Step 3에서 문제를 풀어 오답을 쌓아보세요.";
+  } else {
+    const words = [...wrongMap.keys()].slice(0, 30).join(", ");
+    const more = wrongMap.size > 30 ? ` 외 ${wrongMap.size - 30}개` : "";
+    wrongMini.innerText = `오답 단어(${wrongMap.size}개): ${words}${more}`;
+  }
+  updateStats();
+}
+
+function startWrongReview() {
+  if (wrongMap.size === 0) return alert("오답노트가 비어 있습니다.");
+  // currentList를 오답 리스트로 임시 교체
+  currentList = [...wrongMap.values()];
+  index = 0;
+  setStep(1);
+  showWord();
+  document.getElementById("subLine").innerText = "오답 단어 카드 복습: 오답만 반복 학습합니다.";
+}
+
+function startWrongQuiz() {
+  if (wrongMap.size === 0) return alert("오답노트가 비어 있습니다.");
+  quizPool = [...wrongMap.values()];
+  quizIndex = 0;
+  setStep(3);
+  document.getElementById("quizMini").innerText += " (오답만)";
+}
+
+function clearWrongs() {
+  wrongMap = new Map();
+  renderWrongBox();
+  updateStats();
+  alert("오답노트를 비웠습니다.");
+}
+</script>
+
+</body>
+</html>
