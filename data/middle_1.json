@@ -1,0 +1,1826 @@
+[
+{
+"word": "each",
+"meaning": "각각의",
+"pos": "adjective",
+"example": "Each student has a locker.",
+"translation": "각 학생은 사물함을 가지고 있다.",
+"level": "middle_1"
+},
+{
+"word": "eager",
+"meaning": "열망하는, 간절히 바라는",
+"pos": "adjective",
+"example": "He is eager to learn English.",
+"translation": "그는 영어를 배우기를 간절히 바란다.",
+"level": "middle_1"
+},
+{
+"word": "earn",
+"meaning": "벌다, 얻다",
+"pos": "verb",
+"example": "She earns money by working at a cafe.",
+"translation": "그녀는 카페에서 일해서 돈을 번다.",
+"level": "middle_1"
+},
+{
+"word": "earth",
+"meaning": "지구, 땅",
+"pos": "noun",
+"example": "The earth goes around the sun.",
+"translation": "지구는 태양 주위를 돈다.",
+"level": "middle_1"
+},
+{
+"word": "eastern",
+"meaning": "동쪽의",
+"pos": "adjective",
+"example": "They live in the eastern part of the city.",
+"translation": "그들은 도시의 동쪽 지역에 산다.",
+"level": "middle_1"
+},
+{
+"word": "economy",
+"meaning": "경제",
+"pos": "noun",
+"example": "The country's economy is growing fast.",
+"translation": "그 나라의 경제는 빠르게 성장하고 있다.",
+"level": "middle_1"
+},
+{
+"word": "edge",
+"meaning": "가장자리, 끝",
+"pos": "noun",
+"example": "Don't stand near the edge of the cliff.",
+"translation": "절벽 가장자리 근처에 서지 마라.",
+"level": "middle_1"
+},
+{
+"word": "educate",
+"meaning": "교육하다",
+"pos": "verb",
+"example": "Parents educate their children at home.",
+"translation": "부모들은 집에서 자녀들을 교육한다.",
+"level": "middle_1"
+},
+{
+"word": "effect",
+"meaning": "영향, 효과",
+"pos": "noun",
+"example": "Music has a good effect on plants.",
+"translation": "음악은 식물에게 좋은 영향을 준다.",
+"level": "middle_1"
+},
+{
+"word": "effort",
+"meaning": "노력",
+"pos": "noun",
+"example": "Success requires time and effort.",
+"translation": "성공은 시간과 노력을 필요로 한다.",
+"level": "middle_1"
+},
+{
+"word": "either",
+"meaning": "(둘 중) 어느 한 쪽",
+"pos": "conjunction",
+"example": "You can chose either tea or coffee.",
+"translation": "너는 차나 커피 중 하나를 선택할 수 있다.",
+"level": "middle_1"
+},
+{
+"word": "elect",
+"meaning": "선출하다",
+"pos": "verb",
+"example": "We elected him as class president.",
+"translation": "우리는 그를 학급 반장으로 선출했다.",
+"level": "middle_1"
+},
+{
+"word": "electricity",
+"meaning": "전기",
+"pos": "noun",
+"example": "We use electricity to light our homes.",
+"translation": "우리는 집에 불을 밝히기 위해 전기를 사용한다.",
+"level": "middle_1"
+},
+{
+"word": "element",
+"meaning": "요소, 성분",
+"pos": "noun",
+"example": "Water is an essential element for life.",
+"translation": "물은 생명에 필수적인 요소이다.",
+"level": "middle_1"
+},
+{
+"word": "else",
+"meaning": "그 밖의, 다른",
+"pos": "adjective",
+"example": "Do you need anything else?",
+"translation": "그 밖에 필요한 것이 있니?",
+"level": "middle_1"
+},
+{
+"word": "emotion",
+"meaning": "감정",
+"pos": "noun",
+"example": "He showed no emotion on his face.",
+"translation": "그는 얼굴에 아무런 감정도 드러내지 않았다.",
+"level": "middle_1"
+},
+{
+"word": "empty",
+"meaning": "빈, 비어 있는",
+"pos": "adjective",
+"example": "The box is empty.",
+"translation": "그 상자는 비어 있다.",
+"level": "middle_1"
+},
+{
+"word": "encourage",
+"meaning": "격려하다, 용기를 북돋우다",
+"pos": "verb",
+"example": "My teacher encouraged me to study hard.",
+"translation": "선생님은 나에게 공부를 열심히 하라고 격려해주셨다.",
+"level": "middle_1"
+},
+{
+"word": "enemy",
+"meaning": "적",
+"pos": "noun",
+"example": "They fought against the enemy.",
+"translation": "그들은 적과 싸웠다.",
+"level": "middle_1"
+},
+{
+"word": "energy",
+"meaning": "에너지, 활기",
+"pos": "noun",
+"example": "I don't have enough energy to run.",
+"translation": "나는 달릴 만큼 충분한 에너지가 없다.",
+"level": "middle_1"
+},
+{
+"word": "engine",
+"meaning": "엔진",
+"pos": "noun",
+"example": "There is a problem with the car engine.",
+"translation": "자동차 엔진에 문제가 있다.",
+"level": "middle_1"
+},
+{
+"word": "engineer",
+"meaning": "기술자, 기사",
+"pos": "noun",
+"example": "He is a computer engineer.",
+"translation": "그는 컴퓨터 기술자이다.",
+"level": "middle_1"
+},
+{
+"word": "enjoy",
+"meaning": "즐기다",
+"pos": "verb",
+"example": "Did you enjoy the movie?",
+"translation": "영화 즐겁게 봤니?",
+"level": "middle_1"
+},
+{
+"word": "enough",
+"meaning": "충분한",
+"pos": "adjective",
+"example": "We have enough food for everyone.",
+"translation": "우리는 모두가 먹을 충분한 음식이 있다.",
+"level": "middle_1"
+},
+{
+"word": "enter",
+"meaning": "들어가다, 입학하다",
+"pos": "verb",
+"example": "Please knock before you enter.",
+"translation": "들어오기 전에 노크하세요.",
+"level": "middle_1"
+},
+{
+"word": "entrance",
+"meaning": "입구",
+"pos": "noun",
+"example": "Meet me at the main entrance.",
+"translation": "정문 입구에서 만나자.",
+"level": "middle_1"
+},
+{
+"word": "envelope",
+"meaning": "봉투",
+"pos": "noun",
+"example": "Put the letter in the envelope.",
+"translation": "편지를 봉투에 넣어라.",
+"level": "middle_1"
+},
+{
+"word": "environment",
+"meaning": "환경",
+"pos": "noun",
+"example": "We must protect the environment.",
+"translation": "우리는 환경을 보호해야 한다.",
+"level": "middle_1"
+},
+{
+"word": "envy",
+"meaning": "부러워하다, 질투",
+"pos": "verb",
+"example": "I envy your success.",
+"translation": "나는 너의 성공이 부럽다.",
+"level": "middle_1"
+},
+{
+"word": "equal",
+"meaning": "동등한, 평등한",
+"pos": "adjective",
+"example": "All men are created equal.",
+"translation": "모든 사람은 평등하게 태어났다.",
+"level": "middle_1"
+},
+{
+"word": "error",
+"meaning": "오류, 실수",
+"pos": "noun",
+"example": "There is an error in your calculation.",
+"translation": "너의 계산에 오류가 있다.",
+"level": "middle_1"
+},
+{
+"word": "escape",
+"meaning": "달아나다, 탈출하다",
+"pos": "verb",
+"example": "The bird escaped from the cage.",
+"translation": "새가 새장 밖으로 탈출했다.",
+"level": "middle_1"
+},
+{
+"word": "especially",
+"meaning": "특히",
+"pos": "adverb",
+"example": "I like fruit, especially apples.",
+"translation": "나는 과일, 특히 사과를 좋아한다.",
+"level": "middle_1"
+},
+{
+"word": "essay",
+"meaning": "수필, 에세이",
+"pos": "noun",
+"example": "Write an essay about your family.",
+"translation": "너의 가족에 관한 에세이를 써라.",
+"level": "middle_1"
+},
+{
+"word": "establish",
+"meaning": "설립하다, 확립하다",
+"pos": "verb",
+"example": "The school was established in 1990.",
+"translation": "그 학교는 1990년에 설립되었다.",
+"level": "middle_1"
+},
+{
+"word": "even",
+"meaning": "심지어, ~조차도",
+"pos": "adverb",
+"example": "Even a child knows that.",
+"translation": "심지어 어린 아이도 그것은 안다.",
+"level": "middle_1"
+},
+{
+"word": "event",
+"meaning": "사건, 행사",
+"pos": "noun",
+"example": "The festival is a big event.",
+"translation": "그 축제는 큰 행사이다.",
+"level": "middle_1"
+},
+{
+"word": "ever",
+"meaning": "언젠가, 지금까지",
+"pos": "adverb",
+"example": "Have you ever been to Paris?",
+"translation": "파리에 가본 적 있니?",
+"level": "middle_1"
+},
+{
+"word": "evidence",
+"meaning": "증거",
+"pos": "noun",
+"example": "The police found new evidence.",
+"translation": "경찰은 새로운 증거를 발견했다.",
+"level": "middle_1"
+},
+{
+"word": "exact",
+"meaning": "정확한",
+"pos": "adjective",
+"example": "Tell me the exact time.",
+"translation": "정확한 시간을 말해줘.",
+"level": "middle_1"
+},
+{
+"word": "exam",
+"meaning": "시험",
+"pos": "noun",
+"example": "I have a math exam tomorrow.",
+"translation": "나는 내일 수학 시험이 있다.",
+"level": "middle_1"
+},
+{
+"word": "examine",
+"meaning": "검사하다, 조사하다",
+"pos": "verb",
+"example": "The doctor examined the patient.",
+"translation": "의사가 환자를 진찰했다.",
+"level": "middle_1"
+},
+{
+"word": "example",
+"meaning": "예, 본보기",
+"pos": "noun",
+"example": "Can you give me an example?",
+"translation": "예를 하나 들어줄 수 있니?",
+"level": "middle_1"
+},
+{
+"word": "excellent",
+"meaning": "훌륭한, 우수한",
+"pos": "adjective",
+"example": "She is an excellent student.",
+"translation": "그녀는 우수한 학생이다.",
+"level": "middle_1"
+},
+{
+"word": "except",
+"meaning": "~을 제외하고",
+"pos": "preposition",
+"example": "Everyone came except Tom.",
+"translation": "톰을 제외하고 모두가 왔다.",
+"level": "middle_1"
+},
+{
+"word": "exchange",
+"meaning": "교환하다",
+"pos": "verb",
+"example": "We exchanged phone numbers.",
+"translation": "우리는 전화번호를 교환했다.",
+"level": "middle_1"
+},
+{
+"word": "excite",
+"meaning": "흥분시키다",
+"pos": "verb",
+"example": "The game excited the crowd.",
+"translation": "그 경기는 관중들을 흥분시켰다.",
+"level": "middle_1"
+},
+{
+"word": "excuse",
+"meaning": "용서하다, 변명",
+"pos": "verb",
+"example": "Excuse me for being late.",
+"translation": "늦어서 죄송합니다.",
+"level": "middle_1"
+},
+{
+"word": "exercise",
+"meaning": "운동하다, 연습하다",
+"pos": "verb",
+"example": "You should exercise every day.",
+"translation": "너는 매일 운동해야 한다.",
+"level": "middle_1"
+},
+{
+"word": "exhibit",
+"meaning": "전시하다",
+"pos": "verb",
+"example": "They exhibited their paintings in the gallery.",
+"translation": "그들은 갤러리에 그림들을 전시했다.",
+"level": "middle_1"
+},
+{
+"word": "exist",
+"meaning": "존재하다",
+"pos": "verb",
+"example": "Do you believe ghosts exist?",
+"translation": "너는 유령이 존재한다고 믿니?",
+"level": "middle_1"
+},
+{
+"word": "expect",
+"meaning": "기대하다, 예상하다",
+"pos": "verb",
+"example": "I expect him to come soon.",
+"translation": "나는 그가 곧 올 것이라 예상한다.",
+"level": "middle_1"
+},
+{
+"word": "expensive",
+"meaning": "비싼",
+"pos": "adjective",
+"example": "This watch is too expensive.",
+"translation": "이 시계는 너무 비싸다.",
+"level": "middle_1"
+},
+{
+"word": "experience",
+"meaning": "경험",
+"pos": "noun",
+"example": "He has a lot of experience in cooking.",
+"translation": "그는 요리 경험이 많다.",
+"level": "middle_1"
+},
+{
+"word": "experiment",
+"meaning": "실험",
+"pos": "noun",
+"example": "We did a science experiment.",
+"translation": "우리는 과학 실험을 했다.",
+"level": "middle_1"
+},
+{
+"word": "expert",
+"meaning": "전문가",
+"pos": "noun",
+"example": "He is an expert on computers.",
+"translation": "그는 컴퓨터 전문가이다.",
+"level": "middle_1"
+},
+{
+"word": "explain",
+"meaning": "설명하다",
+"pos": "verb",
+"example": "Can you explain the rules?",
+"translation": "규칙을 설명해 줄 수 있니?",
+"level": "middle_1"
+},
+{
+"word": "express",
+"meaning": "표현하다",
+"pos": "verb",
+"example": "Words cannot express my feelings.",
+"translation": "말로 내 감정을 표현할 수 없다.",
+"level": "middle_1"
+},
+{
+"word": "extra",
+"meaning": "여분의, 추가의",
+"pos": "adjective",
+"example": "Do you have an extra pen?",
+"translation": "여분의 펜이 있니?",
+"level": "middle_1"
+},
+{
+"word": "extreme",
+"meaning": "극도의, 극단적인",
+"pos": "adjective",
+"example": "They live in extreme poverty.",
+"translation": "그들은 극심한 가난 속에 살고 있다.",
+"level": "middle_1"
+},
+{
+"word": "face",
+"meaning": "직면하다, 얼굴",
+"pos": "verb",
+"example": "We must face the problem.",
+"translation": "우리는 그 문제에 직면해야 한다.",
+"level": "middle_1"
+},
+{
+"word": "fact",
+"meaning": "사실",
+"pos": "noun",
+"example": "The story is based on fact.",
+"translation": "그 이야기는 사실에 바탕을 두고 있다.",
+"level": "middle_1"
+},
+{
+"word": "factory",
+"meaning": "공장",
+"pos": "noun",
+"example": "He works at a shoe factory.",
+"translation": "그는 신발 공장에서 일한다.",
+"level": "middle_1"
+},
+{
+"word": "fail",
+"meaning": "실패하다, 떨어지다",
+"pos": "verb",
+"example": "He failed the driving test.",
+"translation": "그는 운전 면허 시험에 떨어졌다.",
+"level": "middle_1"
+},
+{
+"word": "fair",
+"meaning": "공정한, 박람회",
+"pos": "adjective",
+"example": "It's not fair!",
+"translation": "그건 공정하지 않아!",
+"level": "middle_1"
+},
+{
+"word": "faith",
+"meaning": "믿음, 신념",
+"pos": "noun",
+"example": "I have faith in you.",
+"translation": "나는 너에 대한 믿음이 있어.",
+"level": "middle_1"
+},
+{
+"word": "fall",
+"meaning": "떨어지다, 가을",
+"pos": "verb",
+"example": "Leaves fall in autumn.",
+"translation": "가을에는 나뭇잎이 떨어진다.",
+"level": "middle_1"
+},
+{
+"word": "false",
+"meaning": "거짓의, 틀린",
+"pos": "adjective",
+"example": "True or false?",
+"translation": "참인가 거짓인가?",
+"level": "middle_1"
+},
+{
+"word": "familiar",
+"meaning": "익숙한, 친숙한",
+"pos": "adjective",
+"example": "His voice sounds familiar.",
+"translation": "그의 목소리가 익숙하게 들린다.",
+"level": "middle_1"
+},
+{
+"word": "famous",
+"meaning": "유명한",
+"pos": "adjective",
+"example": "Paris is famous for its art.",
+"translation": "파리는 예술로 유명하다.",
+"level": "middle_1"
+},
+{
+"word": "far",
+"meaning": "먼",
+"pos": "adjective",
+"example": "Is it far from here?",
+"translation": "여기서 먼가요?",
+"level": "middle_1"
+},
+{
+"word": "fare",
+"meaning": "요금",
+"pos": "noun",
+"example": "The bus fare is cheap.",
+"translation": "버스 요금은 싸다.",
+"level": "middle_1"
+},
+{
+"word": "farm",
+"meaning": "농장",
+"pos": "noun",
+"example": "My grandfather has a large farm.",
+"translation": "나의 할아버지는 큰 농장을 가지고 계신다.",
+"level": "middle_1"
+},
+{
+"word": "fashion",
+"meaning": "유행, 패션",
+"pos": "noun",
+"example": "She is interested in fashion.",
+"translation": "그녀는 패션에 관심이 있다.",
+"level": "middle_1"
+},
+{
+"word": "fasten",
+"meaning": "매다, 고정시키다",
+"pos": "verb",
+"example": "Please fasten your seat belt.",
+"translation": "안전벨트를 매 주세요.",
+"level": "middle_1"
+},
+{
+"word": "fault",
+"meaning": "잘못, 결점",
+"pos": "noun",
+"example": "It's not my fault.",
+"translation": "내 잘못이 아니야.",
+"level": "middle_1"
+},
+{
+"word": "favor",
+"meaning": "호의, 부탁",
+"pos": "noun",
+"example": "Can you do me a favor?",
+"translation": "부탁 하나 들어줄 수 있니?",
+"level": "middle_1"
+},
+{
+"word": "favorite",
+"meaning": "가장 좋아하는",
+"pos": "adjective",
+"example": "What is your favorite color?",
+"translation": "네가 가장 좋아하는 색은 무엇이니?",
+"level": "middle_1"
+},
+{
+"word": "fear",
+"meaning": "두려움, 공포",
+"pos": "noun",
+"example": "He overcame his fear of heights.",
+"translation": "그는 고소공포증을 극복했다.",
+"level": "middle_1"
+},
+{
+"word": "feature",
+"meaning": "특징",
+"pos": "noun",
+"example": "This phone has many new features.",
+"translation": "이 전화기는 많은 새로운 특징을 가지고 있다.",
+"level": "middle_1"
+},
+{
+"word": "feed",
+"meaning": "먹이를 주다",
+"pos": "verb",
+"example": "Don't feed the animals.",
+"translation": "동물들에게 먹이를 주지 마시오.",
+"level": "middle_1"
+},
+{
+"word": "feel",
+"meaning": "느끼다",
+"pos": "verb",
+"example": "I feel happy today.",
+"translation": "나는 오늘 기분이 좋다.",
+"level": "middle_1"
+},
+{
+"word": "female",
+"meaning": "여성의, 암컷의",
+"pos": "adjective",
+"example": "Is the cat male or female?",
+"translation": "그 고양이는 수컷이니 암컷이니?",
+"level": "middle_1"
+},
+{
+"word": "fence",
+"meaning": "울타리",
+"pos": "noun",
+"example": "The house has a white fence.",
+"translation": "그 집은 흰 울타리가 있다.",
+"level": "middle_1"
+},
+{
+"word": "festival",
+"meaning": "축제",
+"pos": "noun",
+"example": "The school festival is next week.",
+"translation": "학교 축제는 다음 주이다.",
+"level": "middle_1"
+},
+{
+"word": "fever",
+"meaning": "열",
+"pos": "noun",
+"example": "I have a high fever.",
+"translation": "나는 열이 심하다.",
+"level": "middle_1"
+},
+{
+"word": "few",
+"meaning": "거의 없는, 소수의",
+"pos": "adjective",
+"example": "Few people know the truth.",
+"translation": "진실을 아는 사람은 거의 없다.",
+"level": "middle_1"
+},
+{
+"word": "field",
+"meaning": "들판, 분야",
+"pos": "noun",
+"example": "Cows are eating grass in the field.",
+"translation": "소들이 들판에서 풀을 먹고 있다.",
+"level": "middle_1"
+},
+{
+"word": "fight",
+"meaning": "싸우다",
+"pos": "verb",
+"example": "Don't fight with your friends.",
+"translation": "친구들과 싸우지 마라.",
+"level": "middle_1"
+},
+{
+"word": "figure",
+"meaning": "수치, 인물, 모양",
+"pos": "noun",
+"example": "He is a public figure.",
+"translation": "그는 공인이다.",
+"level": "middle_1"
+},
+{
+"word": "fill",
+"meaning": "채우다",
+"pos": "verb",
+"example": "Fill the glass with water.",
+"translation": "잔을 물로 채워라.",
+"level": "middle_1"
+},
+{
+"word": "final",
+"meaning": "마지막의",
+"pos": "adjective",
+"example": "This is the final match.",
+"translation": "이것은 마지막 경기이다.",
+"level": "middle_1"
+},
+{
+"word": "finance",
+"meaning": "재정, 자금",
+"pos": "noun",
+"example": "He works in finance.",
+"translation": "그는 금융업에 종사한다.",
+"level": "middle_1"
+},
+{
+"word": "fine",
+"meaning": "좋은, 벌금",
+"pos": "adjective",
+"example": "The weather is fine today.",
+"translation": "오늘 날씨가 좋다.",
+"level": "middle_1"
+},
+{
+"word": "firm",
+"meaning": "단단한, 회사",
+"pos": "noun",
+"example": "He works for a law firm.",
+"translation": "그는 법률 회사에서 일한다.",
+"level": "middle_1"
+},
+{
+"word": "fit",
+"meaning": "꼭 맞다, 건강한",
+"pos": "verb",
+"example": "This shirt fits me well.",
+"translation": "이 셔츠는 나에게 잘 맞는다.",
+"level": "middle_1"
+},
+{
+"word": "fix",
+"meaning": "고치다, 수리하다",
+"pos": "verb",
+"example": "Can you fix my bike?",
+"translation": "내 자전거를 고쳐줄 수 있니?",
+"level": "middle_1"
+},
+{
+"word": "flag",
+"meaning": "깃발",
+"pos": "noun",
+"example": "Raise the national flag.",
+"translation": "국기를 게양해라.",
+"level": "middle_1"
+},
+{
+"word": "flame",
+"meaning": "불꽃",
+"pos": "noun",
+"example": "The candle has a small flame.",
+"translation": "양초에 작은 불꽃이 있다.",
+"level": "middle_1"
+},
+{
+"word": "flash",
+"meaning": "번쩍이다, 섬광",
+"pos": "verb",
+"example": "Lightning flashed in the sky.",
+"translation": "하늘에서 번개가 번쩍였다.",
+"level": "middle_1"
+},
+{
+"word": "flat",
+"meaning": "평평한",
+"pos": "adjective",
+"example": "The earth is not flat.",
+"translation": "지구는 평평하지 않다.",
+"level": "middle_1"
+},
+{
+"word": "flavor",
+"meaning": "맛, 풍미",
+"pos": "noun",
+"example": "I like the flavor of lemon.",
+"translation": "나는 레몬 맛을 좋아한다.",
+"level": "middle_1"
+},
+{
+"word": "flight",
+"meaning": "비행, 항공편",
+"pos": "noun",
+"example": "Our flight was delayed.",
+"translation": "우리 비행기가 지연되었다.",
+"level": "middle_1"
+},
+{
+"word": "float",
+"meaning": "뜨다",
+"pos": "verb",
+"example": "Oil floats on water.",
+"translation": "기름은 물 위에 뜬다.",
+"level": "middle_1"
+},
+{
+"word": "flood",
+"meaning": "홍수",
+"pos": "noun",
+"example": "Heavy rain caused a flood.",
+"translation": "폭우가 홍수를 일으켰다.",
+"level": "middle_1"
+},
+{
+"word": "flour",
+"meaning": "밀가루",
+"pos": "noun",
+"example": "Bread is made from flour.",
+"translation": "빵은 밀가루로 만들어진다.",
+"level": "middle_1"
+},
+{
+"word": "flow",
+"meaning": "흐르다",
+"pos": "verb",
+"example": "The river flows into the sea.",
+"translation": "강은 바다로 흘러간다.",
+"level": "middle_1"
+},
+{
+"word": "flu",
+"meaning": "독감",
+"pos": "noun",
+"example": "I'm in bed with the flu.",
+"translation": "나는 독감으로 누워 있다.",
+"level": "middle_1"
+},
+{
+"word": "focus",
+"meaning": "집중하다, 초점",
+"pos": "verb",
+"example": "Please focus on your work.",
+"translation": "너의 일에 집중해라.",
+"level": "middle_1"
+},
+{
+"word": "fog",
+"meaning": "안개",
+"pos": "noun",
+"example": "The city was covered in fog.",
+"translation": "도시는 안개로 뒤덮였다.",
+"level": "middle_1"
+},
+{
+"word": "fold",
+"meaning": "접다",
+"pos": "verb",
+"example": "Fold the paper in half.",
+"translation": "종이를 반으로 접어라.",
+"level": "middle_1"
+},
+{
+"word": "folk",
+"meaning": "민속의, 사람들",
+"pos": "adjective",
+"example": "I enjoy listening to folk music.",
+"translation": "나는 민속 음악 듣는 것을 즐긴다.",
+"level": "middle_1"
+},
+{
+"word": "follow",
+"meaning": "따라가다",
+"pos": "verb",
+"example": "Follow me, please.",
+"translation": "나를 따라오세요.",
+"level": "middle_1"
+},
+{
+"word": "fond",
+"meaning": "좋아하는",
+"pos": "adjective",
+"example": "She is fond of cats.",
+"translation": "그녀는 고양이를 좋아한다.",
+"level": "middle_1"
+},
+{
+"word": "fool",
+"meaning": "바보",
+"pos": "noun",
+"example": "Don't act like a fool.",
+"translation": "바보처럼 행동하지 마라.",
+"level": "middle_1"
+},
+{
+"word": "force",
+"meaning": "힘, 강요하다",
+"pos": "noun",
+"example": "The wind blew with great force.",
+"translation": "바람이 거센 힘으로 불었다.",
+"level": "middle_1"
+},
+{
+"word": "foreign",
+"meaning": "외국의",
+"pos": "adjective",
+"example": "Learning a foreign language is fun.",
+"translation": "외국어를 배우는 것은 재미있다.",
+"level": "middle_1"
+},
+{
+"word": "forest",
+"meaning": "숲",
+"pos": "noun",
+"example": "Animals live in the forest.",
+"translation": "동물들은 숲에 산다.",
+"level": "middle_1"
+},
+{
+"word": "forever",
+"meaning": "영원히",
+"pos": "adverb",
+"example": "I will love you forever.",
+"translation": "나는 너를 영원히 사랑할 거야.",
+"level": "middle_1"
+},
+{
+"word": "forget",
+"meaning": "잊다",
+"pos": "verb",
+"example": "Don't forget to lock the door.",
+"translation": "문 잠그는 것을 잊지 마라.",
+"level": "middle_1"
+},
+{
+"word": "forgive",
+"meaning": "용서하다",
+"pos": "verb",
+"example": "Please forgive my mistake.",
+"translation": "내 실수를 용서해 주세요.",
+"level": "middle_1"
+},
+{
+"word": "form",
+"meaning": "형태, 형성하다, 서식",
+"pos": "noun",
+"example": "Fill out this form.",
+"translation": "이 서식을 작성하세요.",
+"level": "middle_1"
+},
+{
+"word": "formal",
+"meaning": "격식을 차린, 공식적인",
+"pos": "adjective",
+"example": "You should wear formal clothes.",
+"translation": "너는 격식 있는 옷을 입어야 한다.",
+"level": "middle_1"
+},
+{
+"word": "former",
+"meaning": "이전의, 전자의",
+"pos": "adjective",
+"example": "He is a former soccer player.",
+"translation": "그는 전직 축구 선수이다.",
+"level": "middle_1"
+},
+{
+"word": "fortune",
+"meaning": "운, 재산",
+"pos": "noun",
+"example": "He spent a fortune on the car.",
+"translation": "그는 그 차에 거금을 썼다.",
+"level": "middle_1"
+},
+{
+"word": "forward",
+"meaning": "앞으로",
+"pos": "adverb",
+"example": "Step forward.",
+"translation": "앞으로 나오시오.",
+"level": "middle_1"
+},
+{
+"word": "found",
+"meaning": "설립하다, 기초를 세우다",
+"pos": "verb",
+"example": "The city was founded in 1800.",
+"translation": "그 도시는 1800년에 설립되었다.",
+"level": "middle_1"
+},
+{
+"word": "fountain",
+"meaning": "분수",
+"pos": "noun",
+"example": "There is a fountain in the park.",
+"translation": "공원에 분수가 있다.",
+"level": "middle_1"
+},
+{
+"word": "free",
+"meaning": "자유로운, 무료의",
+"pos": "adjective",
+"example": "Are you free this evening?",
+"translation": "오늘 저녁에 시간 있니?",
+"level": "middle_1"
+},
+{
+"word": "freeze",
+"meaning": "얼다",
+"pos": "verb",
+"example": "Water freezes in winter.",
+"translation": "겨울에는 물이 언다.",
+"level": "middle_1"
+},
+{
+"word": "fresh",
+"meaning": "신선한",
+"pos": "adjective",
+"example": "I bought some fresh vegetables.",
+"translation": "나는 신선한 채소를 좀 샀다.",
+"level": "middle_1"
+},
+{
+"word": "frighten",
+"meaning": "겁먹게 하다",
+"pos": "verb",
+"example": "The loud noise frightened the baby.",
+"translation": "큰 소음이 아기를 겁먹게 했다.",
+"level": "middle_1"
+},
+{
+"word": "front",
+"meaning": "앞, 정면",
+"pos": "noun",
+"example": "He is standing in front of the building.",
+"translation": "그는 건물 앞에 서 있다.",
+"level": "middle_1"
+},
+{
+"word": "fry",
+"meaning": "튀기다, 굽다",
+"pos": "verb",
+"example": "She fried an egg.",
+"translation": "그녀는 달걀을 부쳤다(튀겼다).",
+"level": "middle_1"
+},
+{
+"word": "fuel",
+"meaning": "연료",
+"pos": "noun",
+"example": "The car is running out of fuel.",
+"translation": "차가 연료가 다 떨어져 간다.",
+"level": "middle_1"
+},
+{
+"word": "full",
+"meaning": "가득 찬",
+"pos": "adjective",
+"example": "The glass is full of milk.",
+"translation": "잔이 우유로 가득 차 있다.",
+"level": "middle_1"
+},
+{
+"word": "function",
+"meaning": "기능, 작동하다",
+"pos": "noun",
+"example": "What is the function of this button?",
+"translation": "이 버튼의 기능은 무엇이니?",
+"level": "middle_1"
+},
+{
+"word": "fur",
+"meaning": "털, 모피",
+"pos": "noun",
+"example": "The cat has soft fur.",
+"translation": "그 고양이는 부드러운 털을 가졌다.",
+"level": "middle_1"
+},
+{
+"word": "furniture",
+"meaning": "가구",
+"pos": "noun",
+"example": "We moved the furniture.",
+"translation": "우리는 가구를 옮겼다.",
+"level": "middle_1"
+},
+{
+"word": "future",
+"meaning": "미래",
+"pos": "noun",
+"example": "Think about your future.",
+"translation": "너의 미래에 대해 생각해 봐.",
+"level": "middle_1"
+},
+{
+"word": "gain",
+"meaning": "얻다",
+"pos": "verb",
+"example": "He gained weight during the holidays.",
+"translation": "그는 휴가 동안 체중이 늘었다.",
+"level": "middle_1"
+},
+{
+"word": "gallery",
+"meaning": "미술관, 화랑",
+"pos": "noun",
+"example": "We visited an art gallery.",
+"translation": "우리는 미술관을 방문했다.",
+"level": "middle_1"
+},
+{
+"word": "gap",
+"meaning": "격차, 틈",
+"pos": "noun",
+"example": "There is a large gap between rich and poor.",
+"translation": "빈부 격차가 크다.",
+"level": "middle_1"
+},
+{
+"word": "garage",
+"meaning": "차고",
+"pos": "noun",
+"example": "Park the car in the garage.",
+"translation": "차고에 주차해라.",
+"level": "middle_1"
+},
+{
+"word": "garbage",
+"meaning": "쓰레기",
+"pos": "noun",
+"example": "Throw the garbage in the bin.",
+"translation": "쓰레기를 통에 버려라.",
+"level": "middle_1"
+},
+{
+"word": "gas",
+"meaning": "기체, 가스, 휘발유",
+"pos": "noun",
+"example": "We need to put gas in the car.",
+"translation": "우리는 차에 기름을 넣어야 한다.",
+"level": "middle_1"
+},
+{
+"word": "gate",
+"meaning": "문, 정문",
+"pos": "noun",
+"example": "Wait for me at the school gate.",
+"translation": "학교 정문에서 나를 기다려.",
+"level": "middle_1"
+},
+{
+"word": "gather",
+"meaning": "모으다, 모이다",
+"pos": "verb",
+"example": "Students gathered in the hall.",
+"translation": "학생들이 강당에 모였다.",
+"level": "middle_1"
+},
+{
+"word": "general",
+"meaning": "일반적인, 장군",
+"pos": "adjective",
+"example": "The general opinion is positive.",
+"translation": "일반적인 여론은 긍정적이다.",
+"level": "middle_1"
+},
+{
+"word": "generation",
+"meaning": "세대",
+"pos": "noun",
+"example": "The older generation likes trot music.",
+"translation": "기성세대는 트로트 음악을 좋아한다.",
+"level": "middle_1"
+},
+{
+"word": "gentle",
+"meaning": "온화한, 부드러운",
+"pos": "adjective",
+"example": "She has a gentle voice.",
+"translation": "그녀는 온화한 목소리를 가졌다.",
+"level": "middle_1"
+},
+{
+"word": "gentleman",
+"meaning": "신사",
+"pos": "noun",
+"example": "He is a true gentleman.",
+"translation": "그는 진정한 신사이다.",
+"level": "middle_1"
+},
+{
+"word": "geography",
+"meaning": "지리",
+"pos": "noun",
+"example": "I learned about maps in geography class.",
+"translation": "나는 지리 시간에 지도에 대해 배웠다.",
+"level": "middle_1"
+},
+{
+"word": "gesture",
+"meaning": "몸짓, 제스처",
+"pos": "noun",
+"example": "He made a rude gesture.",
+"translation": "그는 무례한 몸짓을 했다.",
+"level": "middle_1"
+},
+{
+"word": "ghost",
+"meaning": "유령",
+"pos": "noun",
+"example": "Are you afraid of ghosts?",
+"translation": "너는 유령을 무서워하니?",
+"level": "middle_1"
+},
+{
+"word": "giant",
+"meaning": "거대한, 거인",
+"pos": "adjective",
+"example": "We saw a giant panda.",
+"translation": "우리는 거대한 판다를 보았다.",
+"level": "middle_1"
+},
+{
+"word": "gift",
+"meaning": "선물, 재능",
+"pos": "noun",
+"example": "This book is a gift for you.",
+"translation": "이 책은 너를 위한 선물이다.",
+"level": "middle_1"
+},
+{
+"word": "glad",
+"meaning": "기쁜",
+"pos": "adjective",
+"example": "I am glad to meet you.",
+"translation": "너를 만나서 기뻐.",
+"level": "middle_1"
+},
+{
+"word": "global",
+"meaning": "세계적인, 지구의",
+"pos": "adjective",
+"example": "Global warming is a serious problem.",
+"translation": "지구 온난화는 심각한 문제이다.",
+"level": "middle_1"
+},
+{
+"word": "glove",
+"meaning": "장갑",
+"pos": "noun",
+"example": "Put on your gloves.",
+"translation": "장갑을 껴라.",
+"level": "middle_1"
+},
+{
+"word": "glue",
+"meaning": "풀, 접착제",
+"pos": "noun",
+"example": "Use glue to stick the paper.",
+"translation": "종이를 붙이려면 풀을 사용해라.",
+"level": "middle_1"
+},
+{
+"word": "goal",
+"meaning": "목표, 골",
+"pos": "noun",
+"example": "My goal is to be a doctor.",
+"translation": "나의 목표는 의사가 되는 것이다.",
+"level": "middle_1"
+},
+{
+"word": "god",
+"meaning": "신",
+"pos": "noun",
+"example": "He prayed to God.",
+"translation": "그는 신에게 기도했다.",
+"level": "middle_1"
+},
+{
+"word": "gold",
+"meaning": "금",
+"pos": "noun",
+"example": "She won a gold medal.",
+"translation": "그녀는 금메달을 땄다.",
+"level": "middle_1"
+},
+{
+"word": "goods",
+"meaning": "상품, 물품",
+"pos": "noun",
+"example": "They sell leather goods.",
+"translation": "그들은 가죽 제품을 판다.",
+"level": "middle_1"
+},
+{
+"word": "government",
+"meaning": "정부",
+"pos": "noun",
+"example": "The government announced a new policy.",
+"translation": "정부는 새로운 정책을 발표했다.",
+"level": "middle_1"
+},
+{
+"word": "grade",
+"meaning": "학년, 성적, 등급",
+"pos": "noun",
+"example": "I am in the seventh grade.",
+"translation": "나는 7학년(중1)이다.",
+"level": "middle_1"
+},
+{
+"word": "graduate",
+"meaning": "졸업하다",
+"pos": "verb",
+"example": "He will graduate next month.",
+"translation": "그는 다음 달에 졸업할 것이다.",
+"level": "middle_1"
+},
+{
+"word": "grain",
+"meaning": "곡물",
+"pos": "noun",
+"example": "Rice is a major grain in Asia.",
+"translation": "쌀은 아시아의 주요 곡물이다.",
+"level": "middle_1"
+},
+{
+"word": "grammar",
+"meaning": "문법",
+"pos": "noun",
+"example": "English grammar is difficult.",
+"translation": "영어 문법은 어렵다.",
+"level": "middle_1"
+},
+{
+"word": "grand",
+"meaning": "웅장한, 거대한",
+"pos": "adjective",
+"example": "They stayed at a grand hotel.",
+"translation": "그들은 웅장한 호텔에 머물렀다.",
+"level": "middle_1"
+},
+{
+"word": "grass",
+"meaning": "풀, 잔디",
+"pos": "noun",
+"example": "Don't walk on the grass.",
+"translation": "잔디 위를 걷지 마라.",
+"level": "middle_1"
+},
+{
+"word": "grateful",
+"meaning": "고마워하는",
+"pos": "adjective",
+"example": "I am grateful for your help.",
+"translation": "너의 도움에 감사한다.",
+"level": "middle_1"
+},
+{
+"word": "grave",
+"meaning": "무덤, 심각한",
+"pos": "noun",
+"example": "She visited her father's grave.",
+"translation": "그녀는 아버지의 묘소를 방문했다.",
+"level": "middle_1"
+},
+{
+"word": "greedy",
+"meaning": "탐욕스러운",
+"pos": "adjective",
+"example": "Don't be greedy.",
+"translation": "욕심부리지 마라.",
+"level": "middle_1"
+},
+{
+"word": "greet",
+"meaning": "인사하다",
+"pos": "verb",
+"example": "He greeted me with a smile.",
+"translation": "그는 미소로 나를 맞이했다.",
+"level": "middle_1"
+},
+{
+"word": "ground",
+"meaning": "땅, 지면",
+"pos": "noun",
+"example": "An apple fell to the ground.",
+"translation": "사과가 땅으로 떨어졌다.",
+"level": "middle_1"
+},
+{
+"word": "group",
+"meaning": "집단, 그룹",
+"pos": "noun",
+"example": "A group of students visited the museum.",
+"translation": "한 무리의 학생들이 박물관을 방문했다.",
+"level": "middle_1"
+},
+{
+"word": "grow",
+"meaning": "자라다, 재배하다",
+"pos": "verb",
+"example": "Plants grow well in sunlight.",
+"translation": "식물은 햇빛 속에서 잘 자란다.",
+"level": "middle_1"
+},
+{
+"word": "guard",
+"meaning": "경비원, 지키다",
+"pos": "noun",
+"example": "The guard protects the building.",
+"translation": "경비원이 건물을 지킨다.",
+"level": "middle_1"
+},
+{
+"word": "guess",
+"meaning": "추측하다",
+"pos": "verb",
+"example": "Can you guess the answer?",
+"translation": "답을 추측할 수 있니?",
+"level": "middle_1"
+},
+{
+"word": "guest",
+"meaning": "손님",
+"pos": "noun",
+"example": "We have guests for dinner.",
+"translation": "우리는 저녁 식사에 손님이 있다.",
+"level": "middle_1"
+},
+{
+"word": "guide",
+"meaning": "안내하다, 안내원",
+"pos": "verb",
+"example": "The map will guide you.",
+"translation": "지도가 너를 안내할 것이다.",
+"level": "middle_1"
+},
+{
+"word": "guilty",
+"meaning": "유죄의, 죄책감을 느끼는",
+"pos": "adjective",
+"example": "He felt guilty about lying.",
+"translation": "그는 거짓말한 것에 대해 죄책감을 느꼈다.",
+"level": "middle_1"
+},
+{
+"word": "gun",
+"meaning": "총",
+"pos": "noun",
+"example": "Police officers carry guns.",
+"translation": "경찰관들은 총을 휴대한다.",
+"level": "middle_1"
+},
+{
+"word": "gym",
+"meaning": "체육관",
+"pos": "noun",
+"example": "I exercise at the gym.",
+"translation": "나는 체육관에서 운동한다.",
+"level": "middle_1"
+},
+{
+"word": "habit",
+"meaning": "습관",
+"pos": "noun",
+"example": "Biting nails is a bad habit.",
+"translation": "손톱을 물어뜯는 것은 나쁜 습관이다.",
+"level": "middle_1"
+},
+{
+"word": "half",
+"meaning": "절반",
+"pos": "noun",
+"example": "Cut the apple in half.",
+"translation": "사과를 반으로 잘라라.",
+"level": "middle_1"
+},
+{
+"word": "hall",
+"meaning": "복도, 홀",
+"pos": "noun",
+"example": "Wait in the hall.",
+"translation": "복도에서 기다려라.",
+"level": "middle_1"
+},
+{
+"word": "happen",
+"meaning": "일어나다, 발생하다",
+"pos": "verb",
+"example": "What happened to you?",
+"translation": "너에게 무슨 일이 일어났니?",
+"level": "middle_1"
+},
+{
+"word": "hardly",
+"meaning": "거의 ~않다",
+"pos": "adverb",
+"example": "I can hardly hear you.",
+"translation": "네 목소리가 거의 안 들려.",
+"level": "middle_1"
+},
+{
+"word": "harm",
+"meaning": "해, 손해",
+"pos": "noun",
+"example": "Smoking causes harm to your health.",
+"translation": "흡연은 건강에 해를 끼친다.",
+"level": "middle_1"
+},
+{
+"word": "hate",
+"meaning": "싫어하다, 증오하다",
+"pos": "verb",
+"example": "I hate waking up early.",
+"translation": "나는 일찍 일어나는 것을 싫어한다.",
+"level": "middle_1"
+},
+{
+"word": "headache",
+"meaning": "두통",
+"pos": "noun",
+"example": "I have a terrible headache.",
+"translation": "나는 심한 두통이 있다.",
+"level": "middle_1"
+},
+{
+"word": "heal",
+"meaning": "치유하다, 낫다",
+"pos": "verb",
+"example": "The wound healed quickly.",
+"translation": "상처가 빨리 아물었다.",
+"level": "middle_1"
+},
+{
+"word": "health",
+"meaning": "건강",
+"pos": "noun",
+"example": "Smoking is bad for your health.",
+"translation": "흡연은 너의 건강에 나쁘다.",
+"level": "middle_1"
+},
+{
+"word": "hear",
+"meaning": "듣다",
+"pos": "verb",
+"example": "Did you hear the news?",
+"translation": "그 뉴스 들었니?",
+"level": "middle_1"
+},
+{
+"word": "heart",
+"meaning": "심장, 마음",
+"pos": "noun",
+"example": "My heart is beating fast.",
+"translation": "내 심장이 빨리 뛰고 있다.",
+"level": "middle_1"
+},
+{
+"word": "heat",
+"meaning": "열, 더위",
+"pos": "noun",
+"example": "The sun gives us light and heat.",
+"translation": "태양은 우리에게 빛과 열을 준다.",
+"level": "middle_1"
+},
+{
+"word": "heaven",
+"meaning": "천국, 하늘",
+"pos": "noun",
+"example": "The stars are in the heaven.",
+"translation": "별들은 하늘에 있다.",
+"level": "middle_1"
+},
+{
+"word": "heavy",
+"meaning": "무거운",
+"pos": "adjective",
+"example": "This bag is too heavy.",
+"translation": "이 가방은 너무 무겁다.",
+"level": "middle_1"
+},
+{
+"word": "height",
+"meaning": "키, 높이",
+"pos": "noun",
+"example": "What is your height?",
+"translation": "너의 키는 몇이니?",
+"level": "middle_1"
+},
+{
+"word": "hero",
+"meaning": "영웅",
+"pos": "noun",
+"example": "He is a war hero.",
+"translation": "그는 전쟁 영웅이다.",
+"level": "middle_1"
+},
+{
+"word": "hide",
+"meaning": "숨다, 숨기다",
+"pos": "verb",
+"example": "The cat is hiding under the bed.",
+"translation": "고양이가 침대 밑에 숨어 있다.",
+"level": "middle_1"
+},
+{
+"word": "hill",
+"meaning": "언덕",
+"pos": "noun",
+"example": "The house is on the hill.",
+"translation": "그 집은 언덕 위에 있다.",
+"level": "middle_1"
+},
+{
+"word": "history",
+"meaning": "역사",
+"pos": "noun",
+"example": "I like studying history.",
+"translation": "나는 역사 공부를 좋아한다.",
+"level": "middle_1"
+},
+{
+"word": "hit",
+"meaning": "치다, 때리다",
+"pos": "verb",
+"example": "He hit the ball with a bat.",
+"translation": "그는 방망이로 공을 쳤다.",
+"level": "middle_1"
+},
+{
+"word": "hobby",
+"meaning": "취미",
+"pos": "noun",
+"example": "My hobby is reading books.",
+"translation": "내 취미는 독서이다.",
+"level": "middle_1"
+},
+{
+"word": "hold",
+"meaning": "잡다, 개최하다",
+"pos": "verb",
+"example": "Hold my hand.",
+"translation": "내 손을 잡아라.",
+"level": "middle_1"
+},
+{
+"word": "hole",
+"meaning": "구멍",
+"pos": "noun",
+"example": "There is a hole in my sock.",
+"translation": "내 양말에 구멍이 났다.",
+"level": "middle_1"
+},
+{
+"word": "holiday",
+"meaning": "휴일, 방학",
+"pos": "noun",
+"example": "Where are you going for your holiday?",
+"translation": "휴가 때 어디 갈 거니?",
+"level": "middle_1"
+},
+{
+"word": "holy",
+"meaning": "신성한",
+"pos": "adjective",
+"example": "This is a holy place.",
+"translation": "이곳은 신성한 장소이다.",
+"level": "middle_1"
+},
+{
+"word": "honest",
+"meaning": "정직한",
+"pos": "adjective",
+"example": "To be honest, I don't like it.",
+"translation": "솔직히 말해서, 나는 그것을 좋아하지 않아.",
+"level": "middle_1"
+},
+{
+"word": "honey",
+"meaning": "꿀",
+"pos": "noun",
+"example": "Bees make honey.",
+"translation": "벌들은 꿀을 만든다.",
+"level": "middle_1"
+},
+{
+"word": "honor",
+"meaning": "명예, 존경하다",
+"pos": "noun",
+"example": "It is an honor to meet you.",
+"translation": "당신을 만나서 영광입니다.",
+"level": "middle_1"
+},
+{
+"word": "hope",
+"meaning": "희망하다",
+"pos": "verb",
+"example": "I hope you feel better.",
+"translation": "네가 나아지길 바란다.",
+"level": "middle_1"
+},
+{
+"word": "horrible",
+"meaning": "끔찍한",
+"pos": "adjective",
+"example": "I had a horrible dream.",
+"translation": "나는 끔찍한 꿈을 꿨다.",
+"level": "middle_1"
+},
+{
+"word": "host",
+"meaning": "주인, 주최하다",
+"pos": "noun",
+"example": "Our country will host the Olympics.",
+"translation": "우리나라가 올림픽을 개최할 것이다.",
+"level": "middle_1"
+},
+{
+"word": "hour",
+"meaning": "시간",
+"pos": "noun",
+"example": "I waited for an hour.",
+"translation": "나는 한 시간 동안 기다렸다.",
+"level": "middle_1"
+},
+{
+"word": "huge",
+"meaning": "거대한",
+"pos": "adjective",
+"example": "The elephant is huge.",
+"translation": "그 코끼리는 거대하다.",
+"level": "middle_1"
+},
+{
+"word": "human",
+"meaning": "인간, 인간의",
+"pos": "noun",
+"example": "Humans cannot fly.",
+"translation": "인간은 날 수 없다.",
+"level": "middle_1"
+},
+{
+"word": "humble",
+"meaning": "겸손한",
+"pos": "adjective",
+"example": "He is a humble man.",
+"translation": "그는 겸손한 사람이다.",
+"level": "middle_1"
+},
+{
+"word": "humor",
+"meaning": "유머",
+"pos": "noun",
+"example": "He has a good sense of humor.",
+"translation": "그는 유머 감각이 좋다.",
+"level": "middle_1"
+},
+{
+"word": "hungry",
+"meaning": "배고픈",
+"pos": "adjective",
+"example": "I am very hungry.",
+"translation": "나는 매우 배고프다.",
+"level": "middle_1"
+},
+{
+"word": "hunt",
+"meaning": "사냥하다",
+"pos": "verb",
+"example": "Lions hunt for food.",
+"translation": "사자들은 먹이를 사냥한다.",
+"level": "middle_1"
+},
+{
+"word": "hurry",
+"meaning": "서두르다",
+"pos": "verb",
+"example": "Hurry up, or we will be late.",
+"translation": "서둘러, 아니면 우리 늦을 거야.",
+"level": "middle_1"
+},
+{
+"word": "hurt",
+"meaning": "다치게 하다, 아프다",
+"pos": "verb",
+"example": "Did you hurt yourself?",
+"translation": "너 다쳤니?",
+"level": "middle_1"
+},
+{
+"word": "husband",
+"meaning": "남편",
+"pos": "noun",
+"example": "Her husband is a doctor.",
+"translation": "그녀의 남편은 의사이다.",
+"level": "middle_1"
+}
+]
