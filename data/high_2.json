@@ -1,0 +1,722 @@
+[
+  {
+    "word": "abdicate",
+    "meaning": "퇴위하다, 포기하다",
+    "pos": "verb",
+    "example": "The king decided to abdicate the throne in favor of his son, sparking a political crisis.",
+    "translation": "왕은 아들을 위해 왕위를 물려주기로 결정했고, 이는 정치적 위기를 촉발했다.",
+    "level": "high_2"
+  },
+  {
+    "word": "aberration",
+    "meaning": "일탈, 정도를 벗어남",
+    "pos": "noun",
+    "example": "The scientist regarded the sudden spike in temperature as a temporary aberration in the climate data.",
+    "translation": "과학자는 갑작스러운 기온 상승을 기후 데이터상의 일시적인 일탈로 간주했다.",
+    "level": "high_2"
+  },
+  {
+    "word": "abhor",
+    "meaning": "혐오하다",
+    "pos": "verb",
+    "example": "She abhors any form of cruelty to animals, advocating for stricter protection laws.",
+    "translation": "그녀는 동물에 대한 어떠한 형태의 잔인함도 혐오하며, 더 엄격한 보호법을 옹호한다.",
+    "level": "high_2"
+  },
+  {
+    "word": "abject",
+    "meaning": "비참한, 절망적인",
+    "pos": "adjective",
+    "example": "Living in abject poverty, the family struggled to find enough food to survive each day.",
+    "translation": "비참한 빈곤 속에 살면서, 그 가족은 매일 생존할 충분한 식량을 구하기 위해 고군분투했다.",
+    "level": "high_2"
+  },
+  {
+    "word": "abrasive",
+    "meaning": "연마제의, 거친, 신경질적인",
+    "pos": "adjective",
+    "example": "His abrasive manner often alienated his colleagues, making teamwork difficult.",
+    "translation": "그의 거친 태도는 종종 동료들을 멀어지게 하여 팀워크를 어렵게 만들었다.",
+    "level": "high_2"
+  },
+  {
+    "word": "abridge",
+    "meaning": "요약하다, 단축하다",
+    "pos": "verb",
+    "example": "The publisher decided to abridge the lengthy novel to make it more accessible to young readers.",
+    "translation": "출판사는 어린 독자들이 더 쉽게 접근할 수 있도록 그 긴 소설을 요약하기로 결정했다.",
+    "level": "high_2"
+  },
+  {
+    "word": "abscond",
+    "meaning": "도주하다, 자취를 감추다",
+    "pos": "verb",
+    "example": "The treasurer managed to abscond with the company funds before the audit began.",
+    "translation": "회계 담당자는 감사가 시작되기 전에 회사 자금을 가지고 도주하는 데 성공했다.",
+    "level": "high_2"
+  },
+  {
+    "word": "abstinence",
+    "meaning": "절제, 금욕",
+    "pos": "noun",
+    "example": "The doctor recommended total abstinence from alcohol to improve the patient's liver function.",
+    "translation": "의사는 환자의 간 기능을 개선하기 위해 알코올을 완전히 절제할 것을 권고했다.",
+    "level": "high_2"
+  },
+  {
+    "word": "abstraction",
+    "meaning": "추상, 관념",
+    "pos": "noun",
+    "example": "Philosophy often deals with abstraction, exploring concepts that have no physical form.",
+    "translation": "철학은 종종 물리적 형태가 없는 개념들을 탐구하며 추상을 다룬다.",
+    "level": "high_2"
+  },
+  {
+    "word": "abstruse",
+    "meaning": "난해한, 심오한",
+    "pos": "adjective",
+    "example": "The professor's lecture on quantum physics was too abstruse for most of the undergraduate students.",
+    "translation": "양자 물리학에 대한 교수의 강의는 대부분의 학부생들에게 너무 난해했다.",
+    "level": "high_2"
+  },
+  {
+    "word": "abundant",
+    "meaning": "풍부한",
+    "pos": "adjective",
+    "example": "The region is abundant in natural resources, which drives its economic growth.",
+    "translation": "그 지역은 천연자원이 풍부하여 경제 성장을 견인한다.",
+    "level": "high_2"
+  },
+  {
+    "word": "accede",
+    "meaning": "응하다, 동의하다, (관직에) 오르다",
+    "pos": "verb",
+    "example": "The government refused to accede to the demands of the terrorists.",
+    "translation": "정부는 테러리스트들의 요구에 응하기를 거부했다.",
+    "level": "high_2"
+  },
+  {
+    "word": "accentuate",
+    "meaning": "강조하다, 두드러지게 하다",
+    "pos": "verb",
+    "example": "The dress was designed to accentuate her slim figure.",
+    "translation": "그 드레스는 그녀의 날씬한 몸매를 강조하도록 디자인되었다.",
+    "level": "high_2"
+  },
+  {
+    "word": "acclaim",
+    "meaning": "칭송하다, 환호",
+    "pos": "verb",
+    "example": "The novel was critically acclaimed for its realistic portrayal of historical events.",
+    "translation": "그 소설은 역사적 사건에 대한 사실적인 묘사로 비평가들의 칭송을 받았다.",
+    "level": "high_2"
+  },
+  {
+    "word": "acclimate",
+    "meaning": "적응시키다, 순응하다",
+    "pos": "verb",
+    "example": "It takes time to acclimate to the high altitude when climbing Mount Everest.",
+    "translation": "에베레스트 산을 등반할 때 높은 고도에 적응하는 데는 시간이 걸린다.",
+    "level": "high_2"
+  },
+  {
+    "word": "accolade",
+    "meaning": "포상, 칭찬",
+    "pos": "noun",
+    "example": "Winning the Nobel Prize is the highest accolade a scientist can receive.",
+    "translation": "노벨상을 받는 것은 과학자가 받을 수 있는 최고의 영예이다.",
+    "level": "high_2"
+  },
+  {
+    "word": "accomplice",
+    "meaning": "공범",
+    "pos": "noun",
+    "example": "The police are searching for the thief's accomplice who drove the getaway car.",
+    "translation": "경찰은 도주 차량을 운전한 도둑의 공범을 찾고 있다.",
+    "level": "high_2"
+  },
+  {
+    "word": "accordance",
+    "meaning": "일치, 합치",
+    "pos": "noun",
+    "example": "The funds were distributed in accordance with the strict regulations set by the committee.",
+    "translation": "자금은 위원회가 정한 엄격한 규정에 따라 분배되었다.",
+    "level": "high_2"
+  },
+  {
+    "word": "accountable",
+    "meaning": "책임이 있는, 설명할 수 있는",
+    "pos": "adjective",
+    "example": "Leaders must be held accountable for the decisions that affect the welfare of the public.",
+    "translation": "지도자들은 대중의 복지에 영향을 미치는 결정에 대해 책임을 져야 한다.",
+    "level": "high_2"
+  },
+  {
+    "word": "accreditation",
+    "meaning": "승인, 인가",
+    "pos": "noun",
+    "example": "The university received official accreditation from the educational board.",
+    "translation": "그 대학은 교육 위원회로부터 공식 인가를 받았다.",
+    "level": "high_2"
+  },
+  {
+    "word": "accrue",
+    "meaning": "누적되다, 축적되다",
+    "pos": "verb",
+    "example": "Interest on the savings account will accrue annually at a rate of 3%.",
+    "translation": "저축 계좌의 이자는 연 3%의 이율로 매년 누적될 것이다.",
+    "level": "high_2"
+  },
+  {
+    "word": "accusatory",
+    "meaning": "비난하는 듯한",
+    "pos": "adjective",
+    "example": "He pointed an accusatory finger at his colleague, blaming him for the failure.",
+    "translation": "그는 동료에게 실패를 비난하며 힐난의 손가락질을 했다.",
+    "level": "high_2"
+  },
+  {
+    "word": "acquaintance",
+    "meaning": "지인, 안면",
+    "pos": "noun",
+    "example": "He has a wide circle of acquaintances but very few close friends.",
+    "translation": "그는 넓은 범위의 지인이 있지만 친한 친구는 거의 없다.",
+    "level": "high_2"
+  },
+  {
+    "word": "acquiesce",
+    "meaning": "묵인하다, 마지못해 따르다",
+    "pos": "verb",
+    "example": "She decided to acquiesce to her boss's demands to avoid conflict.",
+    "translation": "그녀는 갈등을 피하기 위해 상사의 요구를 묵인하기로 결정했다.",
+    "level": "high_2"
+  },
+  {
+    "word": "acquisitive",
+    "meaning": "소유욕이 강한",
+    "pos": "adjective",
+    "example": "In an acquisitive society, material wealth is often equated with success.",
+    "translation": "소유욕이 강한 사회에서는 물질적 부가 종종 성공과 동일시된다.",
+    "level": "high_2"
+  },
+  {
+    "word": "acquit",
+    "meaning": "무죄를 선고하다",
+    "pos": "verb",
+    "example": "The jury acquitted the defendant due to a lack of sufficient evidence.",
+    "translation": "배심원단은 불충분한 증거로 인해 피고에게 무죄를 선고했다.",
+    "level": "high_2"
+  },
+  {
+    "word": "acrimony",
+    "meaning": "악감정, 신랄함",
+    "pos": "noun",
+    "example": "The divorce settlement was reached without the usual acrimony often seen in such cases.",
+    "translation": "이혼 합의는 그런 경우에 흔히 보이는 악감정 없이 이루어졌다.",
+    "level": "high_2"
+  },
+  {
+    "word": "acuity",
+    "meaning": "예리함, 명민함",
+    "pos": "noun",
+    "example": "A surgeon needs visual acuity to perform delicate operations.",
+    "translation": "외과 의사는 정교한 수술을 수행하기 위해 시각적 예리함이 필요하다.",
+    "level": "high_2"
+  },
+  {
+    "word": "acumen",
+    "meaning": "통찰력, 안목",
+    "pos": "noun",
+    "example": "Her business acumen allowed her to turn the failing company into a profitable one.",
+    "translation": "그녀의 사업적 통찰력은 망해가는 회사를 수익성 있는 회사로 바꿀 수 있게 해주었다.",
+    "level": "high_2"
+  },
+  {
+    "word": "adamant",
+    "meaning": "요지부동의, 단호한",
+    "pos": "adjective",
+    "example": "Despite the pleas, the teacher remained adamant that the deadline would not be extended.",
+    "translation": "간청에도 불구하고, 선생님은 마감 기한이 연장되지 않을 것이라는 점에 대해 단호했다.",
+    "level": "high_2"
+  },
+  {
+    "word": "adaptability",
+    "meaning": "적응성, 융통성",
+    "pos": "noun",
+    "example": "Adaptability is a crucial skill in a rapidly changing job market.",
+    "translation": "적응성은 급변하는 고용 시장에서 중요한 기술이다.",
+    "level": "high_2"
+  },
+  {
+    "word": "adherence",
+    "meaning": "고수, 집착",
+    "pos": "noun",
+    "example": "Strict adherence to safety protocols is required in the laboratory.",
+    "translation": "실험실에서는 안전 수칙에 대한 엄격한 고수가 요구된다.",
+    "level": "high_2"
+  },
+  {
+    "word": "adjourn",
+    "meaning": "휴회하다, 연기하다",
+    "pos": "verb",
+    "example": "The meeting was adjourned until the following morning.",
+    "translation": "회의는 다음 날 아침까지 휴회되었다.",
+    "level": "high_2"
+  },
+  {
+    "word": "adjunct",
+    "meaning": "부속물, 보조의",
+    "pos": "noun",
+    "example": "Proper diet is a necessary adjunct to exercise for weight loss.",
+    "translation": "적절한 식단은 체중 감량을 위한 운동의 필수적인 부속물이다.",
+    "level": "high_2"
+  },
+  {
+    "word": "administrative",
+    "meaning": "행정의, 관리의",
+    "pos": "adjective",
+    "example": "She is responsible for the administrative tasks that keep the office running smoothly.",
+    "translation": "그녀는 사무실이 원활하게 운영되도록 하는 행정 업무를 담당하고 있다.",
+    "level": "high_2"
+  },
+  {
+    "word": "admissible",
+    "meaning": "인정되는, 채택될 수 있는",
+    "pos": "adjective",
+    "example": "The judge ruled that the evidence was not admissible in court.",
+    "translation": "판사는 그 증거가 법정에서 채택될 수 없다고 판결했다.",
+    "level": "high_2"
+  },
+  {
+    "word": "admonish",
+    "meaning": "꾸짖다, 훈계하다",
+    "pos": "verb",
+    "example": "The teacher admonished the students for their disruptive behavior during the lecture.",
+    "translation": "선생님은 강의 중 소란스러운 행동에 대해 학생들을 훈계했다.",
+    "level": "high_2"
+  },
+  {
+    "word": "adoptive",
+    "meaning": "입양의, 채택하는",
+    "pos": "adjective",
+    "example": "He grew up with his adoptive parents, unaware of his biological heritage.",
+    "translation": "그는 자신의 생물학적 유산을 모른 채 입양 부모와 함께 자랐다.",
+    "level": "high_2"
+  },
+  {
+    "word": "adroit",
+    "meaning": "능숙한, 기민한",
+    "pos": "adjective",
+    "example": "He is an adroit negotiator who can resolve conflicts efficiently.",
+    "translation": "그는 갈등을 효율적으로 해결할 수 있는 능숙한 협상가이다.",
+    "level": "high_2"
+  },
+  {
+    "word": "adulation",
+    "meaning": "과찬, 지나친 칭찬",
+    "pos": "noun",
+    "example": "The pop star enjoyed the adoration and adulation of her fans.",
+    "translation": "그 팝스타는 팬들의 흠모와 지나친 칭찬을 즐겼다.",
+    "level": "high_2"
+  },
+  {
+    "word": "adulterate",
+    "meaning": "불순물을 섞다, 질을 떨어뜨리다",
+    "pos": "verb",
+    "example": "The company was fined for adulterating the milk with water.",
+    "translation": "그 회사는 우유에 물을 섞어 질을 떨어뜨린 혐의로 벌금을 물었다.",
+    "level": "high_2"
+  },
+  {
+    "word": "adversarial",
+    "meaning": "대립적인, 적대적인",
+    "pos": "adjective",
+    "example": "The adversarial relationship between the two parties blocked any progress.",
+    "translation": "두 당사자 간의 대립적인 관계가 어떠한 진전도 막았다.",
+    "level": "high_2"
+  },
+  {
+    "word": "adversity",
+    "meaning": "역경, 고난",
+    "pos": "noun",
+    "example": "She overcame great adversity to become a successful lawyer.",
+    "translation": "그녀는 성공적인 변호사가 되기 위해 큰 역경을 극복했다.",
+    "level": "high_2"
+  },
+  {
+    "word": "advisory",
+    "meaning": "자문의, 경보",
+    "pos": "adjective",
+    "example": "The expert served in an advisory capacity to the government.",
+    "translation": "그 전문가는 정부에 자문 역할을 수행했다.",
+    "level": "high_2"
+  },
+  {
+    "word": "advocacy",
+    "meaning": "옹호, 지지",
+    "pos": "noun",
+    "example": "His lifelong advocacy for human rights inspired many people.",
+    "translation": "인권에 대한 그의 평생에 걸친 옹호는 많은 사람들에게 영감을 주었다.",
+    "level": "high_2"
+  },
+  {
+    "word": "aesthetics",
+    "meaning": "미학",
+    "pos": "noun",
+    "example": "The architect focused on the aesthetics of the building as well as its function.",
+    "translation": "건축가는 건물의 기능뿐만 아니라 미학에도 집중했다.",
+    "level": "high_2"
+  },
+  {
+    "word": "affable",
+    "meaning": "상냥한, 붙임성 있는",
+    "pos": "adjective",
+    "example": "The host was affable and made every guest feel welcome.",
+    "translation": "주인은 상냥해서 모든 손님이 환영받는다고 느끼게 했다.",
+    "level": "high_2"
+  },
+  {
+    "word": "affectation",
+    "meaning": "가식, 꾸밈",
+    "pos": "noun",
+    "example": "Her British accent was merely an affectation she picked up after a week in London.",
+    "translation": "그녀의 영국식 억양은 런던에서 일주일을 보낸 후 얻은 가식에 불과했다.",
+    "level": "high_2"
+  },
+  {
+    "word": "affiliate",
+    "meaning": "제휴하다, 계열사",
+    "pos": "verb",
+    "example": "The local station decided to affiliate with a national network.",
+    "translation": "그 지역 방송국은 전국 네트워크와 제휴하기로 결정했다.",
+    "level": "high_2"
+  },
+  {
+    "word": "affinity",
+    "meaning": "친밀감, 관련성",
+    "pos": "noun",
+    "example": "He felt a strong affinity for the music of Beethoven.",
+    "translation": "그는 베토벤의 음악에 강한 친밀감을 느꼈다.",
+    "level": "high_2"
+  },
+  {
+    "word": "affirm",
+    "meaning": "단언하다, 확인하다",
+    "pos": "verb",
+    "example": "The witness affirmed that she had seen the defendant at the scene.",
+    "translation": "증인은 현장에서 피고를 보았다고 단언했다.",
+    "level": "high_2"
+  },
+  {
+    "word": "affix",
+    "meaning": "부착하다, 붙이다",
+    "pos": "verb",
+    "example": "Please affix your signature to the bottom of the document.",
+    "translation": "문서 하단에 서명을 붙여주세요(서명해 주세요).",
+    "level": "high_2"
+  },
+  {
+    "word": "afflict",
+    "meaning": "괴롭히다, 피해를 입히다",
+    "pos": "verb",
+    "example": "Millions of people are afflicted by drought and famine in the region.",
+    "translation": "그 지역의 수백만 명의 사람들이 가뭄과 기근으로 고통받고 있다.",
+    "level": "high_2"
+  },
+  {
+    "word": "affluence",
+    "meaning": "풍요, 부유함",
+    "pos": "noun",
+    "example": "The affluence of the city is evident in its luxurious shopping districts.",
+    "translation": "그 도시의 풍요로움은 호화로운 쇼핑 구역에서 명백하다.",
+    "level": "high_2"
+  },
+  {
+    "word": "affront",
+    "meaning": "모욕, 마음의 상처",
+    "pos": "noun",
+    "example": "He regarded the criticism as a personal affront to his integrity.",
+    "translation": "그는 그 비판을 자신의 진실성에 대한 개인적인 모욕으로 간주했다.",
+    "level": "high_2"
+  },
+  {
+    "word": "aftermath",
+    "meaning": "여파, 후유증",
+    "pos": "noun",
+    "example": "In the aftermath of the hurricane, residents struggled to rebuild their homes.",
+    "translation": "허리케인의 여파 속에서 주민들은 집을 재건하기 위해 고군분투했다.",
+    "level": "high_2"
+  },
+  {
+    "word": "agglomeration",
+    "meaning": "집적, 덩어리",
+    "pos": "noun",
+    "example": "The city is a chaotic agglomeration of old and new buildings.",
+    "translation": "그 도시는 낡은 건물과 새 건물의 무질서한 덩어리이다.",
+    "level": "high_2"
+  },
+  {
+    "word": "aggravation",
+    "meaning": "악화, 도발",
+    "pos": "noun",
+    "example": "Stress can lead to the aggravation of existing health conditions.",
+    "translation": "스트레스는 기존 건강 상태의 악화를 초래할 수 있다.",
+    "level": "high_2"
+  },
+  {
+    "word": "aggregation",
+    "meaning": "집합, 집성",
+    "pos": "noun",
+    "example": "Data aggregation helps companies identify market trends.",
+    "translation": "데이터 집합은 회사가 시장 동향을 파악하는 데 도움을 준다.",
+    "level": "high_2"
+  },
+  {
+    "word": "aggrieved",
+    "meaning": "피해를 입은, 억울한",
+    "pos": "adjective",
+    "example": "The aggrieved party filed a lawsuit seeking compensation for damages.",
+    "translation": "피해를 입은 당사자는 손해 배상을 청구하는 소송을 제기했다.",
+    "level": "high_2"
+  },
+  {
+    "word": "agile",
+    "meaning": "민첩한, 기민한",
+    "pos": "adjective",
+    "example": "The agile gymnast performed a series of flips with ease.",
+    "translation": "민첩한 체조 선수는 일련의 공중제비를 쉽게 수행했다.",
+    "level": "high_2"
+  },
+  {
+    "word": "agitation",
+    "meaning": "동요, 불안",
+    "pos": "noun",
+    "example": "His visible agitation suggested that he was hiding something.",
+    "translation": "그의 눈에 띄는 불안은 그가 무언가를 숨기고 있음을 암시했다.",
+    "level": "high_2"
+  },
+  {
+    "word": "agnostic",
+    "meaning": "불가지론자",
+    "pos": "noun",
+    "example": "As an agnostic, he neither confirms nor denies the existence of a god.",
+    "translation": "불가지론자로서 그는 신의 존재를 긍정하지도 부정하지도 않는다.",
+    "level": "high_2"
+  },
+  {
+    "word": "agonizing",
+    "meaning": "고통스러운",
+    "pos": "adjective",
+    "example": "Waiting for the test results was an agonizing experience for the patient.",
+    "translation": "검사 결과를 기다리는 것은 환자에게 고통스러운 경험이었다.",
+    "level": "high_2"
+  },
+  {
+    "word": "agrarian",
+    "meaning": "농업의, 토지의",
+    "pos": "adjective",
+    "example": "The industrial revolution transformed the country from an agrarian society into an urban one.",
+    "translation": "산업 혁명은 그 나라를 농업 사회에서 도시 사회로 변화시켰다.",
+    "level": "high_2"
+  },
+  {
+    "word": "ailment",
+    "meaning": "질병, 질환",
+    "pos": "noun",
+    "example": "Common ailments such as the flu are easily treated with rest and medication.",
+    "translation": "독감과 같은 흔한 질병은 휴식과 약물로 쉽게 치료된다.",
+    "level": "high_2"
+  },
+  {
+    "word": "airborne",
+    "meaning": "공기로 운반되는, 비행 중인",
+    "pos": "adjective",
+    "example": "Airborne viruses can spread rapidly in crowded enclosed spaces.",
+    "translation": "공기 전파 바이러스는 붐비는 밀폐된 공간에서 빠르게 퍼질 수 있다.",
+    "level": "high_2"
+  },
+  {
+    "word": "akin",
+    "meaning": "유사한",
+    "pos": "adjective",
+    "example": "Her writing style is akin to that of the famous novelist.",
+    "translation": "그녀의 글쓰기 스타일은 그 유명한 소설가의 것과 유사하다.",
+    "level": "high_2"
+  },
+  {
+    "word": "alacrity",
+    "meaning": "민첩함, 활기",
+    "pos": "noun",
+    "example": "He accepted the new assignment with alacrity, eager to prove himself.",
+    "translation": "그는 자신을 증명하고 싶어 하며 활기차게 새로운 임무를 받아들였다.",
+    "level": "high_2"
+  },
+  {
+    "word": "alienation",
+    "meaning": "소외, 양도",
+    "pos": "noun",
+    "example": "Social media can ironically lead to feelings of isolation and alienation.",
+    "translation": "소셜 미디어는 역설적으로 고립감과 소외감을 초래할 수 있다.",
+    "level": "high_2"
+  },
+  {
+    "word": "alignment",
+    "meaning": "정렬, 제휴",
+    "pos": "noun",
+    "example": "The wheels need alignment to ensure the car drives straight.",
+    "translation": "차가 똑바로 주행하도록 하려면 바퀴 정렬이 필요하다.",
+    "level": "high_2"
+  },
+  {
+    "word": "allay",
+    "meaning": "가라앉히다, 완화시키다",
+    "pos": "verb",
+    "example": "The government issued a statement to allay public fears about the economy.",
+    "translation": "정부는 경제에 대한 대중의 두려움을 가라앉히기 위해 성명을 발표했다.",
+    "level": "high_2"
+  },
+  {
+    "word": "allege",
+    "meaning": "(증거 없이) 주장하다",
+    "pos": "verb",
+    "example": "The prosecution alleges that the defendant was at the scene of the crime.",
+    "translation": "검찰은 피고가 범죄 현장에 있었다고 주장한다.",
+    "level": "high_2"
+  },
+  {
+    "word": "allegory",
+    "meaning": "우화, 풍유",
+    "pos": "noun",
+    "example": "Animal Farm is an allegory that critiques political corruption.",
+    "translation": "동물 농장은 정치적 부패를 비판하는 우화이다.",
+    "level": "high_2"
+  },
+  {
+    "word": "allocation",
+    "meaning": "할당, 배분",
+    "pos": "noun",
+    "example": "Efficient resource allocation is key to maximizing profits.",
+    "translation": "효율적인 자원 할당은 이익을 극대화하는 열쇠이다.",
+    "level": "high_2"
+  },
+  {
+    "word": "allot",
+    "meaning": "할당하다, 배당하다",
+    "pos": "verb",
+    "example": "Each speaker was allotted five minutes to present their argument.",
+    "translation": "각 연사에게는 주장을 발표할 5분의 시간이 할당되었다.",
+    "level": "high_2"
+  },
+  {
+    "word": "alloy",
+    "meaning": "합금",
+    "pos": "noun",
+    "example": "Bronze is an alloy made chiefly of copper and tin.",
+    "translation": "청동은 주로 구리와 주석으로 만들어진 합금이다.",
+    "level": "high_2"
+  },
+  {
+    "word": "allude",
+    "meaning": "암시하다, 시사하다",
+    "pos": "verb",
+    "example": "He alluded to the problem but did not mention it directly.",
+    "translation": "그는 그 문제를 암시했지만 직접적으로 언급하지는 않았다.",
+    "level": "high_2"
+  },
+  {
+    "word": "aloof",
+    "meaning": "냉담한, 거리를 두는",
+    "pos": "adjective",
+    "example": "He stood aloof from the argument, preferring not to get involved.",
+    "translation": "그는 논쟁에 관여하지 않기를 원해서 거리를 두고 서 있었다.",
+    "level": "high_2"
+  },
+  {
+    "word": "altercation",
+    "meaning": "언쟁, 논쟁",
+    "pos": "noun",
+    "example": "The minor accident led to a heated altercation between the two drivers.",
+    "translation": "경미한 사고는 두 운전자 간의 격렬한 언쟁으로 이어졌다.",
+    "level": "high_2"
+  },
+  {
+    "word": "altruism",
+    "meaning": "이타주의",
+    "pos": "noun",
+    "example": "His actions were motivated by pure altruism, seeking no reward for the help he provided.",
+    "translation": "그의 행동은 그가 제공한 도움에 대해 어떤 보상도 바라지 않는 순수한 이타주의에서 비롯되었다.",
+    "level": "high_2"
+  },
+  {
+    "word": "amalgamate",
+    "meaning": "합병하다, 혼합하다",
+    "pos": "verb",
+    "example": "The two companies agreed to amalgamate to form a stronger entity.",
+    "translation": "두 회사는 더 강력한 실체를 형성하기 위해 합병하기로 합의했다.",
+    "level": "high_2"
+  },
+  {
+    "word": "ambidextrous",
+    "meaning": "양손잡이의",
+    "pos": "adjective",
+    "example": "Being ambidextrous, he can write equally well with both hands.",
+    "translation": "양손잡이인 그는 양손으로 똑같이 글을 잘 쓸 수 있다.",
+    "level": "high_2"
+  },
+  {
+    "word": "ambience",
+    "meaning": "분위기, 환경",
+    "pos": "noun",
+    "example": "The gentle lighting created a relaxing ambience in the restaurant.",
+    "translation": "부드러운 조명은 식당에 편안한 분위기를 조성했다.",
+    "level": "high_2"
+  },
+  {
+    "word": "ambivalent",
+    "meaning": "상반된 감정이 공존하는, 모호한",
+    "pos": "adjective",
+    "example": "She felt ambivalent about the job offer, appreciating the salary but disliking the location.",
+    "translation": "그녀는 그 일자리 제안에 대해 급여는 좋지만 위치는 싫어서 상반된 감정을 느꼈다.",
+    "level": "high_2"
+  },
+  {
+    "word": "ameliorate",
+    "meaning": "개선하다",
+    "pos": "verb",
+    "example": "New laws were enacted to ameliorate the working conditions in factories.",
+    "translation": "공장의 근로 조건을 개선하기 위해 새로운 법이 제정되었다.",
+    "level": "high_2"
+  },
+  {
+    "word": "amenable",
+    "meaning": "순종하는, 잘 받아들이는",
+    "pos": "adjective",
+    "example": "He was amenable to the suggestion of changing the schedule.",
+    "translation": "그는 일정을 변경하자는 제안을 잘 받아들였다.",
+    "level": "high_2"
+  },
+  {
+    "word": "amenity",
+    "meaning": "편의 시설",
+    "pos": "noun",
+    "example": "The hotel offers various amenities such as a gym, a pool, and free Wi-Fi.",
+    "translation": "그 호텔은 체육관, 수영장, 무료 와이파이와 같은 다양한 편의 시설을 제공한다.",
+    "level": "high_2"
+  },
+  {
+    "word": "amiable",
+    "meaning": "쾌활한, 정감 있는",
+    "pos": "adjective",
+    "example": "Despite their differences, they managed to reach an amiable agreement.",
+    "translation": "차이점에도 불구하고 그들은 쾌활한 합의에 도달했다.",
+    "level": "high_2"
+  },
+  {
+    "word": "amicable",
+    "meaning": "우호적인",
+    "pos": "adjective",
+    "example": "The two nations maintained amicable relations for decades.",
+    "translation": "두 나라는 수십 년 동안 우호적인 관계를 유지했다.",
+    "level": "high_2"
+  }
+]
