@@ -137,23 +137,35 @@ let quizSource="session";
 
 /* ================== 시작 ================== */
 async function startStudy(resume=false){
-  const saved = loadProgress();
-  const grade = resume && saved ? saved.grade : gradeSelect.value;
-  const diff  = resume && saved ? saved.difficulty : difficultySelect.value;
-  if(!grade||!diff) return alert("학년/난이도 선택");
+  try {
+    const saved = loadProgress();
+    const grade = resume && saved ? saved.grade : gradeSelect.value;
+    const diff  = resume && saved ? saved.difficulty : difficultySelect.value;
+    if(!grade||!diff) return alert("학년/난이도 선택");
 
-  gradeSelect.value=grade; difficultySelect.value=diff;
+    gradeSelect.value=grade; difficultySelect.value=diff;
 
-  const res = await fetch(`data/${grade}.json`);
-  all = await res.json();
-  filtered = all.filter(x=>x.difficulty===diff);
+    const res = await fetch(`data/${grade}.json`);
+    if (!res.ok) throw new Error("데이터 파일을 찾을 수 없습니다.");
+    
+    all = await res.json();
+    filtered = all.filter(x=>x.difficulty===diff);
 
-  sessionIndex = resume && saved ? saved.sessionIndex : 0;
-  wordIndex    = resume && saved ? saved.wordIndex : 0;
+    if (filtered.length === 0) {
+      alert("해당 난이도의 단어가 없습니다.");
+      return;
+    }
 
-  loadSession();
-  tabs.classList.remove("hidden");
-  card.classList.remove("hidden");
+    sessionIndex = resume && saved ? saved.sessionIndex : 0;
+    wordIndex    = resume && saved ? saved.wordIndex : 0;
+
+    loadSession();
+    tabs.classList.remove("hidden");
+    card.classList.remove("hidden");
+  } catch (e) {
+    console.error(e);
+    alert("오류 발생: " + e.message);
+  }
 }
 
 function loadSession(){
