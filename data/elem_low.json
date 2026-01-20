@@ -1,0 +1,2025 @@
+[
+  {
+    "word": "ant",
+    "pos": "noun",
+    "meaning": "개미",
+    "example": "The ant is small.",
+    "level": "elem_low"
+  },
+  {
+    "word": "apple",
+    "pos": "noun",
+    "meaning": "사과",
+    "example": "I eat an apple.",
+    "level": "elem_low"
+  },
+  {
+    "word": "arm",
+    "pos": "noun",
+    "meaning": "팔",
+    "example": "This is my arm.",
+    "level": "elem_low"
+  },
+  {
+    "word": "art",
+    "pos": "noun",
+    "meaning": "미술",
+    "example": "I like art class.",
+    "level": "elem_low"
+  },
+  {
+    "word": "ask",
+    "pos": "verb",
+    "meaning": "묻다",
+    "example": "Ask your mom.",
+    "level": "elem_low"
+  },
+  {
+    "word": "baby",
+    "pos": "noun",
+    "meaning": "아기",
+    "example": "The baby sleeps.",
+    "level": "elem_low"
+  },
+  {
+    "word": "back",
+    "pos": "noun",
+    "meaning": "등, 뒤",
+    "example": "Look at my back.",
+    "level": "elem_low"
+  },
+  {
+    "word": "bad",
+    "pos": "adjective",
+    "meaning": "나쁜",
+    "example": "He is a bad boy.",
+    "level": "elem_low"
+  },
+  {
+    "word": "bag",
+    "pos": "noun",
+    "meaning": "가방",
+    "example": "Open your bag.",
+    "level": "elem_low"
+  },
+  {
+    "word": "ball",
+    "pos": "noun",
+    "meaning": "공",
+    "example": "Kick the ball.",
+    "level": "elem_low"
+  },
+  {
+    "word": "banana",
+    "pos": "noun",
+    "meaning": "바나나",
+    "example": "Bananas are yellow.",
+    "level": "elem_low"
+  },
+  {
+    "word": "band",
+    "pos": "noun",
+    "meaning": "밴드",
+    "example": "We play in a band.",
+    "level": "elem_low"
+  },
+  {
+    "word": "bank",
+    "pos": "noun",
+    "meaning": "은행",
+    "example": "Go to the bank.",
+    "level": "elem_low"
+  },
+  {
+    "word": "baseball",
+    "pos": "noun",
+    "meaning": "야구",
+    "example": "I play baseball.",
+    "level": "elem_low"
+  },
+  {
+    "word": "basket",
+    "pos": "noun",
+    "meaning": "바구니",
+    "example": "The basket is full.",
+    "level": "elem_low"
+  },
+  {
+    "word": "bath",
+    "pos": "noun",
+    "meaning": "목욕",
+    "example": "Take a bath.",
+    "level": "elem_low"
+  },
+  {
+    "word": "bear",
+    "pos": "noun",
+    "meaning": "곰",
+    "example": "The bear is big.",
+    "level": "elem_low"
+  },
+  {
+    "word": "bed",
+    "pos": "noun",
+    "meaning": "침대",
+    "example": "Go to bed.",
+    "level": "elem_low"
+  },
+  {
+    "word": "bee",
+    "pos": "noun",
+    "meaning": "벌",
+    "example": "A bee flies.",
+    "level": "elem_low"
+  },
+  {
+    "word": "beef",
+    "pos": "noun",
+    "meaning": "소고기",
+    "example": "I like beef.",
+    "level": "elem_low"
+  },
+  {
+    "word": "bell",
+    "pos": "noun",
+    "meaning": "종",
+    "example": "Ring the bell.",
+    "level": "elem_low"
+  },
+  {
+    "word": "bench",
+    "pos": "noun",
+    "meaning": "벤치",
+    "example": "Sit on the bench.",
+    "level": "elem_low"
+  },
+  {
+    "word": "big",
+    "pos": "adjective",
+    "meaning": "큰",
+    "example": "The house is big.",
+    "level": "elem_low"
+  },
+  {
+    "word": "bike",
+    "pos": "noun",
+    "meaning": "자전거",
+    "example": "Ride a bike.",
+    "level": "elem_low"
+  },
+  {
+    "word": "bird",
+    "pos": "noun",
+    "meaning": "새",
+    "example": "The bird sings.",
+    "level": "elem_low"
+  },
+  {
+    "word": "black",
+    "pos": "adjective",
+    "meaning": "검은색",
+    "example": "I have black hair.",
+    "level": "elem_low"
+  },
+  {
+    "word": "blue",
+    "pos": "adjective",
+    "meaning": "파란색",
+    "example": "The sky is blue.",
+    "level": "elem_low"
+  },
+  {
+    "word": "boat",
+    "pos": "noun",
+    "meaning": "보트, 배",
+    "example": "The boat floats.",
+    "level": "elem_low"
+  },
+  {
+    "word": "body",
+    "pos": "noun",
+    "meaning": "몸",
+    "example": "Move your body.",
+    "level": "elem_low"
+  },
+  {
+    "word": "book",
+    "pos": "noun",
+    "meaning": "책",
+    "example": "Read a book.",
+    "level": "elem_low"
+  },
+  {
+    "word": "box",
+    "pos": "noun",
+    "meaning": "상자",
+    "example": "Open the box.",
+    "level": "elem_low"
+  },
+  {
+    "word": "boy",
+    "pos": "noun",
+    "meaning": "소년",
+    "example": "He is a boy.",
+    "level": "elem_low"
+  },
+  {
+    "word": "bread",
+    "pos": "noun",
+    "meaning": "빵",
+    "example": "I eat bread.",
+    "level": "elem_low"
+  },
+  {
+    "word": "bug",
+    "pos": "noun",
+    "meaning": "벌레",
+    "example": "Look at the bug.",
+    "level": "elem_low"
+  },
+  {
+    "word": "bus",
+    "pos": "noun",
+    "meaning": "버스",
+    "example": "The bus stops.",
+    "level": "elem_low"
+  },
+  {
+    "word": "cake",
+    "pos": "noun",
+    "meaning": "케이크",
+    "example": "I love cake.",
+    "level": "elem_low"
+  },
+  {
+    "word": "camp",
+    "pos": "noun",
+    "meaning": "캠프",
+    "example": "We go to camp.",
+    "level": "elem_low"
+  },
+  {
+    "word": "can",
+    "pos": "noun",
+    "meaning": "깡통",
+    "example": "A can of soda.",
+    "level": "elem_low"
+  },
+  {
+    "word": "cap",
+    "pos": "noun",
+    "meaning": "모자",
+    "example": "Wear a cap.",
+    "level": "elem_low"
+  },
+  {
+    "word": "car",
+    "pos": "noun",
+    "meaning": "자동차",
+    "example": "Drive a car.",
+    "level": "elem_low"
+  },
+  {
+    "word": "card",
+    "pos": "noun",
+    "meaning": "카드",
+    "example": "Give me a card.",
+    "level": "elem_low"
+  },
+  {
+    "word": "cat",
+    "pos": "noun",
+    "meaning": "고양이",
+    "example": "The cat is cute.",
+    "level": "elem_low"
+  },
+  {
+    "word": "chair",
+    "pos": "noun",
+    "meaning": "의자",
+    "example": "Sit on the chair.",
+    "level": "elem_low"
+  },
+  {
+    "word": "cheese",
+    "pos": "noun",
+    "meaning": "치즈",
+    "example": "I like cheese.",
+    "level": "elem_low"
+  },
+  {
+    "word": "chicken",
+    "pos": "noun",
+    "meaning": "닭, 닭고기",
+    "example": "Fried chicken is yummy.",
+    "level": "elem_low"
+  },
+  {
+    "word": "child",
+    "pos": "noun",
+    "meaning": "아이",
+    "example": "She is a child.",
+    "level": "elem_low"
+  },
+  {
+    "word": "chin",
+    "pos": "noun",
+    "meaning": "턱",
+    "example": "Touch your chin.",
+    "level": "elem_low"
+  },
+  {
+    "word": "city",
+    "pos": "noun",
+    "meaning": "도시",
+    "example": "Seoul is a big city.",
+    "level": "elem_low"
+  },
+  {
+    "word": "class",
+    "pos": "noun",
+    "meaning": "수업, 반",
+    "example": "Go to class.",
+    "level": "elem_low"
+  },
+  {
+    "word": "clean",
+    "pos": "adjective",
+    "meaning": "깨끗한",
+    "example": "My room is clean.",
+    "level": "elem_low"
+  },
+  {
+    "word": "clock",
+    "pos": "noun",
+    "meaning": "시계",
+    "example": "Look at the clock.",
+    "level": "elem_low"
+  },
+  {
+    "word": "close",
+    "pos": "verb",
+    "meaning": "닫다",
+    "example": "Close the door.",
+    "level": "elem_low"
+  },
+  {
+    "word": "cloud",
+    "pos": "noun",
+    "meaning": "구름",
+    "example": "White cloud.",
+    "level": "elem_low"
+  },
+  {
+    "word": "coat",
+    "pos": "noun",
+    "meaning": "코트",
+    "example": "Put on your coat.",
+    "level": "elem_low"
+  },
+  {
+    "word": "coin",
+    "pos": "noun",
+    "meaning": "동전",
+    "example": "I have a coin.",
+    "level": "elem_low"
+  },
+  {
+    "word": "cold",
+    "pos": "adjective",
+    "meaning": "추운",
+    "example": "It is cold.",
+    "level": "elem_low"
+  },
+  {
+    "word": "color",
+    "pos": "noun",
+    "meaning": "색깔",
+    "example": "What color is it?",
+    "level": "elem_low"
+  },
+  {
+    "word": "come",
+    "pos": "verb",
+    "meaning": "오다",
+    "example": "Come here.",
+    "level": "elem_low"
+  },
+  {
+    "word": "computer",
+    "pos": "noun",
+    "meaning": "컴퓨터",
+    "example": "Use the computer.",
+    "level": "elem_low"
+  },
+  {
+    "word": "cook",
+    "pos": "verb",
+    "meaning": "요리하다",
+    "example": "Mom cooks dinner.",
+    "level": "elem_low"
+  },
+  {
+    "word": "cool",
+    "pos": "adjective",
+    "meaning": "시원한, 멋진",
+    "example": "You look cool.",
+    "level": "elem_low"
+  },
+  {
+    "word": "corn",
+    "pos": "noun",
+    "meaning": "옥수수",
+    "example": "Yellow corn.",
+    "level": "elem_low"
+  },
+  {
+    "word": "cow",
+    "pos": "noun",
+    "meaning": "소",
+    "example": "A cow eats grass.",
+    "level": "elem_low"
+  },
+  {
+    "word": "crayon",
+    "pos": "noun",
+    "meaning": "크레파스",
+    "example": "Use a crayon.",
+    "level": "elem_low"
+  },
+  {
+    "word": "cup",
+    "pos": "noun",
+    "meaning": "컵",
+    "example": "A cup of water.",
+    "level": "elem_low"
+  },
+  {
+    "word": "cut",
+    "pos": "verb",
+    "meaning": "자르다",
+    "example": "Cut the paper.",
+    "level": "elem_low"
+  },
+  {
+    "word": "dad",
+    "pos": "noun",
+    "meaning": "아빠",
+    "example": "I love my dad.",
+    "level": "elem_low"
+  },
+  {
+    "word": "dance",
+    "pos": "verb",
+    "meaning": "춤추다",
+    "example": "Let's dance.",
+    "level": "elem_low"
+  },
+  {
+    "word": "dark",
+    "pos": "adjective",
+    "meaning": "어두운",
+    "example": "It is dark.",
+    "level": "elem_low"
+  },
+  {
+    "word": "day",
+    "pos": "noun",
+    "meaning": "낮, 날",
+    "example": "Have a nice day.",
+    "level": "elem_low"
+  },
+  {
+    "word": "desk",
+    "pos": "noun",
+    "meaning": "책상",
+    "example": "My desk is wood.",
+    "level": "elem_low"
+  },
+  {
+    "word": "dog",
+    "pos": "noun",
+    "meaning": "개",
+    "example": "My dog runs.",
+    "level": "elem_low"
+  },
+  {
+    "word": "doll",
+    "pos": "noun",
+    "meaning": "인형",
+    "example": "A pretty doll.",
+    "level": "elem_low"
+  },
+  {
+    "word": "door",
+    "pos": "noun",
+    "meaning": "문",
+    "example": "Open the door.",
+    "level": "elem_low"
+  },
+  {
+    "word": "draw",
+    "pos": "verb",
+    "meaning": "그리다",
+    "example": "Draw a star.",
+    "level": "elem_low"
+  },
+  {
+    "word": "dress",
+    "pos": "noun",
+    "meaning": "원피스",
+    "example": "Wear a dress.",
+    "level": "elem_low"
+  },
+  {
+    "word": "drink",
+    "pos": "verb",
+    "meaning": "마시다",
+    "example": "Drink milk.",
+    "level": "elem_low"
+  },
+  {
+    "word": "drum",
+    "pos": "noun",
+    "meaning": "드럼",
+    "example": "Hit the drum.",
+    "level": "elem_low"
+  },
+  {
+    "word": "duck",
+    "pos": "noun",
+    "meaning": "오리",
+    "example": "The duck swims.",
+    "level": "elem_low"
+  },
+  {
+    "word": "ear",
+    "pos": "noun",
+    "meaning": "귀",
+    "example": "My ears hear.",
+    "level": "elem_low"
+  },
+  {
+    "word": "eat",
+    "pos": "verb",
+    "meaning": "먹다",
+    "example": "Eat your food.",
+    "level": "elem_low"
+  },
+  {
+    "word": "egg",
+    "pos": "noun",
+    "meaning": "달걀",
+    "example": "I like eggs.",
+    "level": "elem_low"
+  },
+  {
+    "word": "end",
+    "pos": "noun",
+    "meaning": "끝",
+    "example": "The end.",
+    "level": "elem_low"
+  },
+  {
+    "word": "eye",
+    "pos": "noun",
+    "meaning": "눈",
+    "example": "Close your eyes.",
+    "level": "elem_low"
+  },
+  {
+    "word": "face",
+    "pos": "noun",
+    "meaning": "얼굴",
+    "example": "Wash your face.",
+    "level": "elem_low"
+  },
+  {
+    "word": "fan",
+    "pos": "noun",
+    "meaning": "선풍기, 부채",
+    "example": "Turn on the fan.",
+    "level": "elem_low"
+  },
+  {
+    "word": "farm",
+    "pos": "noun",
+    "meaning": "농장",
+    "example": "Visit the farm.",
+    "level": "elem_low"
+  },
+  {
+    "word": "fast",
+    "pos": "adjective",
+    "meaning": "빠른",
+    "example": "Run fast.",
+    "level": "elem_low"
+  },
+  {
+    "word": "fat",
+    "pos": "adjective",
+    "meaning": "뚱뚱한",
+    "example": "The pig is fat.",
+    "level": "elem_low"
+  },
+  {
+    "word": "father",
+    "pos": "noun",
+    "meaning": "아버지",
+    "example": "Ask father.",
+    "level": "elem_low"
+  },
+  {
+    "word": "feet",
+    "pos": "noun",
+    "meaning": "발(복수)",
+    "example": "Two feet.",
+    "level": "elem_low"
+  },
+  {
+    "word": "fire",
+    "pos": "noun",
+    "meaning": "불",
+    "example": "Fire is hot.",
+    "level": "elem_low"
+  },
+  {
+    "word": "fish",
+    "pos": "noun",
+    "meaning": "물고기",
+    "example": "Fish swim.",
+    "level": "elem_low"
+  },
+  {
+    "word": "five",
+    "pos": "noun",
+    "meaning": "5, 다섯",
+    "example": "Five fingers.",
+    "level": "elem_low"
+  },
+  {
+    "word": "flag",
+    "pos": "noun",
+    "meaning": "깃발",
+    "example": "A red flag.",
+    "level": "elem_low"
+  },
+  {
+    "word": "flower",
+    "pos": "noun",
+    "meaning": "꽃",
+    "example": "A pretty flower.",
+    "level": "elem_low"
+  },
+  {
+    "word": "fly",
+    "pos": "verb",
+    "meaning": "날다",
+    "example": "Birds fly.",
+    "level": "elem_low"
+  },
+  {
+    "word": "food",
+    "pos": "noun",
+    "meaning": "음식",
+    "example": "Yummy food.",
+    "level": "elem_low"
+  },
+  {
+    "word": "foot",
+    "pos": "noun",
+    "meaning": "발",
+    "example": "My foot hurts.",
+    "level": "elem_low"
+  },
+  {
+    "word": "fork",
+    "pos": "noun",
+    "meaning": "포크",
+    "example": "Use a fork.",
+    "level": "elem_low"
+  },
+  {
+    "word": "fox",
+    "pos": "noun",
+    "meaning": "여우",
+    "example": "The fox runs.",
+    "level": "elem_low"
+  },
+  {
+    "word": "frog",
+    "pos": "noun",
+    "meaning": "개구리",
+    "example": "Green frog.",
+    "level": "elem_low"
+  },
+  {
+    "word": "fruit",
+    "pos": "noun",
+    "meaning": "과일",
+    "example": "Eat fruit.",
+    "level": "elem_low"
+  },
+  {
+    "word": "full",
+    "pos": "adjective",
+    "meaning": "가득 찬, 배부른",
+    "example": "I am full.",
+    "level": "elem_low"
+  },
+  {
+    "word": "fun",
+    "pos": "adjective",
+    "meaning": "재미있는",
+    "example": "It is fun.",
+    "level": "elem_low"
+  },
+  {
+    "word": "game",
+    "pos": "noun",
+    "meaning": "게임",
+    "example": "Play a game.",
+    "level": "elem_low"
+  },
+  {
+    "word": "garden",
+    "pos": "noun",
+    "meaning": "정원",
+    "example": "In the garden.",
+    "level": "elem_low"
+  },
+  {
+    "word": "gas",
+    "pos": "noun",
+    "meaning": "가스",
+    "example": "Gas stove.",
+    "level": "elem_low"
+  },
+  {
+    "word": "gate",
+    "pos": "noun",
+    "meaning": "대문",
+    "example": "The gate is open.",
+    "level": "elem_low"
+  },
+  {
+    "word": "girl",
+    "pos": "noun",
+    "meaning": "소녀",
+    "example": "She is a girl.",
+    "level": "elem_low"
+  },
+  {
+    "word": "glass",
+    "pos": "noun",
+    "meaning": "유리, 잔",
+    "example": "A glass of milk.",
+    "level": "elem_low"
+  },
+  {
+    "word": "glove",
+    "pos": "noun",
+    "meaning": "장갑",
+    "example": "Wear gloves.",
+    "level": "elem_low"
+  },
+  {
+    "word": "glue",
+    "pos": "noun",
+    "meaning": "풀",
+    "example": "Sticky glue.",
+    "level": "elem_low"
+  },
+  {
+    "word": "go",
+    "pos": "verb",
+    "meaning": "가다",
+    "example": "Go home.",
+    "level": "elem_low"
+  },
+  {
+    "word": "goat",
+    "pos": "noun",
+    "meaning": "염소",
+    "example": "The goat eats.",
+    "level": "elem_low"
+  },
+  {
+    "word": "gold",
+    "pos": "noun",
+    "meaning": "금",
+    "example": "Shiny gold.",
+    "level": "elem_low"
+  },
+  {
+    "word": "good",
+    "pos": "adjective",
+    "meaning": "좋은",
+    "example": "Good morning.",
+    "level": "elem_low"
+  },
+  {
+    "word": "grape",
+    "pos": "noun",
+    "meaning": "포도",
+    "example": "Purple grapes.",
+    "level": "elem_low"
+  },
+  {
+    "word": "grass",
+    "pos": "noun",
+    "meaning": "풀, 잔디",
+    "example": "Green grass.",
+    "level": "elem_low"
+  },
+  {
+    "word": "green",
+    "pos": "adjective",
+    "meaning": "초록색",
+    "example": "Green tree.",
+    "level": "elem_low"
+  },
+  {
+    "word": "gum",
+    "pos": "noun",
+    "meaning": "껌",
+    "example": "Chew gum.",
+    "level": "elem_low"
+  },
+  {
+    "word": "hair",
+    "pos": "noun",
+    "meaning": "머리카락",
+    "example": "Long hair.",
+    "level": "elem_low"
+  },
+  {
+    "word": "ham",
+    "pos": "noun",
+    "meaning": "햄",
+    "example": "Ham sandwich.",
+    "level": "elem_low"
+  },
+  {
+    "word": "hand",
+    "pos": "noun",
+    "meaning": "손",
+    "example": "Clap your hands.",
+    "level": "elem_low"
+  },
+  {
+    "word": "happy",
+    "pos": "adjective",
+    "meaning": "행복한",
+    "example": "I am happy.",
+    "level": "elem_low"
+  },
+  {
+    "word": "hat",
+    "pos": "noun",
+    "meaning": "모자",
+    "example": "Nice hat.",
+    "level": "elem_low"
+  },
+  {
+    "word": "head",
+    "pos": "noun",
+    "meaning": "머리",
+    "example": "Nod your head.",
+    "level": "elem_low"
+  },
+  {
+    "word": "hear",
+    "pos": "verb",
+    "meaning": "듣다",
+    "example": "I hear you.",
+    "level": "elem_low"
+  },
+  {
+    "word": "heart",
+    "pos": "noun",
+    "meaning": "심장, 마음",
+    "example": "My heart beats.",
+    "level": "elem_low"
+  },
+  {
+    "word": "hello",
+    "pos": "noun",
+    "meaning": "안녕",
+    "example": "Say hello.",
+    "level": "elem_low"
+  },
+  {
+    "word": "help",
+    "pos": "verb",
+    "meaning": "돕다",
+    "example": "Help me.",
+    "level": "elem_low"
+  },
+  {
+    "word": "hen",
+    "pos": "noun",
+    "meaning": "암탉",
+    "example": "The hen lays eggs.",
+    "level": "elem_low"
+  },
+  {
+    "word": "hi",
+    "pos": "noun",
+    "meaning": "안녕",
+    "example": "Hi, friend.",
+    "level": "elem_low"
+  },
+  {
+    "word": "hill",
+    "pos": "noun",
+    "meaning": "언덕",
+    "example": "Up the hill.",
+    "level": "elem_low"
+  },
+  {
+    "word": "hit",
+    "pos": "verb",
+    "meaning": "치다",
+    "example": "Hit the ball.",
+    "level": "elem_low"
+  },
+  {
+    "word": "home",
+    "pos": "noun",
+    "meaning": "집",
+    "example": "Go home.",
+    "level": "elem_low"
+  },
+  {
+    "word": "hop",
+    "pos": "verb",
+    "meaning": "깡충 뛰다",
+    "example": "Hop like a rabbit.",
+    "level": "elem_low"
+  },
+  {
+    "word": "hot",
+    "pos": "adjective",
+    "meaning": "뜨거운, 더운",
+    "example": "It is hot.",
+    "level": "elem_low"
+  },
+  {
+    "word": "house",
+    "pos": "noun",
+    "meaning": "집",
+    "example": "Big house.",
+    "level": "elem_low"
+  },
+  {
+    "word": "hug",
+    "pos": "verb",
+    "meaning": "안다",
+    "example": "Hug mom.",
+    "level": "elem_low"
+  },
+  {
+    "word": "ice",
+    "pos": "noun",
+    "meaning": "얼음",
+    "example": "Cold ice.",
+    "level": "elem_low"
+  },
+  {
+    "word": "ink",
+    "pos": "noun",
+    "meaning": "잉크",
+    "example": "Black ink.",
+    "level": "elem_low"
+  },
+  {
+    "word": "jam",
+    "pos": "noun",
+    "meaning": "잼",
+    "example": "Sweet jam.",
+    "level": "elem_low"
+  },
+  {
+    "word": "jet",
+    "pos": "noun",
+    "meaning": "제트기",
+    "example": "Fast jet.",
+    "level": "elem_low"
+  },
+  {
+    "word": "job",
+    "pos": "noun",
+    "meaning": "일, 직업",
+    "example": "Good job.",
+    "level": "elem_low"
+  },
+  {
+    "word": "juice",
+    "pos": "noun",
+    "meaning": "주스",
+    "example": "Orange juice.",
+    "level": "elem_low"
+  },
+  {
+    "word": "jump",
+    "pos": "verb",
+    "meaning": "점프하다",
+    "example": "Jump high.",
+    "level": "elem_low"
+  },
+  {
+    "word": "key",
+    "pos": "noun",
+    "meaning": "열쇠",
+    "example": "Lost key.",
+    "level": "elem_low"
+  },
+  {
+    "word": "kick",
+    "pos": "verb",
+    "meaning": "차다",
+    "example": "Kick it.",
+    "level": "elem_low"
+  },
+  {
+    "word": "kid",
+    "pos": "noun",
+    "meaning": "아이",
+    "example": "Happy kid.",
+    "level": "elem_low"
+  },
+  {
+    "word": "king",
+    "pos": "noun",
+    "meaning": "왕",
+    "example": "The king sits.",
+    "level": "elem_low"
+  },
+  {
+    "word": "kite",
+    "pos": "noun",
+    "meaning": "연",
+    "example": "Fly a kite.",
+    "level": "elem_low"
+  },
+  {
+    "word": "lamp",
+    "pos": "noun",
+    "meaning": "램프, 등",
+    "example": "Turn on the lamp.",
+    "level": "elem_low"
+  },
+  {
+    "word": "leaf",
+    "pos": "noun",
+    "meaning": "나뭇잎",
+    "example": "Green leaf.",
+    "level": "elem_low"
+  },
+  {
+    "word": "leg",
+    "pos": "noun",
+    "meaning": "다리",
+    "example": "Two legs.",
+    "level": "elem_low"
+  },
+  {
+    "word": "lemon",
+    "pos": "noun",
+    "meaning": "레몬",
+    "example": "Sour lemon.",
+    "level": "elem_low"
+  },
+  {
+    "word": "lion",
+    "pos": "noun",
+    "meaning": "사자",
+    "example": "The lion roars.",
+    "level": "elem_low"
+  },
+  {
+    "word": "lip",
+    "pos": "noun",
+    "meaning": "입술",
+    "example": "Red lips.",
+    "level": "elem_low"
+  },
+  {
+    "word": "log",
+    "pos": "noun",
+    "meaning": "통나무",
+    "example": "Sit on a log.",
+    "level": "elem_low"
+  },
+  {
+    "word": "look",
+    "pos": "verb",
+    "meaning": "보다",
+    "example": "Look at me.",
+    "level": "elem_low"
+  },
+  {
+    "word": "love",
+    "pos": "verb",
+    "meaning": "사랑하다",
+    "example": "I love you.",
+    "level": "elem_low"
+  },
+  {
+    "word": "mad",
+    "pos": "adjective",
+    "meaning": "화난",
+    "example": "He is mad.",
+    "level": "elem_low"
+  },
+  {
+    "word": "man",
+    "pos": "noun",
+    "meaning": "남자",
+    "example": "A tall man.",
+    "level": "elem_low"
+  },
+  {
+    "word": "map",
+    "pos": "noun",
+    "meaning": "지도",
+    "example": "Read the map.",
+    "level": "elem_low"
+  },
+  {
+    "word": "mat",
+    "pos": "noun",
+    "meaning": "매트",
+    "example": "On the mat.",
+    "level": "elem_low"
+  },
+  {
+    "word": "meat",
+    "pos": "noun",
+    "meaning": "고기",
+    "example": "Cook meat.",
+    "level": "elem_low"
+  },
+  {
+    "word": "milk",
+    "pos": "noun",
+    "meaning": "우유",
+    "example": "Drink milk.",
+    "level": "elem_low"
+  },
+  {
+    "word": "mix",
+    "pos": "verb",
+    "meaning": "섞다",
+    "example": "Mix it well.",
+    "level": "elem_low"
+  },
+  {
+    "word": "mom",
+    "pos": "noun",
+    "meaning": "엄마",
+    "example": "Hi mom.",
+    "level": "elem_low"
+  },
+  {
+    "word": "money",
+    "pos": "noun",
+    "meaning": "돈",
+    "example": "Save money.",
+    "level": "elem_low"
+  },
+  {
+    "word": "monkey",
+    "pos": "noun",
+    "meaning": "원숭이",
+    "example": "Funny monkey.",
+    "level": "elem_low"
+  },
+  {
+    "word": "moon",
+    "pos": "noun",
+    "meaning": "달",
+    "example": "Full moon.",
+    "level": "elem_low"
+  },
+  {
+    "word": "mop",
+    "pos": "noun",
+    "meaning": "대걸레",
+    "example": "Use a mop.",
+    "level": "elem_low"
+  },
+  {
+    "word": "mouse",
+    "pos": "noun",
+    "meaning": "생쥐",
+    "example": "Small mouse.",
+    "level": "elem_low"
+  },
+  {
+    "word": "mouth",
+    "pos": "noun",
+    "meaning": "입",
+    "example": "Open your mouth.",
+    "level": "elem_low"
+  },
+  {
+    "word": "mud",
+    "pos": "noun",
+    "meaning": "진흙",
+    "example": "Dirty mud.",
+    "level": "elem_low"
+  },
+  {
+    "word": "mug",
+    "pos": "noun",
+    "meaning": "머그컵",
+    "example": "Hot mug.",
+    "level": "elem_low"
+  },
+  {
+    "word": "music",
+    "pos": "noun",
+    "meaning": "음악",
+    "example": "Listen to music.",
+    "level": "elem_low"
+  },
+  {
+    "word": "name",
+    "pos": "noun",
+    "meaning": "이름",
+    "example": "My name is Tom.",
+    "level": "elem_low"
+  },
+  {
+    "word": "nap",
+    "pos": "noun",
+    "meaning": "낮잠",
+    "example": "Take a nap.",
+    "level": "elem_low"
+  },
+  {
+    "word": "net",
+    "pos": "noun",
+    "meaning": "그물",
+    "example": "Catch with a net.",
+    "level": "elem_low"
+  },
+  {
+    "word": "new",
+    "pos": "adjective",
+    "meaning": "새로운",
+    "example": "New shoes.",
+    "level": "elem_low"
+  },
+  {
+    "word": "night",
+    "pos": "noun",
+    "meaning": "밤",
+    "example": "Good night.",
+    "level": "elem_low"
+  },
+  {
+    "word": "nine",
+    "pos": "noun",
+    "meaning": "9, 아홉",
+    "example": "Nine cats.",
+    "level": "elem_low"
+  },
+  {
+    "word": "no",
+    "pos": "adverb",
+    "meaning": "아니오",
+    "example": "No, thanks.",
+    "level": "elem_low"
+  },
+  {
+    "word": "nose",
+    "pos": "noun",
+    "meaning": "코",
+    "example": "Touch your nose.",
+    "level": "elem_low"
+  },
+  {
+    "word": "not",
+    "pos": "adverb",
+    "meaning": "아니다",
+    "example": "I am not sad.",
+    "level": "elem_low"
+  },
+  {
+    "word": "note",
+    "pos": "noun",
+    "meaning": "공책, 쪽지",
+    "example": "Write a note.",
+    "level": "elem_low"
+  },
+  {
+    "word": "now",
+    "pos": "adverb",
+    "meaning": "지금",
+    "example": "Do it now.",
+    "level": "elem_low"
+  },
+  {
+    "word": "nurse",
+    "pos": "noun",
+    "meaning": "간호사",
+    "example": "The nurse helps.",
+    "level": "elem_low"
+  },
+  {
+    "word": "nut",
+    "pos": "noun",
+    "meaning": "견과류",
+    "example": "Eat a nut.",
+    "level": "elem_low"
+  },
+  {
+    "word": "old",
+    "pos": "adjective",
+    "meaning": "오래된, 늙은",
+    "example": "Old car.",
+    "level": "elem_low"
+  },
+  {
+    "word": "one",
+    "pos": "noun",
+    "meaning": "1, 하나",
+    "example": "One apple.",
+    "level": "elem_low"
+  },
+  {
+    "word": "open",
+    "pos": "verb",
+    "meaning": "열다",
+    "example": "Open it.",
+    "level": "elem_low"
+  },
+  {
+    "word": "orange",
+    "pos": "noun",
+    "meaning": "오렌지",
+    "example": "Sweet orange.",
+    "level": "elem_low"
+  },
+  {
+    "word": "owl",
+    "pos": "noun",
+    "meaning": "부엉이",
+    "example": "The owl hoots.",
+    "level": "elem_low"
+  },
+  {
+    "word": "pan",
+    "pos": "noun",
+    "meaning": "팬, 냄비",
+    "example": "Hot pan.",
+    "level": "elem_low"
+  },
+  {
+    "word": "paper",
+    "pos": "noun",
+    "meaning": "종이",
+    "example": "White paper.",
+    "level": "elem_low"
+  },
+  {
+    "word": "park",
+    "pos": "noun",
+    "meaning": "공원",
+    "example": "Walk in the park.",
+    "level": "elem_low"
+  },
+  {
+    "word": "pen",
+    "pos": "noun",
+    "meaning": "펜",
+    "example": "Blue pen.",
+    "level": "elem_low"
+  },
+  {
+    "word": "pet",
+    "pos": "noun",
+    "meaning": "애완동물",
+    "example": "My pet dog.",
+    "level": "elem_low"
+  },
+  {
+    "word": "pie",
+    "pos": "noun",
+    "meaning": "파이",
+    "example": "Apple pie.",
+    "level": "elem_low"
+  },
+  {
+    "word": "pig",
+    "pos": "noun",
+    "meaning": "돼지",
+    "example": "Pink pig.",
+    "level": "elem_low"
+  },
+  {
+    "word": "pin",
+    "pos": "noun",
+    "meaning": "핀",
+    "example": "Sharp pin.",
+    "level": "elem_low"
+  },
+  {
+    "word": "pink",
+    "pos": "adjective",
+    "meaning": "분홍색",
+    "example": "Pink dress.",
+    "level": "elem_low"
+  },
+  {
+    "word": "pizza",
+    "pos": "noun",
+    "meaning": "피자",
+    "example": "Hot pizza.",
+    "level": "elem_low"
+  },
+  {
+    "word": "plane",
+    "pos": "noun",
+    "meaning": "비행기",
+    "example": "Big plane.",
+    "level": "elem_low"
+  },
+  {
+    "word": "play",
+    "pos": "verb",
+    "meaning": "놀다",
+    "example": "Let's play.",
+    "level": "elem_low"
+  },
+  {
+    "word": "pool",
+    "pos": "noun",
+    "meaning": "수영장",
+    "example": "Swim in the pool.",
+    "level": "elem_low"
+  },
+  {
+    "word": "pot",
+    "pos": "noun",
+    "meaning": "냄비, 화분",
+    "example": "Flower pot.",
+    "level": "elem_low"
+  },
+  {
+    "word": "puppy",
+    "pos": "noun",
+    "meaning": "강아지",
+    "example": "Cute puppy.",
+    "level": "elem_low"
+  },
+  {
+    "word": "queen",
+    "pos": "noun",
+    "meaning": "여왕",
+    "example": "The queen smiles.",
+    "level": "elem_low"
+  },
+  {
+    "word": "rabbit",
+    "pos": "noun",
+    "meaning": "토끼",
+    "example": "Fast rabbit.",
+    "level": "elem_low"
+  },
+  {
+    "word": "rain",
+    "pos": "noun",
+    "meaning": "비",
+    "example": "It rains.",
+    "level": "elem_low"
+  },
+  {
+    "word": "rat",
+    "pos": "noun",
+    "meaning": "쥐",
+    "example": "Big rat.",
+    "level": "elem_low"
+  },
+  {
+    "word": "read",
+    "pos": "verb",
+    "meaning": "읽다",
+    "example": "Read a book.",
+    "level": "elem_low"
+  },
+  {
+    "word": "red",
+    "pos": "adjective",
+    "meaning": "빨간색",
+    "example": "Red apple.",
+    "level": "elem_low"
+  },
+  {
+    "word": "rice",
+    "pos": "noun",
+    "meaning": "쌀, 밥",
+    "example": "Eat rice.",
+    "level": "elem_low"
+  },
+  {
+    "word": "ring",
+    "pos": "noun",
+    "meaning": "반지",
+    "example": "Gold ring.",
+    "level": "elem_low"
+  },
+  {
+    "word": "robot",
+    "pos": "noun",
+    "meaning": "로봇",
+    "example": "Cool robot.",
+    "level": "elem_low"
+  },
+  {
+    "word": "room",
+    "pos": "noun",
+    "meaning": "방",
+    "example": "My room.",
+    "level": "elem_low"
+  },
+  {
+    "word": "rose",
+    "pos": "noun",
+    "meaning": "장미",
+    "example": "Red rose.",
+    "level": "elem_low"
+  },
+  {
+    "word": "run",
+    "pos": "verb",
+    "meaning": "달리다",
+    "example": "Run fast.",
+    "level": "elem_low"
+  },
+  {
+    "word": "sad",
+    "pos": "adjective",
+    "meaning": "슬픈",
+    "example": "I am sad.",
+    "level": "elem_low"
+  },
+  {
+    "word": "salt",
+    "pos": "noun",
+    "meaning": "소금",
+    "example": "Salty salt.",
+    "level": "elem_low"
+  },
+  {
+    "word": "school",
+    "pos": "noun",
+    "meaning": "학교",
+    "example": "Go to school.",
+    "level": "elem_low"
+  },
+  {
+    "word": "sea",
+    "pos": "noun",
+    "meaning": "바다",
+    "example": "Blue sea.",
+    "level": "elem_low"
+  },
+  {
+    "word": "see",
+    "pos": "verb",
+    "meaning": "보다",
+    "example": "I see you.",
+    "level": "elem_low"
+  },
+  {
+    "word": "seven",
+    "pos": "noun",
+    "meaning": "7, 일곱",
+    "example": "Seven days.",
+    "level": "elem_low"
+  },
+  {
+    "word": "sheep",
+    "pos": "noun",
+    "meaning": "양",
+    "example": "White sheep.",
+    "level": "elem_low"
+  },
+  {
+    "word": "ship",
+    "pos": "noun",
+    "meaning": "배",
+    "example": "Big ship.",
+    "level": "elem_low"
+  },
+  {
+    "word": "shoe",
+    "pos": "noun",
+    "meaning": "신발",
+    "example": "Nice shoe.",
+    "level": "elem_low"
+  },
+  {
+    "word": "shop",
+    "pos": "noun",
+    "meaning": "가게",
+    "example": "Toy shop.",
+    "level": "elem_low"
+  },
+  {
+    "word": "sing",
+    "pos": "verb",
+    "meaning": "노래하다",
+    "example": "Sing a song.",
+    "level": "elem_low"
+  },
+  {
+    "word": "sister",
+    "pos": "noun",
+    "meaning": "여동생, 누나",
+    "example": "My sister.",
+    "level": "elem_low"
+  },
+  {
+    "word": "sit",
+    "pos": "verb",
+    "meaning": "앉다",
+    "example": "Sit down.",
+    "level": "elem_low"
+  },
+  {
+    "word": "six",
+    "pos": "noun",
+    "meaning": "6, 여섯",
+    "example": "Six balls.",
+    "level": "elem_low"
+  },
+  {
+    "word": "sky",
+    "pos": "noun",
+    "meaning": "하늘",
+    "example": "Look at the sky.",
+    "level": "elem_low"
+  },
+  {
+    "word": "sleep",
+    "pos": "verb",
+    "meaning": "자다",
+    "example": "Sleep well.",
+    "level": "elem_low"
+  },
+  {
+    "word": "slow",
+    "pos": "adjective",
+    "meaning": "느린",
+    "example": "Slow turtle.",
+    "level": "elem_low"
+  },
+  {
+    "word": "small",
+    "pos": "adjective",
+    "meaning": "작은",
+    "example": "Small toy.",
+    "level": "elem_low"
+  },
+  {
+    "word": "snake",
+    "pos": "noun",
+    "meaning": "뱀",
+    "example": "Long snake.",
+    "level": "elem_low"
+  },
+  {
+    "word": "snow",
+    "pos": "noun",
+    "meaning": "눈",
+    "example": "White snow.",
+    "level": "elem_low"
+  },
+  {
+    "word": "soap",
+    "pos": "noun",
+    "meaning": "비누",
+    "example": "Wash with soap.",
+    "level": "elem_low"
+  },
+  {
+    "word": "sock",
+    "pos": "noun",
+    "meaning": "양말",
+    "example": "Put on a sock.",
+    "level": "elem_low"
+  },
+  {
+    "word": "sofa",
+    "pos": "noun",
+    "meaning": "소파",
+    "example": "Soft sofa.",
+    "level": "elem_low"
+  },
+  {
+    "word": "son",
+    "pos": "noun",
+    "meaning": "아들",
+    "example": "He is my son.",
+    "level": "elem_low"
+  },
+  {
+    "word": "song",
+    "pos": "noun",
+    "meaning": "노래",
+    "example": "Sing a song.",
+    "level": "elem_low"
+  },
+  {
+    "word": "soup",
+    "pos": "noun",
+    "meaning": "수프",
+    "example": "Hot soup.",
+    "level": "elem_low"
+  },
+  {
+    "word": "spoon",
+    "pos": "noun",
+    "meaning": "숟가락",
+    "example": "Use a spoon.",
+    "level": "elem_low"
+  },
+  {
+    "word": "star",
+    "pos": "noun",
+    "meaning": "별",
+    "example": "Twinkle star.",
+    "level": "elem_low"
+  },
+  {
+    "word": "stop",
+    "pos": "verb",
+    "meaning": "멈추다",
+    "example": "Stop now.",
+    "level": "elem_low"
+  },
+  {
+    "word": "sun",
+    "pos": "noun",
+    "meaning": "해",
+    "example": "Bright sun.",
+    "level": "elem_low"
+  },
+  {
+    "word": "swim",
+    "pos": "verb",
+    "meaning": "수영하다",
+    "example": "I can swim.",
+    "level": "elem_low"
+  },
+  {
+    "word": "table",
+    "pos": "noun",
+    "meaning": "탁자",
+    "example": "On the table.",
+    "level": "elem_low"
+  },
+  {
+    "word": "tail",
+    "pos": "noun",
+    "meaning": "꼬리",
+    "example": "Long tail.",
+    "level": "elem_low"
+  },
+  {
+    "word": "tall",
+    "pos": "adjective",
+    "meaning": "키가 큰",
+    "example": "Tall man.",
+    "level": "elem_low"
+  },
+  {
+    "word": "taxi",
+    "pos": "noun",
+    "meaning": "택시",
+    "example": "Take a taxi.",
+    "level": "elem_low"
+  },
+  {
+    "word": "tea",
+    "pos": "noun",
+    "meaning": "차",
+    "example": "Hot tea.",
+    "level": "elem_low"
+  },
+  {
+    "word": "ten",
+    "pos": "noun",
+    "meaning": "10, 열",
+    "example": "Ten fingers.",
+    "level": "elem_low"
+  },
+  {
+    "word": "tent",
+    "pos": "noun",
+    "meaning": "텐트",
+    "example": "Sleep in a tent.",
+    "level": "elem_low"
+  },
+  {
+    "word": "tiger",
+    "pos": "noun",
+    "meaning": "호랑이",
+    "example": "Big tiger.",
+    "level": "elem_low"
+  },
+  {
+    "word": "time",
+    "pos": "noun",
+    "meaning": "시간",
+    "example": "What time is it?",
+    "level": "elem_low"
+  },
+  {
+    "word": "toe",
+    "pos": "noun",
+    "meaning": "발가락",
+    "example": "Ten toes.",
+    "level": "elem_low"
+  },
+  {
+    "word": "top",
+    "pos": "noun",
+    "meaning": "꼭대기, 팽이",
+    "example": "Spin the top.",
+    "level": "elem_low"
+  },
+  {
+    "word": "toy",
+    "pos": "noun",
+    "meaning": "장난감",
+    "example": "Play with toys.",
+    "level": "elem_low"
+  },
+  {
+    "word": "tree",
+    "pos": "noun",
+    "meaning": "나무",
+    "example": "Green tree.",
+    "level": "elem_low"
+  },
+  {
+    "word": "truck",
+    "pos": "noun",
+    "meaning": "트럭",
+    "example": "Big truck.",
+    "level": "elem_low"
+  },
+  {
+    "word": "two",
+    "pos": "noun",
+    "meaning": "2, 둘",
+    "example": "Two eyes.",
+    "level": "elem_low"
+  },
+  {
+    "word": "up",
+    "pos": "adverb",
+    "meaning": "위로",
+    "example": "Stand up.",
+    "level": "elem_low"
+  },
+  {
+    "word": "van",
+    "pos": "noun",
+    "meaning": "승합차",
+    "example": "Drive a van.",
+    "level": "elem_low"
+  },
+  {
+    "word": "vest",
+    "pos": "noun",
+    "meaning": "조끼",
+    "example": "Wear a vest.",
+    "level": "elem_low"
+  },
+  {
+    "word": "walk",
+    "pos": "verb",
+    "meaning": "걷다",
+    "example": "Walk slowly.",
+    "level": "elem_low"
+  },
+  {
+    "word": "water",
+    "pos": "noun",
+    "meaning": "물",
+    "example": "Drink water.",
+    "level": "elem_low"
+  },
+  {
+    "word": "wet",
+    "pos": "adjective",
+    "meaning": "젖은",
+    "example": "I am wet.",
+    "level": "elem_low"
+  },
+  {
+    "word": "wig",
+    "pos": "noun",
+    "meaning": "가발",
+    "example": "Funny wig.",
+    "level": "elem_low"
+  },
+  {
+    "word": "wind",
+    "pos": "noun",
+    "meaning": "바람",
+    "example": "Wind blows.",
+    "level": "elem_low"
+  },
+  {
+    "word": "wolf",
+    "pos": "noun",
+    "meaning": "늑대",
+    "example": "Gray wolf.",
+    "level": "elem_low"
+  },
+  {
+    "word": "wood",
+    "pos": "noun",
+    "meaning": "나무(재료)",
+    "example": "Made of wood.",
+    "level": "elem_low"
+  },
+  {
+    "word": "word",
+    "pos": "noun",
+    "meaning": "단어",
+    "example": "Read a word.",
+    "level": "elem_low"
+  },
+  {
+    "word": "work",
+    "pos": "verb",
+    "meaning": "일하다",
+    "example": "Dad works.",
+    "level": "elem_low"
+  },
+  {
+    "word": "x-ray",
+    "pos": "noun",
+    "meaning": "엑스레이",
+    "example": "Take an x-ray.",
+    "level": "elem_low"
+  },
+  {
+    "word": "yak",
+    "pos": "noun",
+    "meaning": "야크",
+    "example": "Big yak.",
+    "level": "elem_low"
+  },
+  {
+    "word": "yam",
+    "pos": "noun",
+    "meaning": "고구마",
+    "example": "Sweet yam.",
+    "level": "elem_low"
+  },
+  {
+    "word": "yes",
+    "pos": "adverb",
+    "meaning": "네",
+    "example": "Yes, please.",
+    "level": "elem_low"
+  },
+  {
+    "word": "yo-yo",
+    "pos": "noun",
+    "meaning": "요요",
+    "example": "Play with a yo-yo.",
+    "level": "elem_low"
+  },
+  {
+    "word": "zebra",
+    "pos": "noun",
+    "meaning": "얼룩말",
+    "example": "Striped zebra.",
+    "level": "elem_low"
+  },
+  {
+    "word": "zero",
+    "pos": "noun",
+    "meaning": "0, 영",
+    "example": "Number zero.",
+    "level": "elem_low"
+  },
+  {
+    "word": "zoo",
+    "pos": "noun",
+    "meaning": "동물원",
+    "example": "Go to the zoo.",
+    "level": "elem_low"
+  }
+]
