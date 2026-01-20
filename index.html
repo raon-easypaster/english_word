@@ -325,8 +325,14 @@
     // Pronunciation Function
     window.currentUtterance = null; // Prevent GC bug
 
+    // Pronunciation Function
+    window.currentUtterance = null; // Prevent GC bug
+
     function speakWord(text) {
-      if (!window.speechSynthesis) return;
+      if (!window.speechSynthesis) {
+        alert("음성 합성 미지원 브라우저");
+        return;
+      }
 
       // Always allow one last try to populate voices
       if (voices.length === 0) loadVoices();
@@ -350,6 +356,10 @@
         utter.voice = preferred;
         console.log("Selected:", preferred.name);
       }
+
+      utter.onerror = (e) => {
+        alert("재생 오류: " + e.error);
+      };
 
       utter.onend = function () { window.currentUtterance = null; };
 
