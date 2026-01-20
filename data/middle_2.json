@@ -1,0 +1,1434 @@
+[
+  {
+    "word": "abandon",
+    "meaning": "버리다, 포기하다",
+    "pos": "verb",
+    "example": "He abandoned the plan because it was too difficult.",
+    "translation": "그는 계획이 너무 어려워서 그것을 포기했다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "ability",
+    "meaning": "능력",
+    "pos": "noun",
+    "example": "She has the ability to solve complex problems.",
+    "translation": "그녀는 복잡한 문제를 해결할 능력이 있다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "aboard",
+    "meaning": "탑승하여",
+    "pos": "adverb",
+    "example": "Welcome aboard the flight to London.",
+    "translation": "런던행 비행기에 탑승하신 것을 환영합니다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "absolute",
+    "meaning": "절대적인, 완전한",
+    "pos": "adjective",
+    "example": "I have absolute trust in him.",
+    "translation": "나는 그를 절대적으로 신뢰한다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "absorb",
+    "meaning": "흡수하다",
+    "pos": "verb",
+    "example": "Plants absorb water through their roots.",
+    "translation": "식물은 뿌리를 통해 물을 흡수한다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "abstract",
+    "meaning": "추상적인",
+    "pos": "adjective",
+    "example": "Love is an abstract concept.",
+    "translation": "사랑은 추상적인 개념이다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "academic",
+    "meaning": "학업의, 학구적인",
+    "pos": "adjective",
+    "example": "He received an award for his academic achievement.",
+    "translation": "그는 학업 성취로 상을 받았다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "access",
+    "meaning": "접근, 이용하다",
+    "pos": "noun",
+    "example": "Students need access to the library for their research.",
+    "translation": "학생들은 연구를 위해 도서관 이용이 필요하다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "accompany",
+    "meaning": "동행하다, 동반하다",
+    "pos": "verb",
+    "example": "May I accompany you to the party?",
+    "translation": "파티에 당신과 동행해도 될까요?",
+    "level": "middle_2"
+  },
+  {
+    "word": "accomplish",
+    "meaning": "성취하다, 해내다",
+    "pos": "verb",
+    "example": "She worked hard to accomplish her goal.",
+    "translation": "그녀는 목표를 성취하기 위해 열심히 일했다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "account",
+    "meaning": "계좌, 설명, 고려하다",
+    "pos": "noun",
+    "example": "I opened a new bank account to save money.",
+    "translation": "나는 돈을 저축하기 위해 새 은행 계좌를 개설했다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "accurate",
+    "meaning": "정확한",
+    "pos": "adjective",
+    "example": "We need accurate information to make a decision.",
+    "translation": "우리는 결정을 내리기 위해 정확한 정보가 필요하다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "accuse",
+    "meaning": "고발하다, 비난하다",
+    "pos": "verb",
+    "example": "He was accused of stealing the money.",
+    "translation": "그는 돈을 훔친 혐의로 고발되었다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "acquire",
+    "meaning": "얻다, 습득하다",
+    "pos": "verb",
+    "example": "He acquired many skills during the training.",
+    "translation": "그는 훈련 중에 많은 기술을 습득했다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "active",
+    "meaning": "활동적인, 적극적인",
+    "pos": "adjective",
+    "example": "She is very active in school clubs.",
+    "translation": "그녀는 학교 동아리에서 매우 활동적이다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "adapt",
+    "meaning": "적응하다, 개작하다",
+    "pos": "verb",
+    "example": "It took time to adapt to the new environment.",
+    "translation": "새로운 환경에 적응하는 데 시간이 걸렸다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "addict",
+    "meaning": "중독자, 중독되게 하다",
+    "pos": "noun",
+    "example": "He is a game addict.",
+    "translation": "그는 게임 중독자이다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "addition",
+    "meaning": "추가, 덧셈",
+    "pos": "noun",
+    "example": "In addition to math, I study science.",
+    "translation": "수학에 더해, 나는 과학도 공부한다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "adequate",
+    "meaning": "적절한, 충분한",
+    "pos": "adjective",
+    "example": "The food supply is adequate for everyone.",
+    "translation": "식량 공급은 모두에게 충분하다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "adjust",
+    "meaning": "조절하다, 적응하다",
+    "pos": "verb",
+    "example": "Please adjust the volume of the radio.",
+    "translation": "라디오 볼륨을 조절해 주세요.",
+    "level": "middle_2"
+  },
+  {
+    "word": "administration",
+    "meaning": "관리, 행정",
+    "pos": "noun",
+    "example": "He works in the school administration office.",
+    "translation": "그는 학교 행정실에서 일한다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "admit",
+    "meaning": "인정하다, 허가하다",
+    "pos": "verb",
+    "example": "He admitted that he made a mistake.",
+    "translation": "그는 자신이 실수했다는 것을 인정했다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "adopt",
+    "meaning": "입양하다, 채택하다",
+    "pos": "verb",
+    "example": "They decided to adopt a child.",
+    "translation": "그들은 아이를 입양하기로 결정했다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "advance",
+    "meaning": "전진하다, 진보",
+    "pos": "verb",
+    "example": "Technology advances every day.",
+    "translation": "기술은 매일 진보한다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "advantage",
+    "meaning": "이점, 장점",
+    "pos": "noun",
+    "example": "One advantage of living here is the clean air.",
+    "translation": "이곳에 사는 것의 한 가지 이점은 맑은 공기이다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "advertise",
+    "meaning": "광고하다",
+    "pos": "verb",
+    "example": "They advertise their new product on TV.",
+    "translation": "그들은 TV에 신제품을 광고한다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "advise",
+    "meaning": "조언하다",
+    "pos": "verb",
+    "example": "My teacher advised me to study harder.",
+    "translation": "선생님은 나에게 더 열심히 공부하라고 조언하셨다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "affair",
+    "meaning": "일, 사건",
+    "pos": "noun",
+    "example": "It is not my affair.",
+    "translation": "그것은 내 알 바가 아니다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "afford",
+    "meaning": "~할 여유가 있다",
+    "pos": "verb",
+    "example": "I can't afford to buy a new car.",
+    "translation": "나는 새 차를 살 여유가 없다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "agency",
+    "meaning": "대리점, 기관",
+    "pos": "noun",
+    "example": "She works for a travel agency.",
+    "translation": "그녀는 여행사에서 일한다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "aggressive",
+    "meaning": "공격적인, 적극적인",
+    "pos": "adjective",
+    "example": "He became aggressive when he was angry.",
+    "translation": "그는 화가 났을 때 공격적으로 변했다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "agriculture",
+    "meaning": "농업",
+    "pos": "noun",
+    "example": "Agriculture is important for food production.",
+    "translation": "농업은 식량 생산에 중요하다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "aid",
+    "meaning": "도움, 원조",
+    "pos": "noun",
+    "example": "They sent medical aid to the area.",
+    "translation": "그들은 그 지역에 의료 지원을 보냈다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "aim",
+    "meaning": "목표하다, 겨냥하다",
+    "pos": "verb",
+    "example": "He aimed at the target carefully.",
+    "translation": "그는 과녁을 신중하게 겨냥했다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "alarm",
+    "meaning": "경보, 놀람",
+    "pos": "noun",
+    "example": "The fire alarm rang loudly.",
+    "translation": "화재 경보가 크게 울렸다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "alike",
+    "meaning": "비슷한",
+    "pos": "adjective",
+    "example": "The twins look very alike.",
+    "translation": "그 쌍둥이는 매우 비슷해 보인다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "alive",
+    "meaning": "살아 있는",
+    "pos": "adjective",
+    "example": "He was lucky to be alive after the accident.",
+    "translation": "그는 사고 후 살아남은 것이 운이 좋았다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "allowance",
+    "meaning": "용돈, 수당",
+    "pos": "noun",
+    "example": "I get a weekly allowance from my parents.",
+    "translation": "나는 부모님께 매주 용돈을 받는다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "ally",
+    "meaning": "동맹국, 협력자",
+    "pos": "noun",
+    "example": "The two countries are close allies.",
+    "translation": "그 두 나라는 가까운 동맹국이다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "alter",
+    "meaning": "바꾸다, 변경하다",
+    "pos": "verb",
+    "example": "She altered her dress to fit better.",
+    "translation": "그녀는 더 잘 맞도록 드레스를 수선했다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "alternative",
+    "meaning": "대안, 양자택일의",
+    "pos": "noun",
+    "example": "We have no alternative but to walk.",
+    "translation": "우리는 걷는 것 외에 대안이 없다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "ambition",
+    "meaning": "야망, 포부",
+    "pos": "noun",
+    "example": "His ambition is to become a president.",
+    "translation": "그의 야망은 대통령이 되는 것이다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "amuse",
+    "meaning": "즐겁게 하다",
+    "pos": "verb",
+    "example": "His funny story amused everyone.",
+    "translation": "그의 재미있는 이야기는 모두를 즐겁게 했다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "analysis",
+    "meaning": "분석",
+    "pos": "noun",
+    "example": "The analysis showed surprising results.",
+    "translation": "그 분석은 놀라운 결과를 보여주었다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "analyze",
+    "meaning": "분석하다",
+    "pos": "verb",
+    "example": "We need to analyze the data carefully.",
+    "translation": "우리는 데이터를 신중하게 분석해야 한다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "ancestor",
+    "meaning": "조상",
+    "pos": "noun",
+    "example": "My ancestors came from Italy.",
+    "translation": "나의 조상들은 이탈리아에서 왔다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "anger",
+    "meaning": "분노, 화",
+    "pos": "noun",
+    "example": "He couldn't hide his anger.",
+    "translation": "그는 화를 감출 수 없었다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "anniversary",
+    "meaning": "기념일",
+    "pos": "noun",
+    "example": "Today is their 10th wedding anniversary.",
+    "translation": "오늘은 그들의 결혼 10주년 기념일이다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "annoy",
+    "meaning": "짜증나게 하다",
+    "pos": "verb",
+    "example": "The noise annoyed me all night.",
+    "translation": "그 소음은 밤새 나를 짜증나게 했다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "annual",
+    "meaning": "매년의, 연간의",
+    "pos": "adjective",
+    "example": "The annual festival is held in May.",
+    "translation": "그 연례 축제는 5월에 열린다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "anticipate",
+    "meaning": "예상하다, 기대하다",
+    "pos": "verb",
+    "example": "We anticipate that sales will rise.",
+    "translation": "우리는 매출이 오를 것으로 예상한다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "anxiety",
+    "meaning": "불안, 걱정",
+    "pos": "noun",
+    "example": "She felt anxiety about the exam results.",
+    "translation": "그녀는 시험 결과에 대해 불안을 느꼈다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "apart",
+    "meaning": "떨어져, 분리된",
+    "pos": "adverb",
+    "example": "The two houses are far apart.",
+    "translation": "그 두 집은 멀리 떨어져 있다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "apologize",
+    "meaning": "사과하다",
+    "pos": "verb",
+    "example": "You should apologize to her for being late.",
+    "translation": "너는 늦은 것에 대해 그녀에게 사과해야 한다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "apparent",
+    "meaning": "분명한, 명백한",
+    "pos": "adjective",
+    "example": "It was apparent that he was lying.",
+    "translation": "그가 거짓말을 하고 있다는 것은 분명했다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "appeal",
+    "meaning": "호소하다, 매력",
+    "pos": "verb",
+    "example": "The movie appeals to all ages.",
+    "translation": "그 영화는 모든 연령층에 매력이 있다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "appetite",
+    "meaning": "식욕",
+    "pos": "noun",
+    "example": "I lost my appetite because I was sick.",
+    "translation": "나는 아파서 식욕을 잃었다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "apply",
+    "meaning": "지원하다, 적용하다",
+    "pos": "verb",
+    "example": "I decided to apply for the job.",
+    "translation": "나는 그 일자리에 지원하기로 결심했다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "appoint",
+    "meaning": "임명하다, 약속하다",
+    "pos": "verb",
+    "example": "He was appointed as the new captain.",
+    "translation": "그는 새 주장으로 임명되었다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "appreciate",
+    "meaning": "감사하다, 감상하다",
+    "pos": "verb",
+    "example": "I appreciate your help.",
+    "translation": "너의 도움에 감사한다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "approach",
+    "meaning": "접근하다, 접근법",
+    "pos": "verb",
+    "example": "Winter is approaching fast.",
+    "translation": "겨울이 빠르게 다가오고 있다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "appropriate",
+    "meaning": "적절한",
+    "pos": "adjective",
+    "example": "Jeans are not appropriate for a wedding.",
+    "translation": "청바지는 결혼식에 적절하지 않다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "approve",
+    "meaning": "승인하다, 찬성하다",
+    "pos": "verb",
+    "example": "My parents didn't approve of my plan.",
+    "translation": "부모님은 나의 계획을 승인하지 않으셨다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "approximate",
+    "meaning": "대략적인",
+    "pos": "adjective",
+    "example": "The approximate cost is 100 dollars.",
+    "translation": "대략적인 비용은 100달러이다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "architect",
+    "meaning": "건축가",
+    "pos": "noun",
+    "example": "The architect designed this beautiful building.",
+    "translation": "그 건축가가 이 아름다운 건물을 설계했다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "architecture",
+    "meaning": "건축",
+    "pos": "noun",
+    "example": "He is studying modern architecture.",
+    "translation": "그는 현대 건축을 공부하고 있다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "arise",
+    "meaning": "발생하다, 일어나다",
+    "pos": "verb",
+    "example": "Problems may arise if we are not careful.",
+    "translation": "우리가 조심하지 않으면 문제가 발생할 수 있다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "army",
+    "meaning": "군대",
+    "pos": "noun",
+    "example": "He joined the army after graduation.",
+    "translation": "그는 졸업 후 군대에 입대했다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "arrange",
+    "meaning": "정리하다, 배열하다, 마련하다",
+    "pos": "verb",
+    "example": "She arranged the flowers in a vase.",
+    "translation": "그녀는 꽃병에 꽃을 정리했다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "arrest",
+    "meaning": "체포하다",
+    "pos": "verb",
+    "example": "The police arrested the thief.",
+    "translation": "경찰이 도둑을 체포했다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "artificial",
+    "meaning": "인공의",
+    "pos": "adjective",
+    "example": "These flowers are artificial, not real.",
+    "translation": "이 꽃들은 진짜가 아니라 인공이다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "ashamed",
+    "meaning": "부끄러워하는",
+    "pos": "adjective",
+    "example": "He was ashamed of his rude behavior.",
+    "translation": "그는 자신의 무례한 행동을 부끄러워했다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "aspect",
+    "meaning": "측면, 양상",
+    "pos": "noun",
+    "example": "We considered every aspect of the problem.",
+    "translation": "우리는 그 문제의 모든 측면을 고려했다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "assemble",
+    "meaning": "모으다, 조립하다",
+    "pos": "verb",
+    "example": "We assembled in the hall for the meeting.",
+    "translation": "우리는 회의를 위해 강당에 모였다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "assert",
+    "meaning": "주장하다, 단언하다",
+    "pos": "verb",
+    "example": "She asserted that she was innocent.",
+    "translation": "그녀는 자신이 결백하다고 주장했다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "assess",
+    "meaning": "평가하다",
+    "pos": "verb",
+    "example": "Tests are used to assess student progress.",
+    "translation": "시험은 학생의 진전을 평가하는 데 사용된다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "asset",
+    "meaning": "자산, 재산",
+    "pos": "noun",
+    "example": "Good health is a valuable asset.",
+    "translation": "좋은 건강은 귀중한 자산이다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "assign",
+    "meaning": "할당하다, 배정하다",
+    "pos": "verb",
+    "example": "The teacher assigned homework to the class.",
+    "translation": "선생님은 반에 숙제를 내주셨다(할당했다).",
+    "level": "middle_2"
+  },
+  {
+    "word": "assist",
+    "meaning": "돕다, 원조하다",
+    "pos": "verb",
+    "example": "The robot is designed to assist humans.",
+    "translation": "그 로봇은 인간을 돕도록 설계되었다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "associate",
+    "meaning": "연관시키다, 어울리다",
+    "pos": "verb",
+    "example": "People associate dark clouds with rain.",
+    "translation": "사람들은 먹구름을 비와 연관시킨다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "assume",
+    "meaning": "가정하다, 떠맡다",
+    "pos": "verb",
+    "example": "I assume that he will come back soon.",
+    "translation": "나는 그가 곧 돌아올 것이라고 가정한다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "assure",
+    "meaning": "보장하다, 확신시키다",
+    "pos": "verb",
+    "example": "I can assure you that it is safe.",
+    "translation": "그것이 안전하다고 당신에게 보장할 수 있다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "atmosphere",
+    "meaning": "대기, 분위기",
+    "pos": "noun",
+    "example": "The restaurant has a cozy atmosphere.",
+    "translation": "그 식당은 아늑한 분위기를 가지고 있다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "attach",
+    "meaning": "붙이다, 첨부하다",
+    "pos": "verb",
+    "example": "Please attach a photo to the application.",
+    "translation": "신청서에 사진을 붙여주세요.",
+    "level": "middle_2"
+  },
+  {
+    "word": "attain",
+    "meaning": "달성하다, 이루다",
+    "pos": "verb",
+    "example": "She finally attained her goal of becoming a doctor.",
+    "translation": "그녀는 마침내 의사가 되려는 목표를 달성했다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "attempt",
+    "meaning": "시도하다, 시도",
+    "pos": "verb",
+    "example": "He attempted to climb the mountain alone.",
+    "translation": "그는 혼자서 산을 오르려고 시도했다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "attitude",
+    "meaning": "태도",
+    "pos": "noun",
+    "example": "You need to change your negative attitude.",
+    "translation": "너는 부정적인 태도를 바꿀 필요가 있다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "attribute",
+    "meaning": "~의 탓으로 돌리다, 속성",
+    "pos": "verb",
+    "example": "He attributed his success to hard work.",
+    "translation": "그는 자신의 성공을 노력 덕분으로 돌렸다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "author",
+    "meaning": "작가, 저자",
+    "pos": "noun",
+    "example": "Who is the author of this book?",
+    "translation": "이 책의 저자는 누구니?",
+    "level": "middle_2"
+  },
+  {
+    "word": "authority",
+    "meaning": "권위, 당국",
+    "pos": "noun",
+    "example": "Parents have authority over their children.",
+    "translation": "부모는 자녀에 대한 권위가 있다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "available",
+    "meaning": "이용 가능한",
+    "pos": "adjective",
+    "example": "Tickets are available online.",
+    "translation": "티켓은 온라인에서 이용(구매) 가능하다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "aware",
+    "meaning": "알고 있는, 의식하는",
+    "pos": "adjective",
+    "example": "I was not aware of the problem.",
+    "translation": "나는 그 문제를 알지 못했다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "awe",
+    "meaning": "경외심",
+    "pos": "noun",
+    "example": "We looked at the waterfall in awe.",
+    "translation": "우리는 경외심을 가지고 폭포를 바라보았다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "awkward",
+    "meaning": "어색한, 서투른",
+    "pos": "adjective",
+    "example": "There was an awkward silence.",
+    "translation": "어색한 침묵이 흘렀다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "background",
+    "meaning": "배경",
+    "pos": "noun",
+    "example": "The photo has a beautiful background.",
+    "translation": "그 사진은 아름다운 배경을 가지고 있다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "backward",
+    "meaning": "뒤쪽으로, 거꾸로",
+    "pos": "adverb",
+    "example": "He took a step backward.",
+    "translation": "그는 뒤로 한 걸음 물러섰다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "baggage",
+    "meaning": "수하물, 짐",
+    "pos": "noun",
+    "example": "We picked up our baggage at the airport.",
+    "translation": "우리는 공항에서 수하물을 찾았다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "ban",
+    "meaning": "금지하다",
+    "pos": "verb",
+    "example": "Smoking is banned in this building.",
+    "translation": "이 건물에서는 흡연이 금지되어 있다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "barrier",
+    "meaning": "장벽, 장애물",
+    "pos": "noun",
+    "example": "Language can be a barrier to communication.",
+    "translation": "언어는 의사소통의 장벽이 될 수 있다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "base",
+    "meaning": "기초, 토대",
+    "pos": "noun",
+    "example": "This story is based on fact.",
+    "translation": "이 이야기는 사실에 기초를 두고 있다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "basis",
+    "meaning": "기초, 근거",
+    "pos": "noun",
+    "example": "On what basis do you say that?",
+    "translation": "무슨 근거로 그렇게 말하니?",
+    "level": "middle_2"
+  },
+  {
+    "word": "battle",
+    "meaning": "전투, 싸움",
+    "pos": "noun",
+    "example": "Soldiers fought in the battle.",
+    "translation": "군인들은 전투에서 싸웠다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "bear",
+    "meaning": "참다, 견디다, 곰",
+    "pos": "verb",
+    "example": "I can't bear the noise anymore.",
+    "translation": "나는 더 이상 소음을 참을 수 없다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "beat",
+    "meaning": "이기다, 때리다, 박자",
+    "pos": "verb",
+    "example": "Our team beat them in the final game.",
+    "translation": "우리 팀이 결승전에서 그들을 이겼다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "behave",
+    "meaning": "행동하다",
+    "pos": "verb",
+    "example": "The children behaved well at the dinner.",
+    "translation": "아이들은 저녁 식사에서 얌전하게 행동했다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "belief",
+    "meaning": "믿음, 신념",
+    "pos": "noun",
+    "example": "It is my belief that honesty is important.",
+    "translation": "정직이 중요하다는 것이 나의 신념이다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "bend",
+    "meaning": "구부리다",
+    "pos": "verb",
+    "example": "Bend your knees when you lift heavy things.",
+    "translation": "무거운 것을 들 때는 무릎을 구부려라.",
+    "level": "middle_2"
+  },
+  {
+    "word": "beneath",
+    "meaning": "~의 아래에",
+    "pos": "preposition",
+    "example": "She found the key beneath the mat.",
+    "translation": "그녀는 매트 아래에서 열쇠를 발견했다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "bet",
+    "meaning": "내기하다, 장담하다",
+    "pos": "verb",
+    "example": "I bet he will be late again.",
+    "translation": "나는 그가 또 늦을 것이라고 장담한다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "bill",
+    "meaning": "청구서, 법안, 지폐",
+    "pos": "noun",
+    "example": "Please pay the electricity bill by Friday.",
+    "translation": "금요일까지 전기 요금 청구서를 납부하세요.",
+    "level": "middle_2"
+  },
+  {
+    "word": "bind",
+    "meaning": "묶다, 결속시키다",
+    "pos": "verb",
+    "example": "They were bound by a promise.",
+    "translation": "그들은 약속으로 묶여 있었다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "biology",
+    "meaning": "생물학",
+    "pos": "noun",
+    "example": "We studied cells in biology class.",
+    "translation": "우리는 생물 시간에 세포를 공부했다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "bitter",
+    "meaning": "쓴, 쓰라린",
+    "pos": "adjective",
+    "example": "The medicine tasted very bitter.",
+    "translation": "그 약은 맛이 매우 썼다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "blind",
+    "meaning": "눈이 먼",
+    "pos": "adjective",
+    "example": "Guide dogs help blind people.",
+    "translation": "안내견들은 시각 장애인들을 돕는다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "block",
+    "meaning": "막다, 블록",
+    "pos": "verb",
+    "example": "A fallen tree blocked the road.",
+    "translation": "쓰러진 나무가 도로를 막았다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "bold",
+    "meaning": "대담한, 굵은",
+    "pos": "adjective",
+    "example": "He made a bold decision.",
+    "translation": "그는 대담한 결정을 내렸다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "bond",
+    "meaning": "유대, 결속",
+    "pos": "noun",
+    "example": "There is a strong bond between the brothers.",
+    "translation": "그 형제 사이에는 강한 유대가 있다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "border",
+    "meaning": "국경, 경계",
+    "pos": "noun",
+    "example": "They crossed the border into Canada.",
+    "translation": "그들은 국경을 넘어 캐나다로 갔다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "bound",
+    "meaning": "~행의, 묶인",
+    "pos": "adjective",
+    "example": "This train is bound for Seoul.",
+    "translation": "이 기차는 서울행이다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "branch",
+    "meaning": "나뭇가지, 지점",
+    "pos": "noun",
+    "example": "The bank has a branch in every city.",
+    "translation": "그 은행은 모든 도시에 지점이 있다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "breast",
+    "meaning": "가슴",
+    "pos": "noun",
+    "example": "He held the baby against his breast.",
+    "translation": "그는 아기를 가슴에 안았다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "breath",
+    "meaning": "숨, 호흡",
+    "pos": "noun",
+    "example": "Take a deep breath and relax.",
+    "translation": "깊게 숨을 들이쉬고 긴장을 풀어라.",
+    "level": "middle_2"
+  },
+  {
+    "word": "breed",
+    "meaning": "낳다, 기르다, 품종",
+    "pos": "verb",
+    "example": "They breed horses on the farm.",
+    "translation": "그들은 농장에서 말을 기른다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "brief",
+    "meaning": "짧은, 간결한",
+    "pos": "adjective",
+    "example": "He gave a brief explanation.",
+    "translation": "그는 간결한 설명을 했다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "brilliant",
+    "meaning": "훌륭한, 눈부신",
+    "pos": "adjective",
+    "example": "She had a brilliant idea.",
+    "translation": "그녀는 훌륭한 아이디어를 가졌다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "broad",
+    "meaning": "넓은",
+    "pos": "adjective",
+    "example": "He has broad shoulders.",
+    "translation": "그는 넓은 어깨를 가졌다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "broadcast",
+    "meaning": "방송하다",
+    "pos": "verb",
+    "example": "The game will be broadcast live.",
+    "translation": "그 경기는 생중계로 방송될 것이다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "budget",
+    "meaning": "예산",
+    "pos": "noun",
+    "example": "We have a limited budget for the trip.",
+    "translation": "우리는 여행 예산이 한정되어 있다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "burden",
+    "meaning": "짐, 부담",
+    "pos": "noun",
+    "example": "I don't want to be a burden to you.",
+    "translation": "나는 너에게 짐이 되고 싶지 않다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "burst",
+    "meaning": "터지다",
+    "pos": "verb",
+    "example": "The balloon burst with a loud noise.",
+    "translation": "풍선이 큰 소리를 내며 터졌다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "business",
+    "meaning": "사업, 일",
+    "pos": "noun",
+    "example": "He is in New York on business.",
+    "translation": "그는 사업차 뉴욕에 있다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "calculate",
+    "meaning": "계산하다",
+    "pos": "verb",
+    "example": "We calculated the cost of the trip.",
+    "translation": "우리는 여행 비용을 계산했다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "campaign",
+    "meaning": "캠페인, 운동",
+    "pos": "noun",
+    "example": "They started a campaign to save water.",
+    "translation": "그들은 물 절약 캠페인을 시작했다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "canal",
+    "meaning": "운하, 수로",
+    "pos": "noun",
+    "example": "Boats travel along the canal.",
+    "translation": "보트들이 운하를 따라 이동한다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "candidate",
+    "meaning": "후보자",
+    "pos": "noun",
+    "example": "He is a candidate for mayor.",
+    "translation": "그는 시장 후보자이다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "capable",
+    "meaning": "유능한, ~할 수 있는",
+    "pos": "adjective",
+    "example": "She is capable of doing the job.",
+    "translation": "그녀는 그 일을 할 능력이 있다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "capacity",
+    "meaning": "용량, 수용력",
+    "pos": "noun",
+    "example": "The stadium has a capacity of 50,000.",
+    "translation": "그 경기장은 5만 명의 수용력을 가지고 있다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "capture",
+    "meaning": "포획하다, 사로잡다",
+    "pos": "verb",
+    "example": "The police captured the criminal.",
+    "translation": "경찰이 범인을 잡았다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "cast",
+    "meaning": "던지다, 배역을 맡기다",
+    "pos": "verb",
+    "example": "He cast a fishing line into the water.",
+    "translation": "그는 물속으로 낚싯줄을 던졌다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "casual",
+    "meaning": "격식 없는, 평상시의",
+    "pos": "adjective",
+    "example": "I wear casual clothes on weekends.",
+    "translation": "나는 주말에는 편안한 옷을 입는다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "category",
+    "meaning": "범주, 부문",
+    "pos": "noun",
+    "example": "Which category does this book belong to?",
+    "translation": "이 책은 어떤 범주에 속하나요?",
+    "level": "middle_2"
+  },
+  {
+    "word": "cattle",
+    "meaning": "소(떼)",
+    "pos": "noun",
+    "example": "Cattle are grazing in the field.",
+    "translation": "소들이 들판에서 풀을 뜯고 있다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "caution",
+    "meaning": "조심, 주의",
+    "pos": "noun",
+    "example": "Drive with caution in the rain.",
+    "translation": "빗길에서는 주의해서 운전해라.",
+    "level": "middle_2"
+  },
+  {
+    "word": "cave",
+    "meaning": "동굴",
+    "pos": "noun",
+    "example": "Bats live in dark caves.",
+    "translation": "박쥐는 어두운 동굴에 산다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "cease",
+    "meaning": "중단하다, 멈추다",
+    "pos": "verb",
+    "example": "The rain ceased in the afternoon.",
+    "translation": "오후에 비가 그쳤다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "cell",
+    "meaning": "세포, 감방",
+    "pos": "noun",
+    "example": "The human body is made of cells.",
+    "translation": "인체는 세포로 이루어져 있다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "ceremony",
+    "meaning": "의식, 식",
+    "pos": "noun",
+    "example": "The wedding ceremony was beautiful.",
+    "translation": "결혼식은 아름다웠다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "certificate",
+    "meaning": "증명서",
+    "pos": "noun",
+    "example": "He received a gift certificate.",
+    "translation": "그는 상품권을 받았다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "chairman",
+    "meaning": "의장, 회장",
+    "pos": "noun",
+    "example": "The chairman led the meeting.",
+    "translation": "의장이 회의를 이끌었다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "champion",
+    "meaning": "챔피언, 우승자",
+    "pos": "noun",
+    "example": "He is the world chess champion.",
+    "translation": "그는 세계 체스 챔피언이다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "channel",
+    "meaning": "채널, 수로",
+    "pos": "noun",
+    "example": "Change the channel to the news.",
+    "translation": "채널을 뉴스로 돌려라.",
+    "level": "middle_2"
+  },
+  {
+    "word": "chapter",
+    "meaning": "장(책의)",
+    "pos": "noun",
+    "example": "Read chapter 3 for homework.",
+    "translation": "숙제로 3장을 읽어오세요.",
+    "level": "middle_2"
+  },
+  {
+    "word": "characteristic",
+    "meaning": "특징, 특유의",
+    "pos": "noun",
+    "example": "Kindness is her main characteristic.",
+    "translation": "친절함이 그녀의 주된 특징이다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "charm",
+    "meaning": "매력",
+    "pos": "noun",
+    "example": "The town has a special charm.",
+    "translation": "그 마을은 특별한 매력이 있다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "chase",
+    "meaning": "뒤쫓다, 추격하다",
+    "pos": "verb",
+    "example": "The dog chased the cat.",
+    "translation": "개가 고양이를 뒤쫓았다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "chat",
+    "meaning": "잡담하다, 채팅하다",
+    "pos": "verb",
+    "example": "We chatted for an hour.",
+    "translation": "우리는 한 시간 동안 수다를 떨었다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "cheat",
+    "meaning": "속이다, 부정행위를 하다",
+    "pos": "verb",
+    "example": "You should not cheat on the exam.",
+    "translation": "시험에서 부정행위를 해서는 안 된다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "cheek",
+    "meaning": "뺨",
+    "pos": "noun",
+    "example": "Tears rolled down her cheeks.",
+    "translation": "눈물이 그녀의 뺨을 타고 흘러내렸다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "chemical",
+    "meaning": "화학의, 화학 물질",
+    "pos": "adjective",
+    "example": "Mix the chemical substances carefully.",
+    "translation": "화학 물질들을 조심스럽게 섞어라.",
+    "level": "middle_2"
+  },
+  {
+    "word": "chemistry",
+    "meaning": "화학",
+    "pos": "noun",
+    "example": "I find chemistry very interesting.",
+    "translation": "나는 화학이 매우 흥미롭다고 생각한다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "chest",
+    "meaning": "가슴, 상자",
+    "pos": "noun",
+    "example": "He has a pain in his chest.",
+    "translation": "그는 가슴에 통증이 있다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "chew",
+    "meaning": "씹다",
+    "pos": "verb",
+    "example": "Chew your food well before swallowing.",
+    "translation": "삼키기 전에 음식을 잘 씹어라.",
+    "level": "middle_2"
+  },
+  {
+    "word": "chief",
+    "meaning": "주요한, 우두머리",
+    "pos": "adjective",
+    "example": "Rice is the chief crop of this area.",
+    "translation": "쌀은 이 지역의 주요 작물이다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "childhood",
+    "meaning": "어린 시절",
+    "pos": "noun",
+    "example": "I had a happy childhood.",
+    "translation": "나는 행복한 어린 시절을 보냈다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "chin",
+    "meaning": "턱",
+    "pos": "noun",
+    "example": "He rubbed his chin while thinking.",
+    "translation": "그는 생각하면서 턱을 문질렀다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "chop",
+    "meaning": "자르다, 썰다",
+    "pos": "verb",
+    "example": "Please chop the onions.",
+    "translation": "양파를 썰어주세요.",
+    "level": "middle_2"
+  },
+  {
+    "word": "chorus",
+    "meaning": "합창, 후렴",
+    "pos": "noun",
+    "example": "Everyone joined in the chorus.",
+    "translation": "모두가 합창에 참여했다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "circumstance",
+    "meaning": "상황, 환경",
+    "pos": "noun",
+    "example": "Under the circumstances, we had no choice.",
+    "translation": "상황상 우리는 선택의 여지가 없었다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "civil",
+    "meaning": "시민의, 정중한",
+    "pos": "adjective",
+    "example": "It is your civil duty to vote.",
+    "translation": "투표하는 것은 당신의 시민으로서의 의무이다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "claim",
+    "meaning": "주장하다, 청구하다",
+    "pos": "verb",
+    "example": "He claimed that he saw a ghost.",
+    "translation": "그는 유령을 보았다고 주장했다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "clap",
+    "meaning": "박수치다",
+    "pos": "verb",
+    "example": "The audience clapped loudly.",
+    "translation": "관중들은 크게 박수를 쳤다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "classic",
+    "meaning": "고전적인, 전형적인",
+    "pos": "adjective",
+    "example": "This is a classic novel.",
+    "translation": "이것은 고전 소설이다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "client",
+    "meaning": "의뢰인, 고객",
+    "pos": "noun",
+    "example": "He is meeting a client today.",
+    "translation": "그는 오늘 고객을 만난다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "clinic",
+    "meaning": "진료소, 병원",
+    "pos": "noun",
+    "example": "She went to a dental clinic.",
+    "translation": "그녀는 치과 진료소에 갔다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "clip",
+    "meaning": "클립, 자르다",
+    "pos": "noun",
+    "example": "Fasten the papers with a clip.",
+    "translation": "종이들을 클립으로 고정해라.",
+    "level": "middle_2"
+  },
+  {
+    "word": "close",
+    "meaning": "가까운, 닫다",
+    "pos": "adjective",
+    "example": "They are close friends.",
+    "translation": "그들은 가까운 친구 사이이다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "closet",
+    "meaning": "벽장",
+    "pos": "noun",
+    "example": "Hang your coat in the closet.",
+    "translation": "코트를 벽장에 걸어라.",
+    "level": "middle_2"
+  },
+  {
+    "word": "clue",
+    "meaning": "단서, 실마리",
+    "pos": "noun",
+    "example": "The police found a clue to the mystery.",
+    "translation": "경찰은 미스터리에 대한 단서를 찾았다.",
+    "level": "middle_2"
+  },
+  {
+    "word": "coal",
+    "meaning": "석탄",
+    "pos": "noun",
+    "example": "Coal is used to produce energy.",
+    "translation": "석탄은 에너지를 생산하는 데 사용된다.",
+    "level": "middle_2"
+  }
+]
