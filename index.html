@@ -323,6 +323,7 @@
     }
 
     // Pronunciation Function
+    // Pronunciation Function
     function speakWord(text) {
       // Retry loading voices if empty (common mobile issue)
       if (voices.length === 0) loadVoices();
@@ -335,17 +336,22 @@
       const utter = new SpeechSynthesisUtterance(text);
       utter.lang = "en-US";
 
-      // Tuning: Pitch 1.15 (Younger/Brighter), Rate 1.0 (Normal)
-      utter.pitch = 1.15;
+      // Reset Pitch/Rate for clarity (Natural voice is best)
+      utter.pitch = 1.0;
       utter.rate = 1.0;
 
-      // Priority: Google -> Samantha -> Zira -> Any Female -> Default
-      const preferred = voices.find(v => v.name === "Google US English") ||
-        voices.find(v => v.name === "Samantha") ||
-        voices.find(v => v.name === "Microsoft Zira") ||
-        voices.find(v => v.lang === "en-US" && v.name.includes("Female"));
+      // Strict Priority: Google US English > Samantha > Microsoft Zira
+      const preferred = voices.find(v => v.name === "Google US English") // Chrome/Android (Best)
+        || voices.find(v => v.name === "Samantha")          // macOS/iOS (Best)
+        || voices.find(v => v.name === "Microsoft Zira")    // Windows
+        || voices.find(v => v.lang === "en-US" && v.name.includes("Female"));
 
-      if (preferred) utter.voice = preferred;
+      if (preferred) {
+        utter.voice = preferred;
+        console.log("Selected Voice:", preferred.name);
+      } else {
+        console.log("No specific female voice found, using default.");
+      }
 
       window.speechSynthesis.speak(utter);
     }
