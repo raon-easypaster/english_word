@@ -312,19 +312,37 @@
     }
 
     // Pronunciation Function
+    // Voice Loading
+    let voices = [];
+    function loadVoices() {
+      voices = window.speechSynthesis.getVoices();
+    }
+    loadVoices();
+    if (window.speechSynthesis.onvoiceschanged !== undefined) {
+      window.speechSynthesis.onvoiceschanged = loadVoices;
+    }
+
+    // Pronunciation Function
     function speakWord(text) {
-      if (!window.speechSynthesis) return alert("브라우저가 음성 합성을 지원하지 않습니다.");
+      // Retry loading voices if empty (common mobile issue)
+      if (voices.length === 0) loadVoices();
+
+      // Basic support check
+      if (!window.speechSynthesis) return;
+
       window.speechSynthesis.cancel();
 
       const utter = new SpeechSynthesisUtterance(text);
       utter.lang = "en-US";
+
+      // Tuning: Pitch 1.15 (Younger/Brighter), Rate 1.0 (Normal)
+      utter.pitch = 1.15;
       utter.rate = 1.0;
 
-      // Voice Selection (Prefer clear female voices)
-      const voices = window.speechSynthesis.getVoices();
-      const preferred = voices.find(v => v.name === "Google US English") || // Chrome/Android
-        voices.find(v => v.name === "Samantha") ||          // macOS/iOS
-        voices.find(v => v.name === "Microsoft Zira") ||    // Windows
+      // Priority: Google -> Samantha -> Zira -> Any Female -> Default
+      const preferred = voices.find(v => v.name === "Google US English") ||
+        voices.find(v => v.name === "Samantha") ||
+        voices.find(v => v.name === "Microsoft Zira") ||
         voices.find(v => v.lang === "en-US" && v.name.includes("Female"));
 
       if (preferred) utter.voice = preferred;
