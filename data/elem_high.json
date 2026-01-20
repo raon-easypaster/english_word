@@ -1,1034 +1,882 @@
 [
-{
-"word": "center",
-"meaning": "중심, 중앙",
-"pos": "noun",
-"example": "The table is in the center of the room.",
-"translation": "탁자는 방의 중앙에 있다.",
-"level": "middle_1"
-},
-{
-"word": "century",
-"meaning": "100년, 세기",
-"pos": "noun",
-"example": "We live in the 21st century.",
-"translation": "우리는 21세기에 살고 있다.",
-"level": "middle_1"
-},
-{
-"word": "certain",
-"meaning": "확실한, 어떤",
-"pos": "adjective",
-"example": "I am certain that he will come.",
-"translation": "나는 그가 올 것이라고 확신한다.",
-"level": "middle_1"
-},
-{
-"word": "challenge",
-"meaning": "도전, 도전하다",
-"pos": "noun",
-"example": "Climbing the mountain was a big challenge.",
-"translation": "그 산을 오르는 것은 큰 도전이었다.",
-"level": "middle_1"
-},
-{
-"word": "chance",
-"meaning": "기회, 우연",
-"pos": "noun",
-"example": "This is your last chance.",
-"translation": "이것이 너의 마지막 기회이다.",
-"level": "middle_1"
-},
-{
-"word": "change",
-"meaning": "변하다, 바꾸다, 잔돈",
-"pos": "verb",
-"example": "Leaves change color in fall.",
-"translation": "가을에는 나뭇잎 색깔이 변한다.",
-"level": "middle_1"
-},
-{
-"word": "character",
-"meaning": "성격, 등장인물",
-"pos": "noun",
-"example": "Who is the main character in the story?",
-"translation": "그 이야기의 주인공은 누구니?",
-"level": "middle_1"
-},
-{
-"word": "charge",
-"meaning": "요금, 청구하다, 충전하다",
-"pos": "verb",
-"example": "How much do you charge for delivery?",
-"translation": "배달료는 얼마를 청구하나요?",
-"level": "middle_1"
-},
-{
-"word": "charity",
-"meaning": "자선 단체, 자선",
-"pos": "noun",
-"example": "He donated money to charity.",
-"translation": "그는 자선 단체에 돈을 기부했다.",
-"level": "middle_1"
-},
-{
-"word": "cheap",
-"meaning": "값싼",
-"pos": "adjective",
-"example": "Vegetables are cheap in summer.",
-"translation": "여름에는 채소가 싸다.",
-"level": "middle_1"
-},
-{
-"word": "check",
-"meaning": "확인하다, 점검하다",
-"pos": "verb",
-"example": "Please check your answers again.",
-"translation": "답을 다시 한번 확인하세요.",
-"level": "middle_1"
-},
-{
-"word": "cheer",
-"meaning": "환호하다, 응원하다",
-"pos": "verb",
-"example": "We cheered for our team.",
-"translation": "우리는 우리 팀을 응원했다.",
-"level": "middle_1"
-},
-{
-"word": "chef",
-"meaning": "요리사",
-"pos": "noun",
-"example": "My uncle is a chef at a hotel.",
-"translation": "나의 삼촌은 호텔 요리사이다.",
-"level": "middle_1"
-},
-{
-"word": "choice",
-"meaning": "선택",
-"pos": "noun",
-"example": "You have no other choice.",
-"translation": "너에게는 다른 선택의 여지가 없다.",
-"level": "middle_1"
-},
-{
-"word": "choose",
-"meaning": "고르다, 선택하다",
-"pos": "verb",
-"example": "Choose the best answer.",
-"translation": "가장 알맞은 답을 고르시오.",
-"level": "middle_1"
-},
-{
-"word": "citizen",
-"meaning": "시민, 국민",
-"pos": "noun",
-"example": "Every citizen has the right to vote.",
-"translation": "모든 시민은 투표할 권리가 있다.",
-"level": "middle_1"
-},
-{
-"word": "clear",
-"meaning": "맑은, 명확한, 치우다",
-"pos": "adjective",
-"example": "The instructions were very clear.",
-"translation": "그 설명은 매우 명확했다.",
-"level": "middle_1"
-},
-{
-"word": "clerk",
-"meaning": "점원, 직원",
-"pos": "noun",
-"example": "The clerk helped me find the book.",
-"translation": "그 점원은 내가 책 찾는 것을 도와주었다.",
-"level": "middle_1"
-},
-{
-"word": "clever",
-"meaning": "영리한",
-"pos": "adjective",
-"example": "She is a clever student.",
-"translation": "그녀는 영리한 학생이다.",
-"level": "middle_1"
-},
-{
-"word": "climate",
-"meaning": "기후",
-"pos": "noun",
-"example": "I like the mild climate here.",
-"translation": "나는 이곳의 온화한 기후를 좋아한다.",
-"level": "middle_1"
-},
-{
-"word": "climb",
-"meaning": "오르다, 등반하다",
-"pos": "verb",
-"example": "Monkeys can climb trees well.",
-"translation": "원숭이는 나무를 잘 오를 수 있다.",
-"level": "middle_1"
-},
-{
-"word": "cloth",
-"meaning": "천, 옷감",
-"pos": "noun",
-"example": "This shirt is made of cotton cloth.",
-"translation": "이 셔츠는 면 천으로 만들어졌다.",
-"level": "middle_1"
-},
-{
-"word": "coach",
-"meaning": "코치, 감독, 지도하다",
-"pos": "noun",
-"example": "The coach trained the players hard.",
-"translation": "그 코치는 선수들을 열심히 훈련시켰다.",
-"level": "middle_1"
-},
-{
-"word": "coast",
-"meaning": "해안",
-"pos": "noun",
-"example": "They drove along the coast.",
-"translation": "그들은 해안을 따라 운전했다.",
-"level": "middle_1"
-},
-{
-"word": "collect",
-"meaning": "모으다, 수집하다",
-"pos": "verb",
-"example": "My hobby is collecting stamps.",
-"translation": "내 취미는 우표를 수집하는 것이다.",
-"level": "middle_1"
-},
-{
-"word": "college",
-"meaning": "대학",
-"pos": "noun",
-"example": "He goes to college in Seoul.",
-"translation": "그는 서울에 있는 대학에 다닌다.",
-"level": "middle_1"
-},
-{
-"word": "comfortable",
-"meaning": "편안한",
-"pos": "adjective",
-"example": "This sofa is very comfortable.",
-"translation": "이 소파는 매우 편안하다.",
-"level": "middle_1"
-},
-{
-"word": "common",
-"meaning": "흔한, 공통의",
-"pos": "adjective",
-"example": "Colds are common in winter.",
-"translation": "겨울에는 감기가 흔하다.",
-"level": "middle_1"
-},
-{
-"word": "communicate",
-"meaning": "의사소통하다",
-"pos": "verb",
-"example": "We communicate by email.",
-"translation": "우리는 이메일로 의사소통한다.",
-"level": "middle_1"
-},
-{
-"word": "community",
-"meaning": "지역 사회, 공동체",
-"pos": "noun",
-"example": "He is active in the local community.",
-"translation": "그는 지역 사회에서 활동적이다.",
-"level": "middle_1"
-},
-{
-"word": "company",
-"meaning": "회사, 동료",
-"pos": "noun",
-"example": "She works for a computer company.",
-"translation": "그녀는 컴퓨터 회사에서 일한다.",
-"level": "middle_1"
-},
-{
-"word": "compare",
-"meaning": "비교하다",
-"pos": "verb",
-"example": "Don't compare yourself to others.",
-"translation": "너 자신을 남과 비교하지 마라.",
-"level": "middle_1"
-},
-{
-"word": "complain",
-"meaning": "불평하다",
-"pos": "verb",
-"example": "He complained about the noise.",
-"translation": "그는 소음에 대해 불평했다.",
-"level": "middle_1"
-},
-{
-"word": "complete",
-"meaning": "완료하다, 완전한",
-"pos": "verb",
-"example": "I have to complete the project by tomorrow.",
-"translation": "나는 내일까지 그 프로젝트를 완료해야 한다.",
-"level": "middle_1"
-},
-{
-"word": "concert",
-"meaning": "콘서트, 연주회",
-"pos": "noun",
-"example": "The tickets for the concert are sold out.",
-"translation": "그 콘서트 티켓은 매진되었다.",
-"level": "middle_1"
-},
-{
-"word": "condition",
-"meaning": "상태, 조건",
-"pos": "noun",
-"example": "The car is in good condition.",
-"translation": "그 차는 상태가 좋다.",
-"level": "middle_1"
-},
-{
-"word": "connect",
-"meaning": "연결하다",
-"pos": "verb",
-"example": "Connect the printer to the computer.",
-"translation": "프린터를 컴퓨터에 연결해라.",
-"level": "middle_1"
-},
-{
-"word": "consider",
-"meaning": "고려하다, 여기다",
-"pos": "verb",
-"example": "We considered moving to another city.",
-"translation": "우리는 다른 도시로 이사하는 것을 고려했다.",
-"level": "middle_1"
-},
-{
-"word": "contact",
-"meaning": "연락하다, 접촉",
-"pos": "verb",
-"example": "Please contact me if you have questions.",
-"translation": "질문이 있으면 저에게 연락하세요.",
-"level": "middle_1"
-},
-{
-"word": "contain",
-"meaning": "포함하다",
-"pos": "verb",
-"example": "This box contains old photos.",
-"translation": "이 상자는 오래된 사진들을 포함하고 있다.",
-"level": "middle_1"
-},
-{
-"word": "contest",
-"meaning": "대회, 시합",
-"pos": "noun",
-"example": "He entered a speech contest.",
-"translation": "그는 말하기 대회에 참가했다.",
-"level": "middle_1"
-},
-{
-"word": "continue",
-"meaning": "계속하다",
-"pos": "verb",
-"example": "The rain continued all day.",
-"translation": "비가 하루 종일 계속되었다.",
-"level": "middle_1"
-},
-{
-"word": "control",
-"meaning": "제어하다, 통제하다",
-"pos": "verb",
-"example": "You need to control your anger.",
-"translation": "너는 화를 조절해야 한다.",
-"level": "middle_1"
-},
-{
-"word": "convenient",
-"meaning": "편리한",
-"pos": "adjective",
-"example": "The subway is convenient to use.",
-"translation": "지하철은 이용하기 편리하다.",
-"level": "middle_1"
-},
-{
-"word": "conversation",
-"meaning": "대화",
-"pos": "noun",
-"example": "I had a long conversation with him.",
-"translation": "나는 그와 긴 대화를 나누었다.",
-"level": "middle_1"
-},
-{
-"word": "correct",
-"meaning": "정확한, 정정하다",
-"pos": "adjective",
-"example": "Is this the correct address?",
-"translation": "이것이 정확한 주소인가요?",
-"level": "middle_1"
-},
-{
-"word": "cost",
-"meaning": "비용이 들다, 가격",
-"pos": "verb",
-"example": "How much does it cost?",
-"translation": "그것은 비용이 얼마나 드나요?",
-"level": "middle_1"
-},
-{
-"word": "cotton",
-"meaning": "면, 솜",
-"pos": "noun",
-"example": "Cotton clothes are soft.",
-"translation": "면 옷은 부드럽다.",
-"level": "middle_1"
-},
-{
-"word": "cough",
-"meaning": "기침하다, 기침",
-"pos": "verb",
-"example": "He is coughing badly.",
-"translation": "그는 기침을 심하게 하고 있다.",
-"level": "middle_1"
-},
-{
-"word": "count",
-"meaning": "세다, 중요하다",
-"pos": "verb",
-"example": "Can you count from one to ten?",
-"translation": "1부터 10까지 셀 수 있니?",
-"level": "middle_1"
-},
-{
-"word": "couple",
-"meaning": "커플, 두어 개",
-"pos": "noun",
-"example": "A young couple was walking in the park.",
-"translation": "젊은 커플이 공원을 걷고 있었다.",
-"level": "middle_1"
-},
-{
-"word": "courage",
-"meaning": "용기",
-"pos": "noun",
-"example": "He showed great courage.",
-"translation": "그는 대단한 용기를 보여주었다.",
-"level": "middle_1"
-},
-{
-"word": "course",
-"meaning": "강좌, 과정, 진로",
-"pos": "noun",
-"example": "I am taking an online English course.",
-"translation": "나는 온라인 영어 강좌를 듣고 있다.",
-"level": "middle_1"
-},
-{
-"word": "cover",
-"meaning": "덮다, 다루다",
-"pos": "verb",
-"example": "Snow covered the mountain.",
-"translation": "눈이 산을 뒤덮었다.",
-"level": "middle_1"
-},
-{
-"word": "create",
-"meaning": "창조하다, 만들다",
-"pos": "verb",
-"example": "The artist created a masterpiece.",
-"translation": "그 예술가는 걸작을 창조했다.",
-"level": "middle_1"
-},
-{
-"word": "creative",
-"meaning": "창의적인",
-"pos": "adjective",
-"example": "She has many creative ideas.",
-"translation": "그녀는 창의적인 아이디어가 많다.",
-"level": "middle_1"
-},
-{
-"word": "creature",
-"meaning": "생물, 생명체",
-"pos": "noun",
-"example": "All living creatures need water.",
-"translation": "모든 살아있는 생물은 물이 필요하다.",
-"level": "middle_1"
-},
-{
-"word": "cross",
-"meaning": "건너다, 교차하다",
-"pos": "verb",
-"example": "Cross the street at the green light.",
-"translation": "초록 불에 길을 건너라.",
-"level": "middle_1"
-},
-{
-"word": "crowd",
-"meaning": "군중, 붐비다",
-"pos": "noun",
-"example": "A large crowd gathered in the square.",
-"translation": "많은 군중이 광장에 모였다.",
-"level": "middle_1"
-},
-{
-"word": "crowded",
-"meaning": "붐비는",
-"pos": "adjective",
-"example": "The bus was very crowded.",
-"translation": "버스는 매우 붐볐다.",
-"level": "middle_1"
-},
-{
-"word": "culture",
-"meaning": "문화",
-"pos": "noun",
-"example": "I want to learn about Korean culture.",
-"translation": "나는 한국 문화에 대해 배우고 싶다.",
-"level": "middle_1"
-},
-{
-"word": "curious",
-"meaning": "호기심이 강한",
-"pos": "adjective",
-"example": "Children are curious about everything.",
-"translation": "아이들은 모든 것에 대해 호기심이 많다.",
-"level": "middle_1"
-},
-{
-"word": "curtain",
-"meaning": "커튼",
-"pos": "noun",
-"example": "Please close the curtains.",
-"translation": "커튼 좀 닫아주세요.",
-"level": "middle_1"
-},
-{
-"word": "custom",
-"meaning": "관습, 풍습",
-"pos": "noun",
-"example": "It is a custom to bow when saying hello.",
-"translation": "인사할 때 절을 하는 것은 관습이다.",
-"level": "middle_1"
-},
-{
-"word": "customer",
-"meaning": "손님, 고객",
-"pos": "noun",
-"example": "The shop was full of customers.",
-"translation": "그 가게는 손님들로 가득 찼다.",
-"level": "middle_1"
-},
-{
-"word": "damage",
-"meaning": "피해, 손상시키다",
-"pos": "verb",
-"example": "The storm damaged many houses.",
-"translation": "폭풍이 많은 집에 피해를 입혔다.",
-"level": "middle_1"
-},
-{
-"word": "danger",
-"meaning": "위험",
-"pos": "noun",
-"example": "He is in danger.",
-"translation": "그는 위험에 처해 있다.",
-"level": "middle_1"
-},
-{
-"word": "dark",
-"meaning": "어두운",
-"pos": "adjective",
-"example": "It gets dark early in winter.",
-"translation": "겨울에는 일찍 어두워진다.",
-"level": "middle_1"
-},
-{
-"word": "data",
-"meaning": "자료, 데이터",
-"pos": "noun",
-"example": "We collected data for the report.",
-"translation": "우리는 보고서를 위해 자료를 수집했다.",
-"level": "middle_1"
-},
-{
-"word": "date",
-"meaning": "날짜, 데이트",
-"pos": "noun",
-"example": "What is today's date?",
-"translation": "오늘 날짜가 며칠이니?",
-"level": "middle_1"
-},
-{
-"word": "dead",
-"meaning": "죽은",
-"pos": "adjective",
-"example": "The flowers are dead.",
-"translation": "꽃들이 죽었다.",
-"level": "middle_1"
-},
-{
-"word": "deal",
-"meaning": "다루다, 거래",
-"pos": "verb",
-"example": "How do you deal with stress?",
-"translation": "너는 스트레스를 어떻게 다루니?",
-"level": "middle_1"
-},
-{
-"word": "dear",
-"meaning": "친애하는, 소중한",
-"pos": "adjective",
-"example": "He is my dear friend.",
-"translation": "그는 나의 소중한 친구이다.",
-"level": "middle_1"
-},
-{
-"word": "death",
-"meaning": "죽음",
-"pos": "noun",
-"example": "His sudden death shocked everyone.",
-"translation": "그의 갑작스러운 죽음은 모두에게 충격을 주었다.",
-"level": "middle_1"
-},
-{
-"word": "decide",
-"meaning": "결정하다",
-"pos": "verb",
-"example": "She decided to study harder.",
-"translation": "그녀는 공부를 더 열심히 하기로 결심했다.",
-"level": "middle_1"
-},
-{
-"word": "decision",
-"meaning": "결정",
-"pos": "noun",
-"example": "It was a difficult decision.",
-"translation": "그것은 어려운 결정이었다.",
-"level": "middle_1"
-},
-{
-"word": "deep",
-"meaning": "깊은",
-"pos": "adjective",
-"example": "The river is very deep.",
-"translation": "그 강은 매우 깊다.",
-"level": "middle_1"
-},
-{
-"word": "defeat",
-"meaning": "패배시키다, 이기다",
-"pos": "verb",
-"example": "Our team defeated the champion.",
-"translation": "우리 팀이 챔피언을 이겼다.",
-"level": "middle_1"
-},
-{
-"word": "defend",
-"meaning": "방어하다, 지키다",
-"pos": "verb",
-"example": "Soldiers defend the country.",
-"translation": "군인들은 나라를 지킨다.",
-"level": "middle_1"
-},
-{
-"word": "degree",
-"meaning": "도(온도/각도), 정도, 학위",
-"pos": "noun",
-"example": "Water freezes at zero degrees.",
-"translation": "물은 0도에서 언다.",
-"level": "middle_1"
-},
-{
-"word": "delicious",
-"meaning": "맛있는",
-"pos": "adjective",
-"example": "This soup tastes delicious.",
-"translation": "이 수프는 맛이 좋다.",
-"level": "middle_1"
-},
-{
-"word": "deliver",
-"meaning": "배달하다",
-"pos": "verb",
-"example": "They deliver pizza to your home.",
-"translation": "그들은 집으로 피자를 배달해준다.",
-"level": "middle_1"
-},
-{
-"word": "demand",
-"meaning": "요구하다, 수요",
-"pos": "verb",
-"example": "I demand an apology.",
-"translation": "나는 사과를 요구한다.",
-"level": "middle_1"
-},
-{
-"word": "dentist",
-"meaning": "치과 의사",
-"pos": "noun",
-"example": "I have to go to the dentist.",
-"translation": "나는 치과에 가야 한다.",
-"level": "middle_1"
-},
-{
-"word": "deny",
-"meaning": "부인하다, 거절하다",
-"pos": "verb",
-"example": "He denied stealing the money.",
-"translation": "그는 돈을 훔친 것을 부인했다.",
-"level": "middle_1"
-},
-{
-"word": "department",
-"meaning": "부서, 학과",
-"pos": "noun",
-"example": "Which department do you work in?",
-"translation": "어느 부서에서 일하시나요?",
-"level": "middle_1"
-},
-{
-"word": "depend",
-"meaning": "의존하다, ~에 달려있다",
-"pos": "verb",
-"example": "Success depends on your effort.",
-"translation": "성공은 너의 노력에 달려있다.",
-"level": "middle_1"
-},
-{
-"word": "describe",
-"meaning": "묘사하다, 설명하다",
-"pos": "verb",
-"example": "Can you describe the thief?",
-"translation": "그 도둑을 묘사할 수 있나요?",
-"level": "middle_1"
-},
-{
-"word": "desert",
-"meaning": "사막",
-"pos": "noun",
-"example": "Camels live in the desert.",
-"translation": "낙타는 사막에 산다.",
-"level": "middle_1"
-},
-{
-"word": "design",
-"meaning": "디자인하다, 설계하다",
-"pos": "verb",
-"example": "She designs her own clothes.",
-"translation": "그녀는 자신의 옷을 직접 디자인한다.",
-"level": "middle_1"
-},
-{
-"word": "desire",
-"meaning": "욕망, 바라다",
-"pos": "noun",
-"example": "He has a strong desire to win.",
-"translation": "그는 이기고자 하는 강한 열망이 있다.",
-"level": "middle_1"
-},
-{
-"word": "destroy",
-"meaning": "파괴하다",
-"pos": "verb",
-"example": "Fire can destroy a forest.",
-"translation": "불은 숲을 파괴할 수 있다.",
-"level": "middle_1"
-},
-{
-"word": "detail",
-"meaning": "세부 사항",
-"pos": "noun",
-"example": "Tell me every detail of the story.",
-"translation": "그 이야기의 모든 세부 사항을 말해줘.",
-"level": "middle_1"
-},
-{
-"word": "detective",
-"meaning": "탐정, 형사",
-"pos": "noun",
-"example": "The detective found a clue.",
-"translation": "그 형사는 단서를 발견했다.",
-"level": "middle_1"
-},
-{
-"word": "develop",
-"meaning": "개발하다, 발전하다",
-"pos": "verb",
-"example": "Reading helps develop your mind.",
-"translation": "독서는 정신을 발전시키는 데 도움이 된다.",
-"level": "middle_1"
-},
-{
-"word": "device",
-"meaning": "장치, 기기",
-"pos": "noun",
-"example": "This device is used for cutting.",
-"translation": "이 장치는 자르는 데 사용된다.",
-"level": "middle_1"
-},
-{
-"word": "diary",
-"meaning": "일기",
-"pos": "noun",
-"example": "I write in my diary every night.",
-"translation": "나는 매일 밤 일기를 쓴다.",
-"level": "middle_1"
-},
-{
-"word": "dictionary",
-"meaning": "사전",
-"pos": "noun",
-"example": "Look up the word in the dictionary.",
-"translation": "사전에서 그 단어를 찾아봐라.",
-"level": "middle_1"
-},
-{
-"word": "die",
-"meaning": "죽다",
-"pos": "verb",
-"example": "Many soldiers died in the war.",
-"translation": "많은 군인이 전쟁에서 죽었다.",
-"level": "middle_1"
-},
-{
-"word": "diet",
-"meaning": "식사, 다이어트",
-"pos": "noun",
-"example": "He is on a healthy diet.",
-"translation": "그는 건강한 식단을 유지하고 있다.",
-"level": "middle_1"
-},
-{
-"word": "difference",
-"meaning": "차이",
-"pos": "noun",
-"example": "There is a big difference between them.",
-"translation": "그들 사이에는 큰 차이가 있다.",
-"level": "middle_1"
-},
-{
-"word": "different",
-"meaning": "다른",
-"pos": "adjective",
-"example": "My opinion is different from yours.",
-"translation": "내 의견은 너의 것과 다르다.",
-"level": "middle_1"
-},
-{
-"word": "difficult",
-"meaning": "어려운",
-"pos": "adjective",
-"example": "Math is difficult for me.",
-"translation": "수학은 나에게 어렵다.",
-"level": "middle_1"
-},
-{
-"word": "dig",
-"meaning": "파다",
-"pos": "verb",
-"example": "They dug a hole in the sand.",
-"translation": "그들은 모래에 구멍을 팠다.",
-"level": "middle_1"
-},
-{
-"word": "direct",
-"meaning": "직접적인, 지시하다",
-"pos": "adjective",
-"example": "He gave a direct answer.",
-"translation": "그는 직접적인 대답을 했다.",
-"level": "middle_1"
-},
-{
-"word": "direction",
-"meaning": "방향, 지시",
-"pos": "noun",
-"example": "Which direction did he go?",
-"translation": "그는 어느 방향으로 갔니?",
-"level": "middle_1"
-},
-{
-"word": "director",
-"meaning": "감독, 책임자",
-"pos": "noun",
-"example": "She is the director of the movie.",
-"translation": "그녀는 그 영화의 감독이다.",
-"level": "middle_1"
-},
-{
-"word": "dirty",
-"meaning": "더러운",
-"pos": "adjective",
-"example": "Your shoes are very dirty.",
-"translation": "네 신발은 매우 더럽다.",
-"level": "middle_1"
-},
-{
-"word": "disappear",
-"meaning": "사라지다",
-"pos": "verb",
-"example": "The sun disappeared behind the clouds.",
-"translation": "해가 구름 뒤로 사라졌다.",
-"level": "middle_1"
-},
-{
-"word": "disappoint",
-"meaning": "실망시키다",
-"pos": "verb",
-"example": "I don't want to disappoint my parents.",
-"translation": "나는 부모님을 실망시켜 드리고 싶지 않다.",
-"level": "middle_1"
-},
-{
-"word": "discover",
-"meaning": "발견하다",
-"pos": "verb",
-"example": "Who discovered America?",
-"translation": "누가 아메리카를 발견했나?",
-"level": "middle_1"
-},
-{
-"word": "discuss",
-"meaning": "토론하다, 논의하다",
-"pos": "verb",
-"example": "We discussed the problem together.",
-"translation": "우리는 그 문제를 함께 논의했다.",
-"level": "middle_1"
-},
-{
-"word": "disease",
-"meaning": "질병",
-"pos": "noun",
-"example": "The disease spreads quickly.",
-"translation": "그 질병은 빠르게 퍼진다.",
-"level": "middle_1"
-},
-{
-"word": "dish",
-"meaning": "접시, 요리",
-"pos": "noun",
-"example": "She washed the dishes.",
-"translation": "그녀는 접시를 닦았다(설거지했다).",
-"level": "middle_1"
-},
-{
-"word": "distance",
-"meaning": "거리",
-"pos": "noun",
-"example": "The distance from here to school is short.",
-"translation": "여기서 학교까지의 거리는 짧다.",
-"level": "middle_1"
-},
-{
-"word": "divide",
-"meaning": "나누다",
-"pos": "verb",
-"example": "Divide the cake into four pieces.",
-"translation": "케이크를 네 조각으로 나누어라.",
-"level": "middle_1"
-},
-{
-"word": "document",
-"meaning": "문서, 서류",
-"pos": "noun",
-"example": "Sign this document, please.",
-"translation": "이 문서에 서명해 주세요.",
-"level": "middle_1"
-},
-{
-"word": "double",
-"meaning": "두 배의, 두 배",
-"pos": "adjective",
-"example": "I need a double room.",
-"translation": "나는 2인실이 필요하다.",
-"level": "middle_1"
-},
-{
-"word": "doubt",
-"meaning": "의심하다, 의심",
-"pos": "verb",
-"example": "I doubt his story is true.",
-"translation": "나는 그의 이야기가 사실인지 의심스럽다.",
-"level": "middle_1"
-},
-{
-"word": "dozen",
-"meaning": "12개, 다스",
-"pos": "noun",
-"example": "She bought a dozen eggs.",
-"translation": "그녀는 달걀 한 다스를 샀다.",
-"level": "middle_1"
-},
-{
-"word": "draw",
-"meaning": "그리다, 당기다",
-"pos": "verb",
-"example": "He drew a picture of his dog.",
-"translation": "그는 자신의 개 그림을 그렸다.",
-"level": "middle_1"
-},
-{
-"word": "dream",
-"meaning": "꿈, 꿈꾸다",
-"pos": "noun",
-"example": "My dream is to travel the world.",
-"translation": "나의 꿈은 세계를 여행하는 것이다.",
-"level": "middle_1"
-},
-{
-"word": "drop",
-"meaning": "떨어뜨리다, 방울",
-"pos": "verb",
-"example": "Don't drop the glass.",
-"translation": "유리잔을 떨어뜨리지 마라.",
-"level": "middle_1"
-},
-{
-"word": "drown",
-"meaning": "물에 빠져 죽다, 익사하다",
-"pos": "verb",
-"example": "He almost drowned in the river.",
-"translation": "그는 강에서 거의 익사할 뻔했다.",
-"level": "middle_1"
-},
-{
-"word": "drug",
-"meaning": "약, 마약",
-"pos": "noun",
-"example": "This drug helps with headaches.",
-"translation": "이 약은 두통에 도움이 된다.",
-"level": "middle_1"
-},
-{
-"word": "dry",
-"meaning": "마른, 말리다",
-"pos": "adjective",
-"example": "The paint is not dry yet.",
-"translation": "페인트가 아직 마르지 않았다.",
-"level": "middle_1"
-},
-{
-"word": "during",
-"meaning": "~동안에",
-"pos": "preposition",
-"example": "I fell asleep during the movie.",
-"translation": "나는 영화 보는 동안 잠이 들었다.",
-"level": "middle_1"
-},
-{
-"word": "dust",
-"meaning": "먼지",
-"pos": "noun",
-"example": "There is dust on the shelf.",
-"translation": "선반 위에 먼지가 있다.",
-"level": "middle_1"
-},
-{
-"word": "duty",
-"meaning": "의무, 임무",
-"pos": "noun",
-"example": "It is my duty to help you.",
-"translation": "너를 돕는 것은 나의 의무이다.",
-"level": "middle_1"
-}
+  {
+    "word": "abbreviate",
+    "meaning": "요약하다, 단축하다",
+    "pos": "verb",
+    "example": "In academic writing, it is common to abbreviate lengthy terms to improve readability, provided they are defined upon first mention.",
+    "translation": "학술적 글쓰기에서는 가독성을 높이기 위해 긴 용어를 처음 언급할 때 정의한다는 전제하에 요약하는 것이 일반적이다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "aberration",
+    "meaning": "일탈, 정도를 벗어남",
+    "pos": "noun",
+    "example": "The sudden drop in temperature was regarded as a climatic aberration rather than a sign of a permanent shift in weather patterns.",
+    "translation": "갑작스러운 기온 하락은 날씨 패턴의 영구적인 변화의 징후라기보다는 기후적 일탈로 간주되었다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "abhor",
+    "meaning": "혐오하다",
+    "pos": "verb",
+    "example": "Many philosophers abhor the idea that moral values are merely subjective, arguing instead for objective ethical standards.",
+    "translation": "많은 철학자들은 도덕적 가치가 단지 주관적이라는 생각을 혐오하며, 대신 객관적인 윤리적 기준을 옹호한다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "abide",
+    "meaning": "참다, 견디다, 준수하다",
+    "pos": "verb",
+    "example": "Those who choose to live in a society must abide by its laws, even if they personally disagree with some of them.",
+    "translation": "사회에서 살기로 선택한 사람들은 비록 그들 중 일부에 개인적으로 동의하지 않더라도 그 법을 준수해야 한다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "abject",
+    "meaning": "비참한, 절망적인",
+    "pos": "adjective",
+    "example": "The documentary exposed the abject poverty in which the refugees were living, sparking an international outcry for aid.",
+    "translation": "그 다큐멘터리는 난민들이 살고 있는 비참한 빈곤을 폭로하여 국제적인 원조 요청을 불러일으켰다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "abolish",
+    "meaning": "폐지하다",
+    "pos": "verb",
+    "example": "Reformers argued that the government should abolish regulations that hinder economic innovation and growth.",
+    "translation": "개혁가들은 정부가 경제 혁신과 성장을 저해하는 규제들을 폐지해야 한다고 주장했다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "abrupt",
+    "meaning": "갑작스러운, 퉁명스러운",
+    "pos": "adjective",
+    "example": "The meeting came to an abrupt end when the fire alarm sounded, forcing everyone to evacuate the building immediately.",
+    "translation": "화재 경보가 울려 모두가 즉시 건물을 대피해야 했을 때 회의는 갑작스럽게 끝났다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "absentee",
+    "meaning": "부재자, 결석자",
+    "pos": "noun",
+    "example": "The high rate of absentee voters suggests a growing disillusionment with the current political system.",
+    "translation": "높은 부재자 투표율은 현재의 정치 시스템에 대한 커져가는 환멸을 시사한다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "absorb",
+    "meaning": "흡수하다, 열중시키다",
+    "pos": "verb",
+    "example": "Plants absorb carbon dioxide from the atmosphere, playing a crucial role in regulating the Earth's climate.",
+    "translation": "식물은 대기 중에서 이산화탄소를 흡수하여 지구의 기후를 조절하는 데 결정적인 역할을 한다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "abstain",
+    "meaning": "자제하다, 기권하다",
+    "pos": "verb",
+    "example": "Ten members voted in favor, five against, and three chose to abstain from voting on the controversial resolution.",
+    "translation": "10명의 회원은 찬성, 5명은 반대, 3명은 논란이 많은 결의안에 대해 투표를 기권하기로 결정했다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "abstract",
+    "meaning": "추상적인, 개요",
+    "pos": "adjective",
+    "example": "Mathematics often deals with abstract concepts that do not have a direct physical counterpart in the real world.",
+    "translation": "수학은 종종 현실 세계에 직접적인 물리적 대응물이 없는 추상적인 개념들을 다룬다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "abundant",
+    "meaning": "풍부한",
+    "pos": "adjective",
+    "example": "The tropical rainforest is home to an abundant variety of species, many of which have not yet been discovered.",
+    "translation": "열대 우림은 풍부한 종의 서식지이며, 그중 다수는 아직 발견되지 않았다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "abuse",
+    "meaning": "남용하다, 학대하다",
+    "pos": "verb",
+    "example": "The misuse of antibiotics allows bacteria to adapt and survive, leading to the abuse of these life-saving drugs.",
+    "translation": "항생제의 오용은 박테리아가 적응하고 생존하게 하여, 이러한 생명을 구하는 약물의 남용으로 이어진다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "accede",
+    "meaning": "응하다, 동의하다, 취임하다",
+    "pos": "verb",
+    "example": "The board ultimately acceded to the demands of the shareholders to change the company's direction.",
+    "translation": "이사회는 결국 회사의 방향을 바꾸라는 주주들의 요구에 응했다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "accelerate",
+    "meaning": "가속하다, 촉진하다",
+    "pos": "verb",
+    "example": "Technological advancements have accelerated the pace of globalization, connecting markets across the world.",
+    "translation": "기술의 발전은 세계화의 속도를 가속화하여 전 세계 시장을 연결했다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "accessible",
+    "meaning": "접근 가능한, 이해하기 쉬운",
+    "pos": "adjective",
+    "example": "The goal of the project is to make scientific knowledge more accessible to the general public through simplified explanations.",
+    "translation": "그 프로젝트의 목표는 단순화된 설명을 통해 일반 대중이 과학 지식에 더 쉽게 접근할 수 있도록 하는 것이다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "acclaim",
+    "meaning": "칭송하다, 환호",
+    "pos": "verb",
+    "example": "The novel was widely acclaimed by critics for its innovative narrative structure and deep character development.",
+    "translation": "그 소설은 혁신적인 서사 구조와 깊이 있는 캐릭터 개발로 비평가들에게 널리 칭송받았다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "accommodate",
+    "meaning": "수용하다, 적응하다, 편의를 도모하다",
+    "pos": "verb",
+    "example": "The human eye can accommodate to different levels of light, allowing us to see in both bright and dim environments.",
+    "translation": "인간의 눈은 다양한 빛의 수준에 적응할 수 있어, 우리가 밝은 환경과 어두운 환경 모두에서 볼 수 있게 해준다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "accompany",
+    "meaning": "동반하다, 수반하다",
+    "pos": "verb",
+    "example": "High inflation is often accompanied by an increase in interest rates as central banks try to stabilize the economy.",
+    "translation": "중앙은행이 경제를 안정시키려고 노력함에 따라 높은 인플레이션은 종종 이자율 상승을 수반한다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "accomplice",
+    "meaning": "공범",
+    "pos": "noun",
+    "example": "The police investigation revealed that the thief had an accomplice who disabled the alarm system.",
+    "translation": "경찰 조사 결과 도둑에게는 경보 시스템을 해제한 공범이 있었음이 밝혀졌다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "accord",
+    "meaning": "일치하다, 주다, 합의",
+    "pos": "verb",
+    "example": "His account of the incident does not accord with the evidence collected by the investigators.",
+    "translation": "사건에 대한 그의 설명은 조사관들이 수집한 증거와 일치하지 않는다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "accumulate",
+    "meaning": "축적하다, 모으다",
+    "pos": "verb",
+    "example": "Over time, heavy metals can accumulate in the body tissues of marine animals, posing a risk to predators.",
+    "translation": "시간이 지남에 따라 중금속은 해양 동물의 체조직에 축적되어 포식자에게 위험을 초래할 수 있다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "accuse",
+    "meaning": "고발하다, 비난하다",
+    "pos": "verb",
+    "example": "The article accused the corporation of ignoring environmental regulations to maximize profits.",
+    "translation": "그 기사는 이익을 극대화하기 위해 환경 규제를 무시했다고 그 기업을 비난했다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "accustom",
+    "meaning": "익숙하게 하다",
+    "pos": "verb",
+    "example": "It takes time to accustom oneself to a new cultural environment where social norms differ significantly.",
+    "translation": "사회적 규범이 크게 다른 새로운 문화적 환경에 자신을 익숙하게 하는 데는 시간이 걸린다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "acerbic",
+    "meaning": "신랄한, 가혹한",
+    "pos": "adjective",
+    "example": "His acerbic wit made him entertaining to some, but offensive to others who felt targeted by his jokes.",
+    "translation": "그의 신랄한 재치는 일부 사람들에게는 재미를 주었지만, 그의 농담의 대상이 된 다른 사람들에게는 불쾌감을 주었다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "acknowledge",
+    "meaning": "인정하다, 알리다",
+    "pos": "verb",
+    "example": "While we acknowledge the benefits of the new technology, we must also consider its potential ethical implications.",
+    "translation": "우리는 신기술의 이점을 인정하지만, 동시에 그것의 잠재적인 윤리적 영향도 고려해야 한다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "acoustic",
+    "meaning": "음향의, 청각의",
+    "pos": "adjective",
+    "example": "The opera house was designed with specific acoustic properties to ensure that sound reaches every seat clearly.",
+    "translation": "그 오페라 하우스는 소리가 모든 좌석에 선명하게 도달하도록 특정 음향적 특성을 갖추어 설계되었다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "acquaint",
+    "meaning": "익히다, 알리다",
+    "pos": "verb",
+    "example": "Before starting the experiment, students must acquaint themselves with the safety procedures of the laboratory.",
+    "translation": "실험을 시작하기 전에 학생들은 실험실의 안전 절차를 숙지해야 한다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "acquiesce",
+    "meaning": "묵인하다, 마지못해 따르다",
+    "pos": "verb",
+    "example": "Although he disagreed with the plan, he decided to acquiesce to the majority's decision to avoid further conflict.",
+    "translation": "비록 그는 그 계획에 동의하지 않았지만, 더 이상의 갈등을 피하기 위해 다수의 결정에 마지못해 따르기로 했다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "acquire",
+    "meaning": "습득하다, 획득하다",
+    "pos": "verb",
+    "example": "Language acquisition is a complex process where children acquire grammar rules implicitly through exposure.",
+    "translation": "언어 습득은 아이들이 노출을 통해 암묵적으로 문법 규칙을 습득하는 복잡한 과정이다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "acquit",
+    "meaning": "무죄를 선고하다, 처신하다",
+    "pos": "verb",
+    "example": "The jury acquitted the defendant after new evidence proved that he was not at the scene of the crime.",
+    "translation": "새로운 증거가 그가 범죄 현장에 없었음을 입증한 후 배심원단은 피고에게 무죄를 선고했다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "acrimonious",
+    "meaning": "매서운, 신랄한",
+    "pos": "adjective",
+    "example": "The debate became increasingly acrimonious as both sides resorted to personal attacks instead of logical arguments.",
+    "translation": "양측이 논리적 주장 대신 인신공격에 의존함에 따라 토론은 점점 더 신랄해졌다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "activate",
+    "meaning": "활성화하다, 작동시키다",
+    "pos": "verb",
+    "example": "Specific neurons in the brain are activated when we recognize familiar faces.",
+    "translation": "우리가 친숙한 얼굴을 알아볼 때 뇌의 특정 뉴런들이 활성화된다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "acute",
+    "meaning": "예리한, 급성의, 심각한",
+    "pos": "adjective",
+    "example": "The country is facing an acute shortage of water due to the prolonged drought.",
+    "translation": "그 나라는 장기화된 가뭄으로 인해 심각한 물 부족에 직면해 있다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "adapt",
+    "meaning": "적응하다, 개작하다",
+    "pos": "verb",
+    "example": "Species that fail to adapt to changing environmental conditions are at risk of extinction.",
+    "translation": "변화하는 환경 조건에 적응하지 못하는 종들은 멸종 위기에 처한다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "addict",
+    "meaning": "중독되게 하다, 중독자",
+    "pos": "verb",
+    "example": "The widespread availability of painkillers has caused many people to become addicted to opioids.",
+    "translation": "진통제의 광범위한 이용 가능성은 많은 사람들이 오피오이드에 중독되게 만들었다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "address",
+    "meaning": "다루다, 연설하다, 주소",
+    "pos": "verb",
+    "example": "This paper aims to address the issue of income inequality by proposing a new tax system.",
+    "translation": "이 논문은 새로운 조세 제도를 제안함으로써 소득 불평등 문제를 다루는 것을 목표로 한다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "adept",
+    "meaning": "능숙한",
+    "pos": "adjective",
+    "example": "He is adept at navigating complex social situations, always knowing the right thing to say.",
+    "translation": "그는 복잡한 사회적 상황을 헤쳐 나가는 데 능숙하며, 항상 적절한 말을 알고 있다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "adhere",
+    "meaning": "고수하다, 들러붙다",
+    "pos": "verb",
+    "example": "Researchers must adhere to strict ethical guidelines when conducting experiments on human subjects.",
+    "translation": "연구자들은 인간 피험자를 대상으로 실험을 수행할 때 엄격한 윤리 지침을 고수해야 한다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "adjacent",
+    "meaning": "인접한",
+    "pos": "adjective",
+    "example": "The parking lot is located on the land adjacent to the main office building.",
+    "translation": "주차장은 본사 건물에 인접한 땅에 위치해 있다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "adjourn",
+    "meaning": "휴회하다, 연기하다",
+    "pos": "verb",
+    "example": "The judge decided to adjourn the trial until the defense could locate the key witness.",
+    "translation": "판사는 변호인 측이 핵심 증인을 찾을 때까지 재판을 휴정하기로 결정했다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "adjust",
+    "meaning": "조정하다, 적응하다",
+    "pos": "verb",
+    "example": "Consumers adjust their spending habits in response to fluctuations in the economy.",
+    "translation": "소비자들은 경제 변동에 대응하여 지출 습관을 조정한다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "administer",
+    "meaning": "관리하다, 집행하다, 투여하다",
+    "pos": "verb",
+    "example": "The charity organization administers funds to assist disaster victims in rebuilding their homes.",
+    "translation": "그 자선 단체는 재해 피해자들이 집을 재건하는 것을 돕기 위해 자금을 관리한다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "admiration",
+    "meaning": "감탄, 존경",
+    "pos": "noun",
+    "example": "His dedication to preserving endangered languages earned him the admiration of linguists worldwide.",
+    "translation": "멸종 위기 언어를 보존하려는 그의 헌신은 전 세계 언어학자들의 존경을 받았다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "admit",
+    "meaning": "인정하다, 허가하다",
+    "pos": "verb",
+    "example": "Few politicians are willing to admit their mistakes publicly for fear of losing voter support.",
+    "translation": "유권자의 지지를 잃을까 두려워 공개적으로 실수를 인정하려는 정치인은 거의 없다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "admonish",
+    "meaning": "훈계하다, 경고하다",
+    "pos": "verb",
+    "example": "The report admonished the agency for failing to implement adequate security measures.",
+    "translation": "그 보고서는 적절한 보안 조치를 시행하지 않은 것에 대해 그 기관을 질책했다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "adopt",
+    "meaning": "채택하다, 입양하다",
+    "pos": "verb",
+    "example": "Many companies are racing to adopt artificial intelligence technologies to improve efficiency.",
+    "translation": "많은 기업들이 효율성을 높이기 위해 인공지능 기술을 채택하려고 경쟁하고 있다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "adore",
+    "meaning": "흠모하다, 아주 좋아하다",
+    "pos": "verb",
+    "example": "While children may adore sugary snacks, parents must regulate their intake for health reasons.",
+    "translation": "아이들은 설탕이 든 간식을 아주 좋아할지 모르지만, 부모는 건강상의 이유로 섭취를 규제해야 한다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "adorn",
+    "meaning": "장식하다",
+    "pos": "verb",
+    "example": "In ancient times, warriors would adorn their shields with symbols representing their achievements.",
+    "translation": "고대에 전사들은 자신의 업적을 나타내는 상징으로 방패를 장식하곤 했다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "adroit",
+    "meaning": "능숙한, 기민한",
+    "pos": "adjective",
+    "example": "The politician was adroit at dodging difficult questions during the press conference.",
+    "translation": "그 정치인은 기자회견 중에 어려운 질문을 피하는 데 능숙했다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "adulation",
+    "meaning": "과찬, 아첨",
+    "pos": "noun",
+    "example": "The leader was surrounded by sycophants who offered nothing but adulation, shielding him from reality.",
+    "translation": "그 지도자는 아첨만 떨며 그를 현실로부터 차단하는 아첨꾼들에게 둘러싸여 있었다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "adulterate",
+    "meaning": "불순물을 섞다, 질을 떨어뜨리다",
+    "pos": "verb",
+    "example": "To increase profits, some suppliers adulterate olive oil with cheaper vegetable oils.",
+    "translation": "이익을 늘리기 위해 일부 공급업체는 올리브 오일에 더 저렴한 식물성 기름을 섞는다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "advance",
+    "meaning": "진보하다, 제기하다",
+    "pos": "verb",
+    "example": "Scientists have advanced the hypothesis that sleep plays a critical role in memory consolidation.",
+    "translation": "과학자들은 수면이 기억 강화에 결정적인 역할을 한다는 가설을 제기했다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "advantageous",
+    "meaning": "유리한, 이익이 되는",
+    "pos": "adjective",
+    "example": "It is advantageous for plants to disperse their seeds over a wide area to reduce competition.",
+    "translation": "경쟁을 줄이기 위해 넓은 지역에 씨앗을 퍼뜨리는 것이 식물에게 유리하다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "advent",
+    "meaning": "도래, 출현",
+    "pos": "noun",
+    "example": "The advent of the internet has fundamentally transformed how information is shared and consumed.",
+    "translation": "인터넷의 도래는 정보가 공유되고 소비되는 방식을 근본적으로 변화시켰다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "adventurous",
+    "meaning": "모험적인",
+    "pos": "adjective",
+    "example": "The culinary scene in the city attracts adventurous diners willing to try exotic ingredients.",
+    "translation": "그 도시의 요리계는 이국적인 재료를 기꺼이 시도하려는 모험적인 식객들을 끌어들인다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "adversary",
+    "meaning": "적, 상대방",
+    "pos": "noun",
+    "example": "In a democracy, political opponents should be viewed as adversaries to be debated, not enemies to be destroyed.",
+    "translation": "민주주의에서 정치적 반대자는 파괴해야 할 적이 아니라 토론해야 할 상대방으로 간주되어야 한다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "adverse",
+    "meaning": "불리한, 반대의",
+    "pos": "adjective",
+    "example": "Despite the adverse weather conditions, the expedition team decided to continue their ascent.",
+    "translation": "불리한 기상 조건에도 불구하고 원정대는 등반을 계속하기로 결정했다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "adversity",
+    "meaning": "역경",
+    "pos": "noun",
+    "example": "Resilience is the ability to recover quickly from adversity and adapt to difficult situations.",
+    "translation": "회복 탄력성은 역경으로부터 빠르게 회복하고 어려운 상황에 적응하는 능력이다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "advocate",
+    "meaning": "옹호하다, 지지자",
+    "pos": "verb",
+    "example": "Environmental groups advocate for stricter regulations on industrial emissions to combat climate change.",
+    "translation": "환경 단체들은 기후 변화에 맞서기 위해 산업 배출가스에 대한 더 엄격한 규제를 옹호한다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "aesthetic",
+    "meaning": "미적인, 심미적인",
+    "pos": "adjective",
+    "example": "While functionality is important, the aesthetic appeal of a product often determines its success in the market.",
+    "translation": "기능성도 중요하지만, 제품의 미적 매력이 종종 시장에서의 성공을 결정한다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "affable",
+    "meaning": "상냥한",
+    "pos": "adjective",
+    "example": "His affable nature made him popular among his colleagues, fostering a positive work environment.",
+    "translation": "그의 상냥한 성격은 그를 동료들 사이에서 인기 있게 만들었고, 긍정적인 업무 환경을 조성했다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "affect",
+    "meaning": "영향을 미치다, 가장하다, (심리학) 정서",
+    "pos": "verb",
+    "example": "The patient's flat affect, showing no emotional expression, was a symptom of his condition.",
+    "translation": "감정 표현을 보이지 않는 환자의 단조로운 정서는 그의 상태의 증상이었다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "affection",
+    "meaning": "애정",
+    "pos": "noun",
+    "example": "The bond between a dog and its owner is often characterized by mutual affection and loyalty.",
+    "translation": "개와 주인 사이의 유대는 종종 상호 간의 애정과 충성심으로 특징지어진다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "affiliate",
+    "meaning": "제휴하다, 가입하다",
+    "pos": "verb",
+    "example": "The local hospital is affiliated with the university, providing students with practical training opportunities.",
+    "translation": "그 지역 병원은 대학과 제휴하여 학생들에게 실무 훈련 기회를 제공한다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "affinity",
+    "meaning": "친밀감, 관련성",
+    "pos": "noun",
+    "example": "Humans share a genetic affinity with chimpanzees, suggesting a common evolutionary ancestor.",
+    "translation": "인간은 침팬지와 유전적 관련성을 공유하며, 이는 공통의 진화적 조상을 시사한다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "affirm",
+    "meaning": "단언하다, 확인하다",
+    "pos": "verb",
+    "example": "The court affirmed the previous ruling, stating that the evidence was sufficient to convict the defendant.",
+    "translation": "법원은 증거가 피고를 유죄 판결하기에 충분하다고 명시하며 이전 판결을 확인했다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "afflict",
+    "meaning": "괴롭히다",
+    "pos": "verb",
+    "example": "Arthritis is a condition that tends to afflict the elderly, causing pain and stiffness in the joints.",
+    "translation": "관절염은 노인들을 괴롭히는 경향이 있는 질환으로, 관절에 통증과 뻣뻣함을 유발한다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "affluent",
+    "meaning": "부유한",
+    "pos": "adjective",
+    "example": "Affluent societies often face different health challenges, such as obesity and heart disease, compared to developing nations.",
+    "translation": "부유한 사회는 개발도상국과 비교하여 비만 및 심장병과 같은 다른 건강 문제에 직면하는 경우가 많다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "afford",
+    "meaning": "~할 여유가 있다, 주다",
+    "pos": "verb",
+    "example": "The dense canopy of the rainforest affords shelter to countless species of birds and insects.",
+    "translation": "열대 우림의 빽빽한 지붕은 수많은 종류의 새와 곤충들에게 은신처를 제공한다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "aftermath",
+    "meaning": "여파, 결과",
+    "pos": "noun",
+    "example": "In the aftermath of the financial crisis, regulations were tightened to prevent a recurrence.",
+    "translation": "금융 위기의 여파로 재발을 방지하기 위해 규제가 강화되었다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "agenda",
+    "meaning": "의제, 안건",
+    "pos": "noun",
+    "example": "Education reform is at the top of the political agenda for the incoming administration.",
+    "translation": "교육 개혁은 차기 정부의 정치적 의제 중 최우선 순위에 있다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "aggravate",
+    "meaning": "악화시키다, 화나게 하다",
+    "pos": "verb",
+    "example": "Scratching the rash will only aggravate the skin condition and increase the risk of infection.",
+    "translation": "발진을 긁는 것은 피부 상태를 악화시키고 감염 위험을 증가시킬 뿐이다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "aggregate",
+    "meaning": "종합하다, 총계의",
+    "pos": "verb",
+    "example": "Economists aggregate data from various sectors to calculate the Gross Domestic Product (GDP).",
+    "translation": "경제학자들은 국내총생산(GDP)을 계산하기 위해 다양한 부문의 데이터를 종합한다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "aggressive",
+    "meaning": "공격적인, 적극적인",
+    "pos": "adjective",
+    "example": "An aggressive marketing strategy was necessary to capture a significant share of the competitive market.",
+    "translation": "경쟁이 치열한 시장에서 상당한 점유율을 차지하기 위해서는 적극적인 마케팅 전략이 필요했다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "agile",
+    "meaning": "민첩한, 기민한",
+    "pos": "adjective",
+    "example": "Small startups are often more agile than large corporations, allowing them to adapt quickly to market changes.",
+    "translation": "작은 신생 기업들은 종종 대기업보다 더 민첩하여 시장 변화에 빠르게 적응할 수 있다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "agitate",
+    "meaning": "선동하다, 흔들다, 불안하게 하다",
+    "pos": "verb",
+    "example": "The speech was intended to agitate the crowd and incite them to protest against the government.",
+    "translation": "그 연설은 군중을 선동하여 정부에 항의하도록 부추기기 위한 것이었다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "agony",
+    "meaning": "극심한 고통",
+    "pos": "noun",
+    "example": "The protagonist's internal agony over the moral dilemma is the central theme of the novel.",
+    "translation": "도덕적 딜레마에 대한 주인공의 내적 고통은 그 소설의 중심 주제이다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "agrarian",
+    "meaning": "농업의",
+    "pos": "adjective",
+    "example": "The transition from an agrarian society to an industrial one brought about profound social changes.",
+    "translation": "농업 사회에서 산업 사회로의 전환은 심오한 사회적 변화를 가져왔다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "agreeable",
+    "meaning": "기분 좋은, 동의하는",
+    "pos": "adjective",
+    "example": "They reached a mutually agreeable solution that satisfied the interests of both parties.",
+    "translation": "그들은 양측의 이익을 모두 만족시키는 상호 동의할 만한 해결책에 도달했다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "aid",
+    "meaning": "원조하다, 돕다",
+    "pos": "verb",
+    "example": "Visual aids such as charts and graphs can help the audience understand complex data more easily.",
+    "translation": "도표나 그래프와 같은 시각적 보조 자료는 청중이 복잡한 데이터를 더 쉽게 이해하도록 도울 수 있다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "ailment",
+    "meaning": "질병",
+    "pos": "noun",
+    "example": "Herbal remedies have been used for centuries to treat minor ailments like colds and headaches.",
+    "translation": "약초 치료법은 감기나 두통 같은 가벼운 질병을 치료하기 위해 수세기 동안 사용되어 왔다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "aim",
+    "meaning": "목표하다, 겨냥하다",
+    "pos": "verb",
+    "example": "The policy aims to reduce unemployment by creating incentives for businesses to hire more workers.",
+    "translation": "그 정책은 기업이 더 많은 근로자를 고용하도록 인센티브를 제공함으로써 실업률을 줄이는 것을 목표로 한다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "alert",
+    "meaning": "기민한, 경계하는",
+    "pos": "adjective",
+    "example": "Security personnel must remain alert at all times to detect any suspicious activity.",
+    "translation": "보안 요원은 의심스러운 활동을 감지하기 위해 항상 기민한 상태를 유지해야 한다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "alienate",
+    "meaning": "소외시키다, 멀어지게 하다",
+    "pos": "verb",
+    "example": "His constant criticism served only to alienate his friends, leaving him isolated.",
+    "translation": "그의 끊임없는 비판은 친구들을 멀어지게 할 뿐이었고, 그를 고립시켰다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "align",
+    "meaning": "정렬하다, 제휴하다",
+    "pos": "verb",
+    "example": "The curriculum seeks to align educational goals with the skills required by the modern workforce.",
+    "translation": "그 교육 과정은 교육 목표를 현대 노동 인구가 필요로 하는 기술과 정렬시키려고 한다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "allay",
+    "meaning": "가라앉히다, 완화하다",
+    "pos": "verb",
+    "example": "The government released a statement to allay public fears regarding the spread of the virus.",
+    "translation": "정부는 바이러스 확산에 대한 대중의 두려움을 가라앉히기 위해 성명을 발표했다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "allege",
+    "meaning": "(증거 없이) 주장하다",
+    "pos": "verb",
+    "example": "The lawsuit alleges that the company knowingly sold defective products to consumers.",
+    "translation": "그 소송은 회사가 소비자들에게 결함이 있는 제품을 고의로 판매했다고 주장한다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "allegiance",
+    "meaning": "충성",
+    "pos": "noun",
+    "example": "Soldiers swear an oath of allegiance to the constitution and the country they serve.",
+    "translation": "군인들은 헌법과 그들이 복무하는 국가에 대한 충성 맹세를 한다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "alleviate",
+    "meaning": "완화하다",
+    "pos": "verb",
+    "example": "Meditation has been shown to alleviate stress and improve overall mental well-being.",
+    "translation": "명상은 스트레스를 완화하고 전반적인 정신적 안녕을 향상시키는 것으로 밝혀졌다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "alliance",
+    "meaning": "동맹, 연합",
+    "pos": "noun",
+    "example": "The two nations formed a strategic alliance to bolster their defense capabilities against common threats.",
+    "translation": "두 나라는 공통의 위협에 맞서 방어 능력을 강화하기 위해 전략적 동맹을 맺었다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "allocate",
+    "meaning": "할당하다, 배분하다",
+    "pos": "verb",
+    "example": "It is essential to efficiently allocate resources to ensure that the most critical projects are funded.",
+    "translation": "가장 중요한 프로젝트에 자금이 지원되도록 자원을 효율적으로 배분하는 것이 필수적이다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "allowance",
+    "meaning": "수당, 허용치, 참작",
+    "pos": "noun",
+    "example": "Travelers should check the baggage allowance of their airline to avoid paying extra fees.",
+    "translation": "여행객들은 추가 요금을 피하기 위해 항공사의 수하물 허용치를 확인해야 한다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "allude",
+    "meaning": "암시하다, 넌지시 말하다",
+    "pos": "verb",
+    "example": "In his speech, he alluded to the difficulties of the past without mentioning specific events.",
+    "translation": "연설에서 그는 구체적인 사건을 언급하지 않은 채 과거의 어려움을 암시했다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "allure",
+    "meaning": "유혹하다, 매력",
+    "pos": "noun",
+    "example": "The allure of quick wealth often blinds investors to the risks associated with speculative markets.",
+    "translation": "빠른 부에 대한 유혹은 종종 투자자들이 투기 시장과 관련된 위험을 보지 못하게 한다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "ally",
+    "meaning": "동맹국, 협력자",
+    "pos": "noun",
+    "example": "In the fight against climate change, science and policy must work together as allies.",
+    "translation": "기후 변화와의 싸움에서 과학과 정책은 협력자로서 함께 일해야 한다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "alter",
+    "meaning": "바꾸다, 변경하다",
+    "pos": "verb",
+    "example": "Human activities have significantly altered the landscape, leading to habitat loss for many species.",
+    "translation": "인간 활동은 풍경을 크게 변화시켜 많은 종의 서식지 상실을 초래했다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "alternative",
+    "meaning": "대안, 양자택일의",
+    "pos": "noun",
+    "example": "Solar power is being promoted as a sustainable alternative to fossil fuels.",
+    "translation": "태양광 발전은 화석 연료에 대한 지속 가능한 대안으로 장려되고 있다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "altruism",
+    "meaning": "이타주의",
+    "pos": "noun",
+    "example": "Biologists study whether animal altruism is driven by genuine concern for others or evolutionary instinct.",
+    "translation": "생물학자들은 동물의 이타주의가 타인에 대한 진정한 염려에서 비롯된 것인지 아니면 진화적 본능인지 연구한다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "amass",
+    "meaning": "축적하다, 모으다",
+    "pos": "verb",
+    "example": "He managed to amass a vast library of rare books over the course of his lifetime.",
+    "translation": "그는 평생에 걸쳐 방대한 희귀 서적 컬렉션을 축적해 냈다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "ambiguous",
+    "meaning": "모호한, 두 가지 해석이 가능한",
+    "pos": "adjective",
+    "example": "The wording of the contract was ambiguous, leading to a legal dispute over its interpretation.",
+    "translation": "계약서의 문구가 모호하여 그 해석을 둘러싼 법적 분쟁으로 이어졌다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "ambition",
+    "meaning": "야망, 포부",
+    "pos": "noun",
+    "example": "Her ambition to become a leading scientist drove her to study late into the night.",
+    "translation": "선도적인 과학자가 되겠다는 그녀의 야망은 그녀가 밤늦게까지 공부하게 만들었다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "ambivalent",
+    "meaning": "반대 감정이 병존하는, 애증이 엇갈리는",
+    "pos": "adjective",
+    "example": "The public remains ambivalent about the new technology, appreciating its convenience but fearing privacy loss.",
+    "translation": "대중은 신기술에 대해 편리함은 인정하지만 사생활 침해를 우려하며 상반된 감정을 가지고 있다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "ameliorate",
+    "meaning": "개선하다, 개량하다",
+    "pos": "verb",
+    "example": "International aid agencies are working to ameliorate the living conditions in the refugee camps.",
+    "translation": "국제 원조 기구들은 난민 캠프의 생활 조건을 개선하기 위해 노력하고 있다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "amenable",
+    "meaning": "순종하는, 잘 받아들이는",
+    "pos": "adjective",
+    "example": "The bacteria proved amenable to treatment with standard antibiotics.",
+    "translation": "그 박테리아는 표준 항생제 치료에 잘 반응하는 것으로 판명되었다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "amend",
+    "meaning": "수정하다, 개정하다",
+    "pos": "verb",
+    "example": "The constitution was amended to grant voting rights to all citizens regardless of gender.",
+    "translation": "헌법은 성별에 관계없이 모든 시민에게 투표권을 부여하도록 개정되었다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "amiable",
+    "meaning": "쾌활한, 정감 있는",
+    "pos": "adjective",
+    "example": "His amiable personality helped him defuse tense situations and build strong relationships.",
+    "translation": "그의 쾌활한 성격은 긴장된 상황을 진정시키고 강력한 관계를 구축하는 데 도움이 되었다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "amount",
+    "meaning": "양, 총계가 ~이 되다",
+    "pos": "verb",
+    "example": "His refusal to answer the question amounts to an admission of guilt.",
+    "translation": "그가 질문에 대답하기를 거부한 것은 유죄를 인정한 것과 마찬가지이다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "ample",
+    "meaning": "충분한, 풍부한",
+    "pos": "adjective",
+    "example": "There is ample evidence to suggest that a healthy diet reduces the risk of chronic diseases.",
+    "translation": "건강한 식단이 만성 질환의 위험을 줄인다는 것을 시사하는 충분한 증거가 있다.",
+    "level": "csat_core"
+  },
+  {
+    "word": "amplify",
+    "meaning": "증폭시키다, 확대하다",
+    "pos": "verb",
+    "example": "Social media platforms can amplify misinformation, causing it to spread rapidly across the globe.",
+    "translation": "소셜 미디어 플랫폼은 잘못된 정보를 증폭시켜 전 세계로 빠르게 확산되게 할 수 있다.",
+    "level": "csat_core"
+  }
 ]
