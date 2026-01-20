@@ -317,8 +317,18 @@
       window.speechSynthesis.cancel();
 
       const utter = new SpeechSynthesisUtterance(text);
-      utter.lang = "en-US"; // US English
+      utter.lang = "en-US";
       utter.rate = 1.0;
+
+      // Voice Selection (Prefer clear female voices)
+      const voices = window.speechSynthesis.getVoices();
+      const preferred = voices.find(v => v.name === "Google US English") || // Chrome/Android
+        voices.find(v => v.name === "Samantha") ||          // macOS/iOS
+        voices.find(v => v.name === "Microsoft Zira") ||    // Windows
+        voices.find(v => v.lang === "en-US" && v.name.includes("Female"));
+
+      if (preferred) utter.voice = preferred;
+
       window.speechSynthesis.speak(utter);
     }
 
